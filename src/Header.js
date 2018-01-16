@@ -59,9 +59,7 @@ export default class Header extends Component {
           </div>
           {/* menu*/}
           <div style={{
-              position:'absolute',
-              top:'25%',
-              left:'40%'
+              marginTop:'120px'
             }}>
             <nav>
              <ul>

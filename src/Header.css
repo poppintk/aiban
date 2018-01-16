@@ -10,6 +10,7 @@
   transform: translateY(-2em);
   z-index: 1;
   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  -webkit-transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 
 .sub-menu-parent:focus .sub-menu,
@@ -21,6 +22,7 @@
   width: 110px;
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+  -webkit-transition-delay:0s, 0s, 0.3s;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
