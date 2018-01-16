@@ -10,6 +10,7 @@ export default class App extends Component {
         <img style={{
             width:'90%',
             display: 'block',
+            height:'200px',
             margin: '0 auto'
           }} src={header_image}/>
 

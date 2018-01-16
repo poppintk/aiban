@@ -6,29 +6,32 @@ export default class Header extends Component {
   render(){
     return(
       <div style={{
-          height:180,
+          height:90,
           width:'100vw',
           backgroundColor:'#adccff',
           display:'flex'
         }}>
         <div style={{
-            width:'30%',
             display:'flex',
             position:'relative',
-            top:'20%',
-            left:'7%'
+            top:'20%'
           }}>
           <div>
-            <img src={logo}/>
+            <img
+              style={{
+                width:'70px',
+                marginLeft:'60px'
+              }}
+              src={logo} alt="logo"/>
           </div>
           <div style={{
-              fontSize:'40px',
-              marginTop:'10px',
-              marginLeft:'20px'
+              fontSize:'23px',
+              fontWeight:'bold',
+              marginLeft:'5px'
             }}>
             爱邦正明
             <div style={{
-                fontSize:'19px'
+                fontSize:'12px'
               }}>
               ai bang zheng ming
             </div>
@@ -37,12 +40,11 @@ export default class Header extends Component {
         </div>
         {/* menue */}
         <div style={{
-          width:'70%'
           }}>
           <div style={{
-              position:'relative',
-              top:'20%',
-              left:'65%',
+              position:'absolute',
+              top:'1%',
+              left:'70%',
               width:'30%'
             }}>
             <select style={{
@@ -59,7 +61,8 @@ export default class Header extends Component {
           </div>
           {/* menu*/}
           <div style={{
-              marginTop:'120px'
+              marginTop:'60px',
+              marginLeft:'100px'
             }}>
             <nav>
              <ul>
