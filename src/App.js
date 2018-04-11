@@ -35,23 +35,28 @@ export default class App extends Component {
         <Footer
           style={{ height: 'calc(20vh - 117px)', backgroundColor: '#3c56a3' }}
         >
-          <div style={{ color: 'white' }}>
-            <span style={{ marginLeft: '20%' }}>
-              版权所有：湖南爱邦正明环保工程公司
-            </span>
-            <span style={{ marginLeft: '10px' }}>
+          <div
+            style={{
+              color: 'white',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <div>版权所有：湖南爱邦正明环保工程公司</div>
+            <div style={{ marginLeft: '10px' }}>
               <a
                 href="mailto:1317426180@qq.com"
                 style={{ color: 'white', textDecoration: 'none' }}
               >
                 企业邮箱
               </a>
-            </span>
-            <span style={{ marginLeft: '10px' }}>网站地图 </span>
-            <span style={{ marginLeft: '10px' }}>技术支持</span>
-            <span style={{ marginLeft: '10px' }}>天气预报</span>
-            <span style={{ marginLeft: '10px' }}>联系我们</span>
-            <span style={{ marginLeft: '10px' }}>友情链接：</span>
+            </div>
+            <div style={{ marginLeft: '10px' }}>网站地图 </div>
+            <div style={{ marginLeft: '10px' }}>技术支持</div>
+            <div style={{ marginLeft: '10px' }}>天气预报</div>
+            <div style={{ marginLeft: '10px' }}>联系我们</div>
+            <div style={{ marginLeft: '10px' }}>友情链接：</div>
             <Select
               defaultValue="国际环保城"
               style={{ width: 120 }}
