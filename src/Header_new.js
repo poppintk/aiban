@@ -45,7 +45,11 @@ export default class Top extends Component {
         >
           <div style={{ display: 'flex', marginTop: '10px' }}>
             <div>
-              <img src={logo} style={{ width: '50px' }} />
+              <img src={logo} 
+                style={{ 
+                  width:'80px',
+                  marginTop:'10px'
+                }} />
             </div>
             <div
               style={{
@@ -76,8 +80,7 @@ export default class Top extends Component {
               style={{ width: 130 }}
             />
             <span style={{ marginLeft: '5px' }}>简体/</span>
-            <span>繁体/</span>
-            <span>English</span>
+            <span>繁体</span>
           </div>
 
           <Menu
@@ -93,7 +96,7 @@ export default class Top extends Component {
           >
             <Menu.Item key="setting:1">
               <Link to="/">
-                <Icon type="mail" key="mail" />首頁
+                <Icon type="mail" key="mail"/>首頁
               </Link>
             </Menu.Item>
             <SubMenu
@@ -108,8 +111,12 @@ export default class Top extends Component {
               <Menu.Item key="setting:1">
                 <Link to="/about">企業簡介</Link>
               </Menu.Item>
-              <Menu.Item key="setting:2">企業文化</Menu.Item>
-              <Menu.Item key="setting:3">紙質榮譽</Menu.Item>
+              <Menu.Item key="setting:2">
+                <Link to="/qiyewenhua">企業文化</Link>
+              </Menu.Item>
+              <Menu.Item key="setting:3">
+                <Link to="/rongyao">紙質榮譽</Link>
+              </Menu.Item>
             </SubMenu>
             <SubMenu
               title={

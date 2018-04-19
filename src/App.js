@@ -2,16 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import Top from './Header_new';
 import header_image from './image/header.png';
-import { Layout, Select } from 'antd';
+import { Layout, Select,Carousel } from 'antd';
 import Main from './content/Main';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import AboutUs from './content/Aboutus';
-const { Header, Footer, Sider, Content } = Layout;
+import AboutUs from './content/aboutus/aboutus';
+import Qiyewenhua from './content/aboutus/qiyewenhua';
+import Rongyao from './content/aboutus/rongyao';
+const { Header, Footer, Sider, Content  } = Layout;
 const Option = Select.Option;
 
 export default class App extends Component {
   handleChange(value) {
     window.open(value, '_blank');
+  }
+  onChange(a, b, c) {
+    console.log(a, b, c);
   }
 
   render() {
@@ -19,18 +24,22 @@ export default class App extends Component {
       <Layout>
         <Top />
         <Content style={{ height: '80vh', overflow: 'auto' }}>
-          <img
-            style={{
-              width: '90%',
-              display: 'block',
-              margin: '0 auto',
-              height: '200px'
-            }}
-            src={header_image}
-          />
+          <Carousel afterChange={this.onChange}>
+            <img
+              style={{
+                height: '400px'
+              }}
+              src={header_image}
+            />
+            <div><h3>2</h3></div>
+            <div><h3>3</h3></div>
+            <div><h3>4</h3></div>
+          </Carousel>
 
           <Route exact path="/" component={Main} />
           <Route path="/about" component={AboutUs} />
+          <Route path="/qiyewenhua" component={Qiyewenhua} />
+          <Route path="/rongyao" component={Rongyao} />
         </Content>
         <Footer
           style={{ height: 'calc(20vh - 117px)', backgroundColor: '#3c56a3' }}
@@ -54,7 +63,6 @@ export default class App extends Component {
             </div>
             <div style={{ marginLeft: '10px' }}>网站地图 </div>
             <div style={{ marginLeft: '10px' }}>技术支持</div>
-            <div style={{ marginLeft: '10px' }}>天气预报</div>
             <div style={{ marginLeft: '10px' }}>联系我们</div>
             <div style={{ marginLeft: '10px' }}>友情链接：</div>
             <Select
