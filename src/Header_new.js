@@ -39,17 +39,19 @@ export default class Top extends Component {
       <Content>
         <Header
           style={{
-            backgroundColor: '#adccff',
+            backgroundColor: '#b5defc',
             height: '107px'
           }}
         >
           <div style={{ display: 'flex', marginTop: '10px' }}>
             <div>
-              <img src={logo} 
-                style={{ 
-                  width:'80px',
-                  marginTop:'10px'
-                }} />
+              <img
+                src={logo}
+                style={{
+                  width: '80px',
+                  marginTop: '10px'
+                }}
+              />
             </div>
             <div
               style={{
@@ -88,7 +90,7 @@ export default class Top extends Component {
             selectedKeys={[state.current]}
             mode={this.state.is_inline ? 'inline' : 'horizontal'}
             style={{
-              backgroundColor: '#adccff',
+              backgroundColor: '#b5defc',
               position: 'absolute',
               right: '0px',
               top: '70px'
@@ -96,7 +98,7 @@ export default class Top extends Component {
           >
             <Menu.Item key="setting:1">
               <Link to="/">
-                <Icon type="mail" key="mail"/>首頁
+                <Icon type="mail" key="mail" />首頁
               </Link>
             </Menu.Item>
             <SubMenu
