@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #b5defc;
+}
+.navbar .brand {
+  color: black;
+  text-shadow: 0 0 0 black;
+  font-weight: 0;
+}
+.navbar .nav > li > a {
+  color: black;
+  text-shadow: 0 0 0 black;
+}
+
+.navbar .btn-navbar .icon-bar {
+  background-color: blue;
+}

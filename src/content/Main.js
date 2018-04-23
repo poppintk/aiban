@@ -11,7 +11,7 @@ export default class Main extends Component {
             width: '90%',
             display: 'block',
             margin: '0 auto',
-            height: '25vh'
+            height: 'calc(100vh - 97px)'
           }}
         >
           <Carousel autoplay>

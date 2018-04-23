@@ -3,7 +3,13 @@ import SiderComponent from '../Sider';
 
 export const Contact = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        height: 'calc(100vh - 97px)'
+      }}
+    >
       <SiderComponent />
       <div style={{ width: '100%' }}>
         <img

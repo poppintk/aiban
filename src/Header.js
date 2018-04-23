@@ -47,8 +47,7 @@ export default class Top extends Component {
               <img
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/logo.png"
                 style={{
-                  width: '80px',
-                  marginTop: '10px'
+                  width: '80px'
                 }}
               />
             </div>
@@ -57,6 +56,7 @@ export default class Top extends Component {
                 position: 'relative',
                 top: '-10px',
                 fontSize: '20px',
+                color: 'black',
                 marginLeft: '20px',
                 fontWeight: 'bold'
               }}
