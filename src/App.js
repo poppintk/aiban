@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Top from './Header';
-import header_image from './image/header.png';
 import { Layout, Select,Carousel,Icon,Menu,Breadcrumb } from 'antd';
 import Main from './content/Main';
 import { BrowserRouter as Router, Route, Link,Switch } from 'react-router-dom';

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Layout } from 'antd';
-import logo from './image/logo.png';
 import { Menu, Icon, Input } from 'antd';
 import { Link } from 'react-router-dom';
 
@@ -21,7 +20,7 @@ export default class Top extends Component {
     //   this.setState({ is_inline: true });
     // } else {
     //   console.log(false);
-      this.setState({ is_inline: false });
+    this.setState({ is_inline: false });
     // }
   };
 
@@ -46,7 +45,7 @@ export default class Top extends Component {
           <div style={{ display: 'flex', marginTop: '10px' }}>
             <div>
               <img
-                src={logo}
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/logo.png"
                 style={{
                   width: '80px',
                   marginTop: '10px'
@@ -145,7 +144,7 @@ export default class Top extends Component {
             >
               <Menu.Item key="setting:2">
                 <Link to="/service">
-                    <Icon type="line-chart" />业绩展示
+                  <Icon type="line-chart" />业绩展示
                 </Link>
               </Menu.Item>
               <Menu.Item key="setting:2">
@@ -160,8 +159,7 @@ export default class Top extends Component {
                   </Link>
                 </span>
               }
-            >
-            </SubMenu>
+            />
             <SubMenu
               title={
                 <span>
@@ -183,8 +181,7 @@ export default class Top extends Component {
                   </Link>
                 </span>
               }
-            >
-            </SubMenu>
+            />
             <SubMenu
               title={
                 <span>
@@ -193,8 +190,7 @@ export default class Top extends Component {
                   </Link>
                 </span>
               }
-            >
-            </SubMenu>
+            />
           </Menu>
         </Header>
       </Content>
