@@ -12,11 +12,22 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #72f7a5;
+  background: #7f8380;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #3e9961;
+  background: #4c4e4d;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
 }
