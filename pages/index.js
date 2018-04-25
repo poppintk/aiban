@@ -262,7 +262,6 @@ export default () => {
                 />
               </div>
             </div>
-
             <hr className="featurette-divider" />
           </div>
         </main>
