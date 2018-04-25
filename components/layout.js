@@ -6,6 +6,7 @@ export default props => {
       <Head>
         <title>湖南爱邦正明环保工程公司</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="baidu-site-verification" content="uQvGC18gmt" />
         <meta
           name="description"
           content="湖南爱邦正明環保工程公司，讓我們的生活環境更加美好"
