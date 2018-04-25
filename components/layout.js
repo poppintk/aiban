@@ -8,10 +8,10 @@ export default props => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="湖南爱邦正明,爱邦,正明,长沙爱邦正明"
+          content="湖南爱邦正明環保工程公司，讓我們的生活環境更加美好"
         />
-        <meta name="keywords" content="湖南爱邦正明,爱邦,正明,长沙爱邦正明" />
-        <meta name="author" content="湖南爱邦正明,爱邦,正明,长沙爱邦正明" />
+        <meta name="keywords" content="湖南爱邦正明;爱邦;正明;长沙爱邦正明;長沙；湖南；愛；環保；綠色；湖南長沙；湖南爱邦正明環保；" />
+        <meta name="author" content="湖南爱邦正明；爱邦；正明；长沙爱邦正明" />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -133,8 +133,8 @@ export default props => {
       </nav>
 
       {props.children}
-      <footer class="container-fluid" style={{ backgroundColor: '#e3f2fd' }}>
-        <p class="float-right">
+      <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd' }}>
+        <p className="float-right">
           <a href="#">返回頂部</a>
         </p>
         <div style={{ clear: 'both' }}>
