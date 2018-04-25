@@ -6,6 +6,12 @@ export default props => {
       <Head>
         <title>湖南爱邦正明环保工程公司</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="湖南爱邦正明,爱邦,正明,长沙爱邦正明"
+        />
+        <meta name="keywords" content="湖南爱邦正明,爱邦,正明,长沙爱邦正明" />
+        <meta name="author" content="湖南爱邦正明,爱邦,正明,长沙爱邦正明" />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -129,7 +135,7 @@ export default props => {
       {props.children}
       <footer class="container-fluid" style={{ backgroundColor: '#e3f2fd' }}>
         <p class="float-right">
-          <a href="#">Back to top</a>
+          <a href="#">返回頂部</a>
         </p>
         <div style={{ clear: 'both' }}>
           <div style={{ textAlign: 'center', height: '35px' }}>

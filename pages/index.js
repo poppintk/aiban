@@ -209,7 +209,7 @@ export default () => {
               </div>
             </div>
 
-            {/* <hr className="featurette-divider"/> */}
+            <hr className="featurette-divider" />
 
             <div className="row featurette">
               <div className="col-md-7 order-md-2">
@@ -236,7 +236,7 @@ export default () => {
               </div>
             </div>
 
-            {/* <hr className="featurette-divider"/> */}
+            <hr className="featurette-divider" />
 
             <div className="row featurette">
               <div className="col-md-7">
@@ -263,18 +263,8 @@ export default () => {
               </div>
             </div>
 
-            {/* <hr className="featurette-divider"/> */}
+            <hr className="featurette-divider" />
           </div>
-
-          <footer className="container">
-            <p className="float-right">
-              <a href="#">Back to top</a>
-            </p>
-            <p>
-              © 2017-2018 Company, Inc. · <a href="#">Privacy</a> ·{' '}
-              <a href="#">Terms</a>
-            </p>
-          </footer>
         </main>
       </Layout>
     </div>

@@ -8,10 +8,10 @@ export default () => {
           style={{
             display: 'flex',
             flexDirection: 'column',
-            width: '100%',
             textIndent: '20px',
             textAlign: 'left',
-            lineHeight: '35px'
+            lineHeight: '35px',
+            margin: 30
           }}
         >
           <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" />
