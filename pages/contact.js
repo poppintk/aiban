@@ -6,7 +6,8 @@ export default () => {
       <div
         style={{
           display: 'flex',
-          flexDirection: 'row'
+          flexDirection: 'row',
+          height:'100vh'
         }}
         className="container"
       >
