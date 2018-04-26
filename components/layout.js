@@ -48,7 +48,7 @@ export default props => {
         }
       `}</style>
       <nav
-        className="navbar navbar-expand-md navbar-light fixed-top"
+        className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
           position: 'relative',
           backgroundColor: '#e3f2fd'
