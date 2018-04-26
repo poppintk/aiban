@@ -6,15 +6,15 @@ export default () => {
       <div
         style={{
           display: 'flex',
-          flexDirection: 'row',
-          height: 'calc(100vh - 97px)'
+          flexDirection: 'row'
         }}
+        className="container"
       >
         <div style={{ width: '100%' }}>
           <img
             style={{ height: '200px', width: '100%' }}
             src="https://aiban.oss-cn-beijing.aliyuncs.com/header.png"
-          />>
+          />
           <h5
             style={{
               textAlign: 'center',
@@ -33,25 +33,19 @@ export default () => {
             爱邦正明——联系方式
           </h5>
           <br />
-          <h5 style={{ marginLeft: '20%' }}>
+          <h5>
             地址：长沙市芙蓉区八一路59号科技信息大楼10楼
           </h5>
           <br />
-          <br />
-          <h5 style={{ marginLeft: '20%' }}>
+          <h5>
             业务咨询电话：18390980101 黎先生{' '}
           </h5>
           <br />
+          <h5>邮箱：1317426180@qq.com</h5>
           <br />
-          <h5 style={{ marginLeft: '20%' }}>邮箱：1317426180@qq.com</h5>
+          <h5>传真：0731-89708467</h5>
           <br />
-          <br />
-          <h5 style={{ marginLeft: '20%' }}>传真：0731-89708467</h5>
-          <br />
-          <br />
-          <h5 style={{ marginLeft: '20%' }}>邮编：410001</h5>
-          <br />
-          <br />
+          <h5>邮编：410001</h5>
           <br />
         </div>
       </div>

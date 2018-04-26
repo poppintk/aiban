@@ -3,13 +3,12 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div>
-        <main>
+      <div className="container">
           <h5
             style={{
               textAlign: 'center',
               border: '1px groove',
-              width: '300px',
+              width: '350px',
               height: '30px',
               paddingTop: '2px',
               borderRadius: '25px',
@@ -22,7 +21,6 @@ export default () => {
           >
             爱邦正明环保——我们用心做事！
           </h5>
-          <br />
           <br />
           <div>
             <img
@@ -74,7 +72,6 @@ export default () => {
               style={{ display: 'block', margin: '0 auto' }}
             />
           </div>
-        </main>
       </div>
     </Layout>
   );

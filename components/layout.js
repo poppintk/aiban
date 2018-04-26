@@ -132,8 +132,9 @@ export default props => {
           </form>
         </div>
       </nav>
-
-      {props.children}
+      <div>
+        {props.children}
+      </div>
       <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd' }}>
         <p className="float-right">
           <a href="#">返回頂部</a>
