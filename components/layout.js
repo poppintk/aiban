@@ -7,6 +7,7 @@ export default props => {
         <title>湖南爱邦正明环保工程公司</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="baidu-site-verification" content="uQvGC18gmt" />
+        <meta name="baidu-site-verification" content="Ak8Z1l18Uu" />
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <meta
           name="description"
