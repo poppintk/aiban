@@ -3,20 +3,22 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div class="list-group">
-        {data.map(d => {
-          return (
-            <a
-              href="#"
-              class="list-group-item list-group-item-action flex-column align-items-start"
-            >
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">{d.title}</h5>
-              </div>
-              <p class="mb-1">{d.description}</p>
-            </a>
-          );
-        })}
+      <div className="container">
+        <div className="list-group">
+          {data.map(d => {
+            return (
+              <a
+                href="#"
+                class="list-group-item list-group-item-action flex-column align-items-start"
+              >
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">{d.title}</h5>
+                </div>
+                <p class="mb-1">{d.description}</p>
+              </a>
+            );
+          })}
+        </div>
       </div>
     </Layout>
   );

@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row' }} className="container">
         <div
           style={{ display: 'flex', flexDirection: 'column', width: '100%' }}
         >
