@@ -135,7 +135,7 @@ export default props => {
       <div>
         {props.children}
       </div>
-      <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd' }}>
+      <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom' }}>
         <p className="float-right">
           <a href="#">返回頂部</a>
         </p>
@@ -166,7 +166,7 @@ export default props => {
             <select
               defaultValue="国际环保城"
               style={{ width: 120 }}
-              onChange={this.onChangeHandler}
+              onChange={(e)=>onChangeHandler(e)}
               size={'small'}
             >
               <option value="http://www.iepz.cc/">国际环保城</option>
@@ -190,3 +190,8 @@ export default props => {
     </div>
   );
 };
+
+
+const onChangeHandler = (e)=>{
+  window.open(e.currentTarget.value, "_blank");
+}
