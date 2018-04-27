@@ -2,20 +2,20 @@ import Layout from '../components/layout';
 
 const data = [
   {
-    url:"https://aiban.oss-cn-beijing.aliyuncs.com/case_1.jpg",
-    desc:"武钢"
+    url:"https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg",
+    desc:""
   },
   {
-    url:"https://aiban.oss-cn-beijing.aliyuncs.com/case_10.JPG",
-    desc:"武钢"
+    url:"https://aiban.oss-cn-beijing.aliyuncs.com/home2.jpg",
+    desc:""
   },
   {
-    url:"https://aiban.oss-cn-beijing.aliyuncs.com/case_11.JPG",
-    desc:"武钢"
+    url:"https://aiban.oss-cn-beijing.aliyuncs.com/home3.jpg",
+    desc:""
   },
   {
-    url:"https://aiban.oss-cn-beijing.aliyuncs.com/case_12.JPG",
-    desc:"武钢"
+    url:"https://aiban.oss-cn-beijing.aliyuncs.com/home4.jpg",
+    desc:""
   }
 ];
 
@@ -23,28 +23,28 @@ const generateCarousel = ()=>{
   return data.map((info,k)=>{
     if(k === 0){
       return(
-        <div class="carousel-item active">
-          <img class="d-block w-100" 
+        <div className="carousel-item active" key={k}>
+          <img className="d-block w-100"
             data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" 
             alt="slider loading ..." 
             src={info.url}
             data-holder-rendered="true"
-            style={{width:'100vw',height:'80vh'}}/>
-          <div class="carousel-caption d-none d-md-block">
+            style={{height:'50vh',margin:'20px'}}/>
+          <div className="carousel-caption d-none d-md-block">
             <p>{info.desc}</p>
           </div>
         </div>
       );
     }else{
       return(
-        <div className="carousel-item">
+        <div className="carousel-item" key={k}>
           <img className="d-block w-100" 
             data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" 
             alt="slider loading..." 
             src={info.url}
             data-holder-rendered="true"
-            style={{width:'100vw',height:'80vh'}}/>
-          <div class="carousel-caption d-none d-md-block">
+            style={{height:'50vh'}}/>
+          <div className="carousel-caption d-none d-md-block">
             <p>{info.desc}</p>
           </div>
         </div>
@@ -75,20 +75,20 @@ export default () => {
       <Layout>
         <main role="main">
           {/* carousel start  */}
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+          <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
               {getIndex()}
             </ol>
-            <div class="carousel-inner">
+            <div className="carousel-inner">
               {generateCarousel()}
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+            <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+            <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="sr-only">Next</span>
             </a>
           </div>{/* carouselE end ---  */}
           <br/>
