@@ -102,13 +102,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>正德厚生</h2>
+                <h5>FS型双循环两级湿法喷雾脱硫塔工艺</h5>
                 <p>
-                  博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
+                公司核心技术之一： FS型双循环两级湿法喷雾脱硫塔工艺 FS型双循环两级湿法喷雾脱硫塔工艺是本公司总经理美国耶鲁大学博士黎勃带领的科研团队与美国Airborne公司合作研究开发的石灰石-石膏法脱硫工艺，并且结合
                 </p>
                 <p>
                   <a className="btn btn-secondary" href="/about" role="button">
-                    詳情 »
+                    查看详情 »
                   </a>
                 </p>
               </div>
@@ -120,13 +120,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>明誠至信</h2>
+                <h5>低阻高效离线清灰电袋复合除尘工艺</h5>
                 <p>
-                  公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
+                  公司核心技术之二 低阻高效离线清灰电袋复合除尘工艺 低阻高效离线清灰电袋复合除尘工艺是本公司总经理黎勃博士引领科研团队联合美国耶鲁大学和美国Airborne环保公司合作研究开发的电袋复合除尘工艺，并且结合本公......
                 </p>
                 <p>
                   <a className="btn btn-secondary" href="/about" role="button">
-                    詳情 »
+                    查看详情 »
                   </a>
                 </p>
               </div>
@@ -138,13 +138,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>正明環保，造福人類</h2>
+                <h5>多方位对冲燃烬风低氮燃烧脱硝技术</h5>
                 <p>
-                  公司始终坚持以技术为先导，以人为本，海纳百川，共赢发展。公司将以先进的技术服务于用户，始终贯彻公司一贯的宗旨：“让整个地球村共享一片蓝天”，为中国的蓝天目标坚持努力！
+                  公司核心技术之三： MOFA(Multi-Direction Opposed Fired Air） 多方位对冲燃烬风低氮燃烧脱硝技术 MOFA(Multi-Direction Oppo......
                 </p>
                 <p>
                   <a className="btn btn-secondary" href="/about" role="button">
-                    詳情 »
+                    查看详情 »
                   </a>
                 </p>
               </div>
@@ -154,9 +154,9 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7">
-                <h2 className="featurette-heading">
+                {/* <h2 className="featurette-heading">
                   正德厚生
-                </h2>
+                </h2> */}
                 <p className="lead">
                   湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
                 </p>
@@ -177,9 +177,9 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7 order-md-2">
-                <h2 className="featurette-heading">
+                {/* <h2 className="featurette-heading">
                   明誠至信
-                </h2>
+                </h2> */}
                 <p className="lead">
                   公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
                 </p>
@@ -200,9 +200,9 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7">
-                <h2 className="featurette-heading">
+                {/* <h2 className="featurette-heading">
                   正明環保，造福人類
-                </h2>
+                </h2> */}
                 <p className="lead">
                   公司始终坚持以技术为先导，以人为本，海纳百川，共赢发展。公司将以先进的技术服务于用户，始终贯彻公司一贯的宗旨：“让整个地球村共享一片蓝天”，为中国的蓝天目标坚持努力！
                 </p>
