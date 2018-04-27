@@ -1,8 +1,23 @@
 import Head from 'next/head';
+import React from 'react';
 
-export default props => {
-  return (
-    <div>
+const push = ()=>{
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+}
+
+export default class Layout extends React.Component{
+  render(){
+    return(
+      <div>
       <Head>
         <title>湖南爱邦正明环保工程公司</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -40,6 +55,9 @@ export default props => {
           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
           crossorigin="anonymous"
         />
+        <script>
+          {push()}
+      </script>
       </Head>
       <style jsx>{`
         a {
@@ -135,7 +153,7 @@ export default props => {
         </div>
       </nav>
       <div>
-        {props.children}
+        {this.props.children}
       </div>
       <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom' }}>
         <p className="float-right">
@@ -190,8 +208,10 @@ export default props => {
         </div>
       </footer>
     </div>
-  );
-};
+    );
+  }
+}
+
 
 
 const onChangeHandler = (e)=>{
