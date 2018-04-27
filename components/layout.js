@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
 
-const push = ()=>{
+export default class Layout extends React.Component{
+  componentDidMount(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
@@ -12,9 +13,7 @@ const push = ()=>{
     }
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(bp, s);
-}
-
-export default class Layout extends React.Component{
+  }
   render(){
     return(
       <div>
@@ -55,9 +54,6 @@ export default class Layout extends React.Component{
           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
           crossorigin="anonymous"
         />
-        <script>
-          {push()}
-      </script>
       </Head>
       <style jsx>{`
         a {
