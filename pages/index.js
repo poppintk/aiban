@@ -102,16 +102,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>Heading</h2>
+                <h2>正德厚生</h2>
                 <p>
-                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
-                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
-                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
-                  eros. Praesent commodo cursus magna.
+                  博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
                 </p>
                 <p>
-                  <a className="btn btn-secondary" href="#" role="button">
-                    View details »
+                  <a className="btn btn-secondary" href="/about" role="button">
+                    詳情 »
                   </a>
                 </p>
               </div>
@@ -123,16 +120,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>Heading</h2>
+                <h2>明誠至信</h2>
                 <p>
-                  Duis mollis, est non commodo luctus, nisi erat porttitor
-                  ligula, eget lacinia odio sem nec elit. Cras mattis
-                  consectetur purus sit amet fermentum. Fusce dapibus, tellus ac
-                  cursus commodo, tortor mauris condimentum nibh.
+                  公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
                 </p>
                 <p>
-                  <a className="btn btn-secondary" href="#" role="button">
-                    View details »
+                  <a className="btn btn-secondary" href="/about" role="button">
+                    詳情 »
                   </a>
                 </p>
               </div>
@@ -144,16 +138,13 @@ export default () => {
                   width="140"
                   height="140"
                 />
-                <h2>Heading</h2>
+                <h2>正明環保，造福人類</h2>
                 <p>
-                  Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-                  egestas eget quam. Vestibulum id ligula porta felis euismod
-                  semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  公司始终坚持以技术为先导，以人为本，海纳百川，共赢发展。公司将以先进的技术服务于用户，始终贯彻公司一贯的宗旨：“让整个地球村共享一片蓝天”，为中国的蓝天目标坚持努力！
                 </p>
                 <p>
-                  <a className="btn btn-secondary" href="#" role="button">
-                    View details »
+                  <a className="btn btn-secondary" href="/about" role="button">
+                    詳情 »
                   </a>
                 </p>
               </div>
@@ -164,14 +155,10 @@ export default () => {
             <div className="row featurette">
               <div className="col-md-7">
                 <h2 className="featurette-heading">
-                  First featurette heading.{' '}
-                  <span className="text-muted">It'll blow your mind.</span>
+                  正德厚生
                 </h2>
                 <p className="lead">
-                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                  id ligula porta felis euismod semper. Praesent commodo cursus
-                  magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                  ac cursus commodo.
+                  湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
                 </p>
               </div>
               <div className="col-md-5">
@@ -191,14 +178,10 @@ export default () => {
             <div className="row featurette">
               <div className="col-md-7 order-md-2">
                 <h2 className="featurette-heading">
-                  Oh yeah, it's that good.{' '}
-                  <span className="text-muted">See for yourself.</span>
+                  明誠至信
                 </h2>
                 <p className="lead">
-                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                  id ligula porta felis euismod semper. Praesent commodo cursus
-                  magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                  ac cursus commodo.
+                  公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
                 </p>
               </div>
               <div className="col-md-5 order-md-1">
@@ -218,14 +201,10 @@ export default () => {
             <div className="row featurette">
               <div className="col-md-7">
                 <h2 className="featurette-heading">
-                  And lastly, this one.{' '}
-                  <span className="text-muted">Checkmate.</span>
+                  正明環保，造福人類
                 </h2>
                 <p className="lead">
-                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                  id ligula porta felis euismod semper. Praesent commodo cursus
-                  magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                  ac cursus commodo.
+                  公司始终坚持以技术为先导，以人为本，海纳百川，共赢发展。公司将以先进的技术服务于用户，始终贯彻公司一贯的宗旨：“让整个地球村共享一片蓝天”，为中国的蓝天目标坚持努力！
                 </p>
               </div>
               <div className="col-md-5">
