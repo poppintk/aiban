@@ -4,6 +4,7 @@ export default () => {
   return (
     <div>
       <Layout>
+        <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" />
         <div
           style={{
             display: 'flex',
@@ -14,7 +15,6 @@ export default () => {
             margin: 30
           }}
         >
-          <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" />
           <div style={{ fontWeight: 'bold', textAlign: 'center' }}>
             爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
           </div>

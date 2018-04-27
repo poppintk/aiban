@@ -15,7 +15,8 @@ export default () => {
             margin: '0 auto',
             boxShadow: '1px 1px 1px #9aa1ad',
             color: 'red',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            marginTop:'10px'
           }}
         >
           爱邦正明——领军人才
