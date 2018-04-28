@@ -16,6 +16,7 @@ export default class Layout extends React.Component{
     s.parentNode.insertBefore(bp, s);
   }
   render(){
+    const english_text = {fontSize:'9px'};
     return(
       <div>
       <Head>
@@ -71,13 +72,18 @@ export default class Layout extends React.Component{
           backgroundColor: '#e3f2fd'
         }}
       >
-        <a className="navbar-brand" href="/" style={{fontSize:'13px'}}>
+        <a className="navbar-brand" href="/" style={{display:'flex'}}>
           <img
             src="https://aiban.oss-cn-beijing.aliyuncs.com/logo.png"
             style={{
-              width: '50px'
+              width: '50px',
+              height:'50px'
             }}
-          />爱邦正明环保
+          /><div style={{fontSize:'18px',fontWeight:'bold',marginLeft:'5px',lineHeight:'100%',marginTop:'5px',color:'#609dff'}}>
+              爱邦正明环保
+              <br/>
+                  <span style={english_text}>AI BANG ZHENG MING</span>
+            </div>
         </a>
         <button
           className="navbar-toggler"
@@ -94,57 +100,67 @@ export default class Layout extends React.Component{
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <Link prefetch href="/">
-                <a className="nav-link">
+                <a className="nav-link" style={{lineHeight:'100%'}}>
                   首页 <span className="sr-only">(current)</span>
+                  <br/>
+                  <span style={english_text}>HOME</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/about">
-                <a className="nav-link">
-                  关于我们
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  关于我们<br/>
+                  <span style={english_text}>ABOUT US</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/news">
-                <a className="nav-link">
-                  新闻中心
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  新闻中心<br/>
+                  <span style={english_text}>NEWS</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/service">
-                <a className="nav-link">
-                  业绩展示
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  业绩展示<br/>
+                  <span style={english_text}>SERVICE</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/tech">
-                <a className="nav-link">
+                <a className="nav-link" style={{lineHeight:'100%'}}>
                   技术研发
+                  <br/>
+                  <span style={english_text}>TECH</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/coop">
-                <a className="nav-link">
-                  交流合作
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  交流合作<br/>
+                  <span style={english_text}>CO-OP</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/team">
-                <a className="nav-link">
-                  领军人才
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  领军人才<br/>
+                  <span style={english_text}>TEAM</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/contact">
-                <a className="nav-link">
-                  联系我們
+                <a className="nav-link" style={{lineHeight:'100%'}}>
+                  联系我們<br/>
+                  <span style={english_text}>CONTACT US</span>
                 </a>
               </Link>
             </li>
@@ -153,8 +169,9 @@ export default class Layout extends React.Component{
             <input
               className="form-control mr-sm-2"
               type="text"
-              placeholder="搜索"
+              placeholder="Search"
               aria-label="Search"
+              style={{width:'150px'}}
             />
             <button
               className="btn btn-outline-success my-2 my-sm-0"
@@ -170,7 +187,7 @@ export default class Layout extends React.Component{
       </div>
       <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom' }}>
         <p className="float-right">
-          <a href="#">返回頂部</a>
+          <a href="#">返回顶部</a>
         </p>
         <div style={{ clear: 'both' }}>
           <div style={{ textAlign: 'center', height: '35px' }}>
