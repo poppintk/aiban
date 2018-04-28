@@ -5,11 +5,11 @@ export default () => {
     <Layout>
       <div className="container">
         <div className="list-group">
-          {data.map(d => {
+          {data.map((d,k) => {
             return (
               <a
-                href="#"
                 class="list-group-item list-group-item-action flex-column align-items-start"
+                key={k}
               >
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">{d.title}</h5>

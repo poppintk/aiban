@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
 
 export default class Layout extends React.Component{
@@ -33,7 +34,7 @@ export default class Layout extends React.Component{
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
         <link
           rel="stylesheet"
@@ -42,17 +43,17 @@ export default class Layout extends React.Component{
         <script
           src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
           integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
         <script
           src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
       <style jsx>{`
@@ -92,44 +93,60 @@ export default class Layout extends React.Component{
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
-                首页 <span className="sr-only">(current)</span>
-              </a>
+              <Link prefetch href="/">
+                <a className="nav-link">
+                  首页 <span className="sr-only">(current)</span>
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
-                关于我们
-              </a>
+              <Link prefetch href="/about">
+                <a className="nav-link">
+                  关于我们
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/news">
-                新闻中心
-              </a>
+              <Link prefetch href="/news">
+                <a className="nav-link">
+                  新闻中心
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/service">
-                业绩展示
-              </a>
+              <Link prefetch href="/service">
+                <a className="nav-link">
+                  业绩展示
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/tech">
-                技术研发
-              </a>
+              <Link prefetch href="/tech">
+                <a className="nav-link">
+                  技术研发
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/coop">
-                交流合作
-              </a>
+              <Link prefetch href="/coop">
+                <a className="nav-link">
+                  交流合作
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/team">
-                领军人才
-              </a>
+              <Link prefetch href="/team">
+                <a className="nav-link">
+                  领军人才
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                联系我們
-              </a>
+              <Link prefetch href="/contact">
+                <a className="nav-link">
+                  联系我們
+                </a>
+              </Link>
             </li>
           </ul>
           <form className="form-inline mt-2 mt-md-0">
