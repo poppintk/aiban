@@ -59,11 +59,44 @@ export default class Layout extends React.Component{
       </Head>
       <style jsx>{`
         a {
-          color: black;
+          line-height:100%;
+          font-weight:bold;
         }
         .navbar-toggler-icon {
           color: black;
         }
+        .dropbtn {
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+      }
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: rgb(130, 209, 255,0.7);
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+      
+      .dropdown-content > a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+      
+
+      
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+      
       `}</style>
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
@@ -79,7 +112,7 @@ export default class Layout extends React.Component{
               width: '60px',
               height:'50px'
             }}
-          /><div style={{fontSize:'18px',fontWeight:'bold',marginLeft:'5px',lineHeight:'100%',marginTop:'5px',color:'#609dff'}}>
+          /><div style={{fontSize:'18px',fontWeight:'bold',marginLeft:'5px',lineHeight:'100%',marginTop:'5px',color:'black'}}>
               爱邦正明环保
               <br/>
                   <span style={english_text}>AI BANG ZHENG MING</span>
@@ -100,67 +133,80 @@ export default class Layout extends React.Component{
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <Link prefetch href="/">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  首页 <span className="sr-only">(current)</span>
-                  <br/>
-                  <span style={english_text}>HOME</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>
+                    首页 <span className="sr-only">(current)</span>
+                  </div>
+                  <div style={english_text}>HOME</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/about">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  <div>关于我们</div>
-                  <span style={english_text}>ABOUT US</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div className="dropdown">
+                    <div className="dropbtn">关于我们</div>
+                    <div style={english_text}>ABOUT US</div>
+                    <div className="d-none d-lg-block">
+                      <div className="dropdown-content">
+                        <a href="#">企业文化</a>
+                        <a href="#">关于我们</a>
+                        <a href="#">企业荣耀</a>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/news">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  新闻中心<br/>
-                  <span style={english_text}>NEWS</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div className="example">新闻中心</div>
+                  <div style={english_text}>NEWS</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/service">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  业绩展示<br/>
-                  <span style={english_text}>SERVICE</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>业绩展示</div>
+                  <div style={english_text}>SERVICE</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/tech">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  技术研发
-                  <br/>
-                  <span style={english_text}>TECH</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>技术研发</div>
+                  <div style={english_text}>TECH</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/coop">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  交流合作<br/>
-                  <span style={english_text}>CO-OP</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>交流合作</div>
+                  <div style={english_text}>CO-OP</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/team">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  领军人才<br/>
-                  <span style={english_text}>TEAM</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>
+                    领军人才
+                  </div>
+                  <div style={english_text}>TEAM</div>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/contact">
-                <a className="nav-link" style={{lineHeight:'100%'}}>
-                  联系我們<br/>
-                  <span style={english_text}>CONTACT US</span>
+                <a className="nav-link" style={{color:'black'}}>
+                  <div>
+                  联系我們
+                  </div>
+                  <div style={english_text}>CONTACT US</div>
                 </a>
               </Link>
             </li>

@@ -24,7 +24,7 @@ const data = [
 ];
 
 const generateCarousel = ()=>{
-  let style = {height:'50vh'}
+  let style = {height:'60vh'}
   return data.map((info,k)=>{
     if(k === 0){
       return(
