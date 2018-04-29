@@ -110,7 +110,7 @@ export default class Layout extends React.Component{
             <li className="nav-item">
               <Link prefetch href="/about">
                 <a className="nav-link" style={{lineHeight:'100%'}}>
-                  关于我们<br/>
+                  <div>关于我们</div>
                   <span style={english_text}>ABOUT US</span>
                 </a>
               </Link>

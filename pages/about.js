@@ -2,7 +2,6 @@ import Layout from '../components/layout';
 
 export default () => {
   return (
-    <div>
       <Layout>
         <div
           style={{
@@ -11,13 +10,13 @@ export default () => {
             textIndent: '20px',
             textAlign: 'left',
             lineHeight: '35px',
-            margin: 30
-          }}
-        >
-          <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" />
-          <div style={{ fontWeight: 'bold', textAlign: 'center' }}>
+            margin: 30,
+            height:'100vh'
+          }}>
+          {/* <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" /> */}
+          <h5 style={{ fontWeight: 'bold', textAlign: 'center' }}>
             爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
-          </div>
+          </h5>
           <hr />
           <p>
             湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。公司董事长黎勃先生2003年获美国耶鲁大学环境工程博士学位，曾任美国总统克林顿环保顾问。从事大气污染治理二十多年，引领和参与十多项专利技术的研制和开发，与国际上顶尖的环保公司美国爱邦（Airbone）公司有长远的战略合作伙伴关系，2010年美国爱邦获美国总统克林顿三千万美元科研支持，公司有国际上顶尖学府美国耶鲁大学作为科研基地，引领国际环保高新科技。
@@ -34,6 +33,5 @@ export default () => {
           </p>
         </div>
       </Layout>
-    </div>
   );
 };

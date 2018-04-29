@@ -166,9 +166,6 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7">
-                {/* <h2 className="featurette-heading">
-                  正德厚生
-                </h2> */}
                 <p className="lead">
                   湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
                 </p>
@@ -189,9 +186,6 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7 order-md-2">
-                {/* <h2 className="featurette-heading">
-                  明誠至信
-                </h2> */}
                 <p className="lead">
                   公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
                 </p>
@@ -212,9 +206,6 @@ export default () => {
 
             <div className="row featurette">
               <div className="col-md-7">
-                {/* <h2 className="featurette-heading">
-                  正明環保，造福人類
-                </h2> */}
                 <p className="lead">
                   公司始终坚持以技术为先导，以人为本，海纳百川，共赢发展。公司将以先进的技术服务于用户，始终贯彻公司一贯的宗旨：“让整个地球村共享一片蓝天”，为中国的蓝天目标坚持努力！
                 </p>
