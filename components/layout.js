@@ -76,7 +76,7 @@ export default class Layout extends React.Component{
           <img
             src="https://aiban.oss-cn-beijing.aliyuncs.com/logo.png"
             style={{
-              width: '50px',
+              width: '60px',
               height:'50px'
             }}
           /><div style={{fontSize:'18px',fontWeight:'bold',marginLeft:'5px',lineHeight:'100%',marginTop:'5px',color:'#609dff'}}>
