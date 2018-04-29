@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
+import Hover from './hover';
 
 export default class Layout extends React.Component{
   componentDidMount(){
@@ -65,44 +66,13 @@ export default class Layout extends React.Component{
         .navbar-toggler-icon {
           color: black;
         }
-        .dropbtn {
-          font-size: 16px;
-          border: none;
-          cursor: pointer;
-      }
-      .dropdown {
-          position: relative;
-          display: inline-block;
-      }
-      
-      .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: rgb(130, 209, 255,0.7);
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-      }
-      
-      .dropdown-content > a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-      }
-      
-
-      
-      .dropdown:hover .dropdown-content {
-          display: block;
-      }
-      
       `}</style>
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
           position: 'relative',
-          backgroundColor: '#e3f2fd'
+          backgroundColor: '#e3f2fd',
+          boxShadow:'1px 1px 3px grey'
         }}
       >
         <a className="navbar-brand" href="/" style={{display:'flex'}}>
@@ -134,79 +104,56 @@ export default class Layout extends React.Component{
             <li className="nav-item active">
               <Link prefetch href="/">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>
-                    首页 <span className="sr-only">(current)</span>
-                  </div>
-                  <div style={english_text}>HOME</div>
+                  <Hover chineseTitle={'首页'} englishTitle={'HOME'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/about">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div className="dropdown">
-                    <div className="dropbtn">关于我们</div>
-                    <div style={english_text}>ABOUT US</div>
-                    <div className="d-none d-lg-block">
-                      <div className="dropdown-content">
-                        <a href="#">企业文化</a>
-                        <a href="#">关于我们</a>
-                        <a href="#">企业荣耀</a>
-                      </div>
-                    </div>
-                  </div>
+                  <Hover chineseTitle={'关于我们'} englishTitle={'ABOUT US'} submenu={['企业文化','关于我们','企业荣耀']}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/news">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div className="example">新闻中心</div>
-                  <div style={english_text}>NEWS</div>
+                  <Hover chineseTitle={'新闻中心'} englishTitle={'NEWS'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/service">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>业绩展示</div>
-                  <div style={english_text}>SERVICE</div>
+                  <Hover chineseTitle={'业绩展示'} englishTitle={'SERVICE'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/tech">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>技术研发</div>
-                  <div style={english_text}>TECH</div>
+                  <Hover chineseTitle={'技术研发'} englishTitle={'TECH'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/coop">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>交流合作</div>
-                  <div style={english_text}>CO-OP</div>
+                  <Hover chineseTitle={'交流合作'} englishTitle={'CO-OP'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/team">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>
-                    领军人才
-                  </div>
-                  <div style={english_text}>TEAM</div>
+                  <Hover chineseTitle={'领军人才'} englishTitle={'TEAM'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/contact">
                 <a className="nav-link" style={{color:'black'}}>
-                  <div>
-                  联系我們
-                  </div>
-                  <div style={english_text}>CONTACT US</div>
+                  <Hover chineseTitle={'联系我們'} englishTitle={'CONTACT US'} submenu={[]}/>
                 </a>
               </Link>
             </li>
@@ -231,7 +178,7 @@ export default class Layout extends React.Component{
       <div>
         {this.props.children}
       </div>
-      <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom' }}>
+      <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom',boxShadow:'-1px -1px 3px grey' }}>
         <p className="float-right">
           <a href="#">返回顶部</a>
         </p>

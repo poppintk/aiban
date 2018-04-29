@@ -11,7 +11,8 @@ export default () => {
             textAlign: 'left',
             lineHeight: '35px',
             margin: 30,
-            height:'100vh'
+            position:'relative',
+            height:'175vh'
           }}>
           {/* <img src="https://aiban.oss-cn-beijing.aliyuncs.com/aboutus1.png" /> */}
           <h5 style={{ fontWeight: 'bold', textAlign: 'center' }}>

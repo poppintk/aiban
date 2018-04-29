@@ -80,7 +80,7 @@ export default () => {
       <Layout>
         <main role="main">
           {/* carousel start  */}
-          <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+          <div id="carouselExampleCaptions" className="carousel slide d-none d-lg-block" data-ride="carousel">
             <ol className="carousel-indicators">
               {getIndex()}
             </ol>
@@ -99,7 +99,7 @@ export default () => {
           <br/>
           <div className="container marketing">
             <div className="row">
-              <div className="col-lg-4" style={{boxShadow: '0px 0px 5px #888888'}}>
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center">
                   <img
                     className="rounded-circle"
@@ -107,11 +107,12 @@ export default () => {
                     alt="Generic placeholder image"
                     width="140"
                     height="140"
+                    style={{marginTop:'10px'}}
                   />
                 </div>
                 <h6 style={{textAlign:'center',marginTop:'10px'}}>FS型双循环两级湿法喷雾脱硫塔工艺</h6>
                 <p className="shadow-lg p-3 mb-5 bg-white rounded">
-                公司核心技术之一： FS型双循环两级湿法喷雾脱硫塔工艺 FS型双循环两级湿法喷雾脱硫塔工艺是本公司总经理美国耶鲁大学博士黎勃带领的科研团队与美国Airborne公司合作研究开发的石灰石-石膏法脱硫工艺，并且结合
+                  公司核心技术之一： FS型双循环两级湿法喷雾脱硫塔工艺 FS型双循环两级湿法喷雾脱硫塔工艺是本公司总经理美国耶鲁大学博士黎勃带领的科研团队与美国Airborne公司合作研究开发的石灰石-石膏法脱硫工艺，并且结合
                 </p>
                 <p>
                   <a className="btn btn-secondary bg-primary" href="/tech" role="button">
@@ -119,7 +120,7 @@ export default () => {
                   </a>
                 </p>
               </div>
-              <div className="col-lg-4" style={{boxShadow: '0px 0px 5px #888888'}}>
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center">
                   <img
                     className="rounded-circle"
@@ -127,6 +128,7 @@ export default () => {
                     alt="Generic placeholder image"
                     width="140"
                     height="140"
+                    style={{marginTop:'10px'}}
                   />
                 </div>
                 <h6 style={{textAlign:'center',marginTop:'10px'}}>低阻高效离线清灰电袋复合除尘工艺</h6>
@@ -139,7 +141,7 @@ export default () => {
                   </a>
                 </p>
               </div>
-              <div className="col-lg-4" style={{boxShadow: '0px 0px 5px #888888'}}>
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center">
                   <img
                     className="rounded-circle"

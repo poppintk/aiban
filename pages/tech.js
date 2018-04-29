@@ -8,13 +8,13 @@ export default () => {
           {data.map((d,k) => {
             return (
               <a
-                class="list-group-item list-group-item-action flex-column align-items-start"
+                className="list-group-item list-group-item-action flex-column align-items-start"
                 key={k}
               >
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{d.title}</h5>
+                <div className="d-flex w-100 justify-content-between">
+                  <h5 className="mb-1">{d.title}</h5>
                 </div>
-                <p class="mb-1">{d.description}</p>
+                <p className="mb-1">{d.description}</p>
               </a>
             );
           })}
