@@ -8,7 +8,8 @@ export default () => {
         style={{
           textIndent: '20px',
           textAlign: 'left',
-          lineHeight: '35px'
+          lineHeight: '35px',
+          minHeight:'100vh'
         }}
         className="container-fluid"
         >
