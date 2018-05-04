@@ -11,10 +11,9 @@ export default (props)=>{
                         style={{
                             boxShadow:'1px 1px 4px grey',
                             backgroundColor:'#e3f2fd',
-                            marginTop:'20px',
+                            marginTop:"20px",
                             paddingBottom:'40px',
-                            borderRadius:'10px',
-                            opacity:style.offset
+                            borderRadius:'10px'
                         }}>
                         <div 
                             style={{
