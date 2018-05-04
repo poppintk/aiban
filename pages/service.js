@@ -3,20 +3,18 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container">
+      <div className="container" style={{paddingTop:'10px'}}>
           <h5
             style={{
               textAlign: 'center',
-              border: '1px groove',
               width: '350px',
               height: '30px',
               paddingTop: '2px',
               borderRadius: '25px',
               margin: '0 auto',
-              marginTop: '10px',
               boxShadow: '1px 1px 1px #9aa1ad',
-              color: 'red',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              textShadow: '1px 1px red'
             }}
           >
             爱邦正明环保——我们用心做事！

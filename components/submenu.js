@@ -19,14 +19,16 @@ export default (props)=>{
                             style={{
                                 textAlign:'center',
                                 fontWeight:'bold',
+                                textShadow: '2px 2px white',
                                 lineHeight:'150%',
                                 paddingTop:'10px'}}>
-                        {props.title}
-                        <div style={{fontSize:'11px'}}>{props.englishTitle}</div>
+                            {props.title}
+                            <div style={{fontSize:'11px'}}>{props.englishTitle}</div>
                         </div>
                         <hr/>
                         <div style={{
                             textAlign:'center',
+                            textShadow: '2px 2px white',
                             width:'100%'}}>
                         <Link prefetch href="/culture">
                             <div style={{backgroundColor:'#e3f2fd'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>

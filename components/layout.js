@@ -85,7 +85,15 @@ export default class Layout extends React.Component{
             }}
           />
    
-        <div style={{fontSize:18,fontWeight:'bold',marginLeft:'10px',lineHeight:'100%',marginTop:'5px',color:'black'}}>
+        <div 
+          style={{
+            fontSize:18,
+            fontWeight:'bold',
+            marginLeft:'10px',
+            lineHeight:'100%',
+            marginTop:'5px',
+            color:'black',
+            textShadow: '2px 2px white'}}>
           爱邦正明环保
           <br/>
               <span style={english_text}>AI BANG ZHENG MING</span>
@@ -113,11 +121,15 @@ export default class Layout extends React.Component{
               </Link>
             </li>
             <li className="nav-item">
-              <Link prefetch href="/about">
+   
                 <a className="nav-link" style={{color:'black'}}>
-                  <Hover chineseTitle={'关于我们'} englishTitle={'ABOUT US'} submenu={['企业文化','关于我们','企业荣耀']}/>
+                  <Hover 
+                    chineseTitle={'关于我们'} 
+                    englishTitle={'ABOUT US'} 
+                    submenu={[{name:'企业文化',url:'/culture'},{name:'关于我们',url:'/about'},{name:'企业荣耀',url:'/honor'}]}
+                  />
                 </a>
-              </Link>
+    
             </li>
             <li className="nav-item">
               <Link prefetch href="/news">
@@ -183,7 +195,10 @@ export default class Layout extends React.Component{
         {
           (style)=>{
             return(
-              <div style={{marginTop:style.offset}}>
+              <div 
+                style={{
+                  marginTop:style.offset
+                }}>
                 {this.props.children}
               </div>
             );

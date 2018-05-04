@@ -1,6 +1,6 @@
 import {Motion, spring} from 'react-motion';
 import React from 'react';
-
+import Link from 'next/link';
 
 export default class Hover extends React.Component{
     constructor(props){
@@ -24,11 +24,14 @@ export default class Hover extends React.Component{
                     }
                 }
             >
-                
-                <div>
-                    {this.props.chineseTitle}
-                </div>
-                <div style={english_text}>{this.props.englishTitle}</div>
+                <Link prefetch href="/about">
+                    <div style={{textShadow: '2px 2px white'}}>
+                        <div>
+                            {this.props.chineseTitle}
+                        </div>
+                        <div style={english_text}>{this.props.englishTitle}</div>
+                    </div>
+                </Link>
                 <Motion defaultStyle={{height : 0}} style={{height: spring(this.state.mouseIn? this.props.submenu.length * 38 : 0)}}>
                     {style => (
                         <div 
@@ -45,6 +48,7 @@ export default class Hover extends React.Component{
                         >
                             {this.props.submenu.map((info,k)=>{
                                 return(
+                                    <Link prefetch href={info.url}>
                                     <div
                                         className="option"
                                         style={{
@@ -60,8 +64,9 @@ export default class Hover extends React.Component{
                                         }}
                                         key={k}
                                     >
-                                        {info}
+                                        {info.name}
                                     </div>
+                                    </Link>
                                 );
                             })}
                         </div>

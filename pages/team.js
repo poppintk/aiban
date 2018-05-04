@@ -3,20 +3,18 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container">
+      <div className="container" style={{paddingTop:'10px'}}>
         <h5
           style={{
             textAlign: 'center',
-            border: '1px groove',
             width: '300px',
             height: '30px',
             paddingTop: '2px',
             borderRadius: '25px',
             margin: '0 auto',
             boxShadow: '1px 1px 1px #9aa1ad',
-            color: 'red',
             fontWeight: 'bold',
-            marginTop:'10px'
+            textShadow: '1px 1px red'
           }}
         >
           爱邦正明——领军人才
@@ -58,7 +56,7 @@ export default () => {
           <br />
           <br />
           <br />
-          <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>{' '}
+          <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>
           <strong>技术委员会委员：公司研究院院长---李旭辉博导简介</strong>
           <br />
           李旭辉 耶鲁大学终身教授，环境学院院长。美国森林环境学会会长。
@@ -113,10 +111,6 @@ export default () => {
           1994～2000 加拿大渥太华大学 副教授
           <br />
           1991～ 1993 加拿大哥伦比亚大学 助教
-          <br />
-          1989～1991 加拿大哥伦比亚大学 博士后
-          <br />
-          <br />
           <br />
         </p>
       </div>

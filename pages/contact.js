@@ -20,7 +20,6 @@ export default () => {
           <h5
             style={{
               textAlign: 'center',
-              border: '1px groove',
               width: '300px',
               height: '30px',
               paddingTop: '2px',
@@ -28,7 +27,7 @@ export default () => {
               margin: '0 auto',
               marginTop: '10px',
               boxShadow: '1px 1px 1px #9aa1ad',
-              color: 'red',
+              textShadow: '1px 1px red',
               fontWeight: 'bold'
             }}
           >
@@ -37,7 +36,7 @@ export default () => {
           <br />
           <div className="row">
             <div className="col-lg-6">
-              <p style={{fontSize:'16px'}}>
+              <p style={{fontSize:'16px',lineHeight:'300%'}}>
                 地址：长沙市芙蓉区八一路59号科技信息大楼10楼
                 <br />
                 业务咨询电话：18390980101 黎先生

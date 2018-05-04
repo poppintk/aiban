@@ -10,7 +10,6 @@ export default () => {
           <h5
             style={{
               textAlign: 'center',
-              border: '1px groove',
               width: '300px',
               height: '30px',
               paddingTop: '2px',
@@ -19,8 +18,8 @@ export default () => {
               marginTop: '20px',
               marginBottom: '10px',
               boxShadow: '1px 1px 1px #9aa1ad',
-              color: 'red',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              textShadow: '1px 1px red'
             }}
           >
             爱邦正明——新闻动态

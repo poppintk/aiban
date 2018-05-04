@@ -19,7 +19,7 @@ export default () => {
           </div>
           <div className="col-lg-9">
             <div className="container" style={{marginTop:'20px'}}>
-              <h5 style={{ fontWeight: 'bold', textAlign: 'center' }}>
+              <h5 style={{ fontWeight: 'bold', textAlign: 'center',textShadow: '1px 1px red' }}>
                 企业荣耀
               </h5>
               <hr />
