@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Hover from './hover';
+import {Motion, spring} from 'react-motion';
 
 export default class Layout extends React.Component{
   componentDidMount(){
@@ -82,11 +83,14 @@ export default class Layout extends React.Component{
               width: '60px',
               height:'50px'
             }}
-          /><div style={{fontSize:'18px',fontWeight:'bold',marginLeft:'5px',lineHeight:'100%',marginTop:'5px',color:'black'}}>
-              爱邦正明环保
-              <br/>
-                  <span style={english_text}>AI BANG ZHENG MING</span>
-            </div>
+          />
+   
+        <div style={{fontSize:18,fontWeight:'bold',marginLeft:'10px',lineHeight:'100%',marginTop:'5px',color:'black'}}>
+          爱邦正明环保
+          <br/>
+              <span style={english_text}>AI BANG ZHENG MING</span>
+        </div>
+  
         </a>
         <button
           className="navbar-toggler"
@@ -175,9 +179,17 @@ export default class Layout extends React.Component{
           </form>
         </div>
       </nav>
-      <div>
-        {this.props.children}
-      </div>
+      <Motion defaultStyle={{offset : -1200}} style={{offset: spring(0)}}>
+        {
+          (style)=>{
+            return(
+              <div style={{marginLeft:style.offset}}>
+                {this.props.children}
+              </div>
+            );
+          }
+        }
+      </Motion>
       <footer className="container-fluid" style={{ backgroundColor: '#e3f2fd',float:'bottom',boxShadow:'-1px -1px 3px grey' }}>
         <p className="float-right">
           <a href="#">返回顶部</a>

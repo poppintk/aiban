@@ -15,7 +15,7 @@ export default () => {
           >
           <div className="row">
             <div className="col-lg-3">
-              <SubMenu/>
+              <SubMenu title="关于我们" englishTitle="ABOUT US"/>
             </div>
             <div className="col-lg-9">
               <div className="container" style={{marginTop:'20px'}}>

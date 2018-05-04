@@ -26,11 +26,11 @@ export default () => {
             爱邦正明——新闻动态
           </h5>
           <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
+            <div className="card">
+              <div className="card-header" id="headingOne">
+                <h5 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     data-toggle="collapse"
                     data-target="#collapseOne"
                     aria-expanded="true"
@@ -43,12 +43,12 @@ export default () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordion"
               >
-                <div class="card-body">
-                  <p>
+                <div className="card-body">
+                  <div>
                     <div style={{ display: 'flex' }}>
                       <button
                         className="float-left mx-1"
@@ -66,15 +66,15 @@ export default () => {
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
+            <div className="card">
+              <div className="card-header" id="headingTwo">
+                <h5 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
                     aria-expanded="false"
@@ -86,12 +86,12 @@ export default () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingTwo"
                 data-parent="#accordion"
               >
-                <div class="card-body">
-                  <p>
+                <div className="card-body">
+                  <div>
                     <div style={{ display: 'flex' }}>
                       <button
                         className="float-left mx-1"
@@ -109,15 +109,15 @@ export default () => {
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
+            <div className="card">
+              <div className="card-header" id="headingThree">
+                <h5 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     data-toggle="collapse"
                     data-target="#collapseThree"
                     aria-expanded="false"
@@ -129,12 +129,12 @@ export default () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingThree"
                 data-parent="#accordion"
               >
-                <div class="card-body">
-                  <p>
+                <div className="card-body">
+                  <div>
                     <div style={{ display: 'flex' }}>
                       <button
                         className="float-left mx-1"
@@ -151,15 +151,15 @@ export default () => {
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
+            <div className="card">
+              <div className="card-header" id="headingTwo">
+                <h5 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     data-toggle="collapse"
                     data-target="#collapseFour"
                     aria-expanded="false"
@@ -171,12 +171,12 @@ export default () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingFour"
                 data-parent="#accordion"
               >
-                <div class="card-body">
-                  <p>
+                <div className="card-body">
+                  <div>
                     <div style={{ display: 'flex' }}>
                       <button
                         className="float-left mx-1"
@@ -193,15 +193,15 @@ export default () => {
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingFive">
-                <h5 class="mb-0">
+            <div className="card">
+              <div className="card-header" id="headingFive">
+                <h5 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     data-toggle="collapse"
                     data-target="#collapseFive"
                     aria-expanded="false"
@@ -213,12 +213,12 @@ export default () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingFive"
                 data-parent="#accordion"
               >
-                <div class="card-body">
-                  <p>
+                <div className="card-body">
+                  <div>
                     <div style={{ display: 'flex' }}>
                       <button
                         className="float-left mx-1"
@@ -235,7 +235,7 @@ export default () => {
                         </div>
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

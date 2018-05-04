@@ -24,6 +24,7 @@ export default class Hover extends React.Component{
                     }
                 }
             >
+                
                 <div>
                     {this.props.chineseTitle}
                 </div>

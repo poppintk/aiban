@@ -24,26 +24,21 @@ export default () => {
         <br />
 
         <div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center'
-            }}
-          >
-            <div className="card" style={{ width: '18rem' }}>
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz15.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
-              </div>
+
+          <div className="row">
+            <div className="card col-lg-4">
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hz15.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">国际研讨交流会</h5>
+                  <p className="card-text">2016.04.04</p>
+                </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz1.jpg"
@@ -55,7 +50,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz6.jpg"
@@ -68,14 +63,8 @@ export default () => {
               </div>
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center'
-            }}
-          >
-            <div className="card" style={{ width: '18rem' }}>
+          <div className="row">
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz7.jpg"
@@ -87,7 +76,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz8.jpg"
@@ -99,7 +88,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz9.jpg"
@@ -112,14 +101,8 @@ export default () => {
               </div>
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center'
-            }}
-          >
-            <div className="card" style={{ width: '18rem' }}>
+          <div className="row">
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz10.jpg"
@@ -131,7 +114,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz11.jpg"
@@ -143,7 +126,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz12.jpg"
@@ -156,14 +139,8 @@ export default () => {
               </div>
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center'
-            }}
-          >
-            <div className="card" style={{ width: '18rem' }}>
+          <div className="row">
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz13.jpg"
@@ -175,7 +152,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz14.jpg"
@@ -187,7 +164,7 @@ export default () => {
                 <p className="card-text">2016.04.04</p>
               </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/hz5.jpg"
