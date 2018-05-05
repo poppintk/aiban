@@ -191,7 +191,7 @@ export default class Layout extends React.Component{
           </form>
         </div>
       </nav>
-      <Motion defaultStyle={{offset : 1200}} style={{offset: spring(0)}}>
+      <Motion defaultStyle={{offset : 600}} style={{offset: spring(0)}}>
         {
           (style)=>{
             return(
