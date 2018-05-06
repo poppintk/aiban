@@ -32,8 +32,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">国际研讨交流会</h5>
-                  <p className="card-text">2016.04.04</p>
+                  <h5 className="card-title">总经理与客户技术交流</h5>
                 </div>
             </div>
             <div className="card col-lg-4">
@@ -45,7 +44,6 @@ export default () => {
               />
               <div className="card-body">
                 <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -57,7 +55,6 @@ export default () => {
               />
               <div className="card-body">
                 <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
               </div>
             </div>
           </div>
@@ -71,7 +68,6 @@ export default () => {
               />
               <div className="card-body">
                 <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -82,8 +78,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理和当地政府签约</h5>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -94,8 +89,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理和当地政府签约</h5>
               </div>
             </div>
           </div>
@@ -109,7 +103,6 @@ export default () => {
               />
               <div className="card-body">
                 <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -120,8 +113,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理与Mc Master 副校长交流</h5>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -132,8 +124,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理与专家</h5>
               </div>
             </div>
           </div>
@@ -146,8 +137,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理和专家与客户交流</h5>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -158,8 +148,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">总经理和专家与客户交流</h5>
               </div>
             </div>
             <div className="card col-lg-4">
@@ -170,8 +159,7 @@ export default () => {
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-                <p className="card-text">2016.04.04</p>
+                <h5 className="card-title">公司专家随加拿大总理访华</h5>
               </div>
             </div>
           </div>

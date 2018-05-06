@@ -8,7 +8,7 @@ export default () => {
         style={{
           display: 'flex',
           flexDirection: 'row',
-          height:'120vh'
+          minHeight:'130vh'
         }}
         className="container"
       >
@@ -37,15 +37,17 @@ export default () => {
           <div className="row">
             <div className="col-lg-6">
               <p style={{fontSize:'16px',lineHeight:'300%'}}>
-                地址：长沙市芙蓉区八一路59号科技信息大楼10楼
-                <br />
-                业务咨询电话：18390980101 黎先生
-                <br />
-                邮箱：1317426180@qq.com
-                <br />
-                传真：0731-89708467
-                <br />
-                邮编：410001
+                地址： 		长沙市芙蓉区八一路59号省科技信息大楼10楼
+                <br/>
+                业务咨询电话：0086-183-9098-0101
+                <br/>
+                业务咨询邮箱：1317426180@QQ.com 
+                <br/>
+                公司网站：		<a href="http://www.hnabzm.com">http://www.hnabzm.com</a>
+                <br/>
+                传真：			0086-0731-8970-8467
+                <br/>
+                邮编：			410001
               </p>
             </div>
             <div className="col-lg-6">

@@ -10,22 +10,24 @@ export default class Hover extends React.Component{
         };
     }
     render(){
-        const english_text = {fontSize:'9px'};
+        const english_text = {fontSize:'9px',textAlign:'center'};
         return (
             <div 
                 onMouseEnter={
                     (e)=>{
                         this.setState({mouseIn:true});
+                        // e.currentTarget.style.backgroundColor="gold";
                     }
                 }
                 onMouseLeave={
                     (e)=>{
                         this.setState({mouseIn:false});
+                        // e.currentTarget.style.backgroundColor="red";
                     }
                 }
             >
                 <Link prefetch href="/about">
-                    <div style={{textShadow: '2px 2px white'}}>
+                    <div style={{textShadow: '2px 2px white',textAlign:'center'}}>
                         <div>
                             {this.props.chineseTitle}
                         </div>

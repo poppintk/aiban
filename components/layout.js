@@ -60,6 +60,9 @@ export default class Layout extends React.Component{
         />
       </Head>
       <style jsx>{`
+        * {
+          font-family: "Microsoft Yahei";
+        }
         a {
           line-height:100%;
           font-weight:bold;
@@ -68,6 +71,18 @@ export default class Layout extends React.Component{
           color: black;
         }
       `}</style>
+      <div className="form-inline" style={{backgroundColor:'#646464',color:'white',fontSize:'12px'}}>
+        <marquee style={{
+          width:'calc(100vw - 300px)',
+          padding:'10px',
+          textShadow: '0px 3px 0px #b2a98f,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1)'
+        }}>爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天</marquee>
+        <div style={{width:'260px'}}>
+          <a href="/contact" style={{color:'white',paddingLeft:'10px'}}>联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          业务咨询电话：0086-183-9098-0101
+        </div>        
+
+      </div>
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
@@ -141,21 +156,21 @@ export default class Layout extends React.Component{
             <li className="nav-item">
               <Link prefetch href="/service">
                 <a className="nav-link" style={{color:'black'}}>
-                  <Hover chineseTitle={'业绩展示'} englishTitle={'SERVICE'} submenu={[]}/>
+                  <Hover chineseTitle={'业绩展示'} englishTitle={'PROJECTS'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/tech">
                 <a className="nav-link" style={{color:'black'}}>
-                  <Hover chineseTitle={'技术研发'} englishTitle={'TECH'} submenu={[]}/>
+                  <Hover chineseTitle={'技术研发'} englishTitle={'R&D'} submenu={[]}/>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link prefetch href="/coop">
                 <a className="nav-link" style={{color:'black'}}>
-                  <Hover chineseTitle={'交流合作'} englishTitle={'CO-OP'} submenu={[]}/>
+                  <Hover chineseTitle={'交流合作'} englishTitle={'COOPERATION'} submenu={[]}/>
                 </a>
               </Link>
             </li>
@@ -174,21 +189,6 @@ export default class Layout extends React.Component{
               </Link>
             </li>
           </ul>
-          <form className="form-inline mt-2 mt-md-0">
-            <input
-              className="form-control mr-sm-2"
-              type="text"
-              placeholder="Search"
-              aria-label="Search"
-              style={{width:'150px'}}
-            />
-            <button
-              className="btn btn-outline-success my-2 my-sm-0"
-              type="submit"
-            >
-              搜索
-            </button>
-          </form>
         </div>
       </nav>
       <Motion defaultStyle={{offset : 600}} style={{offset: spring(0)}}>
