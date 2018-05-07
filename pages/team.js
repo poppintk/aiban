@@ -3,18 +3,16 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container" style={{paddingTop:'10px'}}>
+      <div className="container" style={{ paddingTop: '10px' }}>
         <h5
           style={{
             textAlign: 'center',
-            width: '300px',
-            height: '30px',
             paddingTop: '2px',
             borderRadius: '25px',
             margin: '0 auto',
-            boxShadow: '1px 1px 1px #9aa1ad',
+            marginTop: '10px',
             fontWeight: 'bold',
-            textShadow: '1px 1px red'
+            textShadow: '2px 2px 8px #FF0000',
           }}
         >
           爱邦正明——领军人才
@@ -26,41 +24,41 @@ export default () => {
           ( 技术骨干介绍 )
         </h5>
         <div className="row">
-            <div className="card col-lg-4">
-                <img
-                  className="card-img-top"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/team1.png"
-                  alt="Card image cap"
-                  style={{ height: 240,borderRadius:'25px' }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">公司技术骨干交流</h5>
-                </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/team2.png"
-                alt="Card image cap"
-                style={{ height: 240,borderRadius:'25px' }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">公司技术骨干交流</h5>
-              </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/team3.png"
-                alt="Card image cap"
-                style={{ height: 240,borderRadius:'25px' }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">公司技术骨干交流</h5>
-              </div>
+          <div className="card col-lg-4">
+            <img
+              className="card-img-top"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/team1.png"
+              alt="Card image cap"
+              style={{ height: 240, borderRadius: '25px' }}
+            />
+            <div className="card-body">
+              <h5 className="card-title">公司技术骨干交流</h5>
             </div>
           </div>
-        <p style={{ lineHeight: '200%', color: 'black', fontSize: '18px' }}>
+          <div className="card col-lg-4">
+            <img
+              className="card-img-top"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/team2.png"
+              alt="Card image cap"
+              style={{ height: 240, borderRadius: '25px' }}
+            />
+            <div className="card-body">
+              <h5 className="card-title">公司技术骨干交流</h5>
+            </div>
+          </div>
+          <div className="card col-lg-4">
+            <img
+              className="card-img-top"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/team3.png"
+              alt="Card image cap"
+              style={{ height: 240, borderRadius: '25px' }}
+            />
+            <div className="card-body">
+              <h5 className="card-title">公司技术骨干交流</h5>
+            </div>
+          </div>
+        </div>
+        <p style={{ lineHeight: '200%', color: 'black', fontSize: '14px' }}>
           <strong style={{ color: 'red', fontSize: '25px' }}>1</strong>{' '}
           <strong>技术委员会主任：公司总经理――黎勃博士、教授</strong>
           <br />
@@ -68,7 +66,12 @@ export default () => {
             className="card-img-top"
             src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%816.png"
             alt="Card image cap"
-            style={{ height: 240,width:240,float:'right',borderRadius:'150px' }}
+            style={{
+              height: 240,
+              width: 240,
+              float: 'right',
+              borderRadius: '150px',
+            }}
           />
           2003年获美国耶鲁大学环境工程博士学位,现任湖南爱邦正明环保有限公司总经理。
           <br />
@@ -85,7 +88,6 @@ export default () => {
           1983年至1990年在湖南省气象科学研究所，从事大气环境评价和卫星遥感研究工作,曾获国家级和省级科技进步奖七项(其中国家科技进步三等奖一项，湖南省科技进步一等奖一项)。
           <br />
           <br />
-          <br />
           “SPX型湿式脱硫除尘喷雾旋流塔----湘环科监字（1996）第02号”主要研究人员；是
           “烟气环缝喷雾自激旋流水浴式脱硫除尘器----专利号：ZL 99 2
           32883.7（1999.3.3）”专利发明人之一；是
@@ -97,7 +99,7 @@ export default () => {
           <br />
           <br />
           <br />
-          <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>
+          <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>{' '}
           <strong>技术委员会委员：公司研究院院长---李旭辉博导简介</strong>
           <br />
           李旭辉 耶鲁大学终身教授，环境学院院长。美国森林环境学会会长。
@@ -114,7 +116,12 @@ export default () => {
             className="card-img-top"
             src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8112.png"
             alt="Card image cap"
-            style={{ height: 240,width:240,float:'right',borderRadius:'150px' }}
+            style={{
+              height: 240,
+              width: 240,
+              float: 'right',
+              borderRadius: '150px',
+            }}
           />
           1987年毕业于加拿大 DALHOUSIE 大学，获化学博士学位(Ph.D. in Chemistry)
           <br />
@@ -130,6 +137,7 @@ export default () => {
           加拿大公司副总裁，负责大气，环境、健康与安全，可持续发展等部门。总部在美国丹佛（DENVER）市的CH2M
           Hill工程公司，有近两万员工，分布在世界两百多处，包括中国大陆和港台。CH2M
           Hill 加拿大公司有七百员工，在加拿大十二个城市设有办事处。
+          <br />
           <br />
           2007年4月起成为加拿大清洁技术风险投资基金(Canadian CleanTech
           Fund)共同创办人（五位合伙人中唯一华人），同时担任香港亚洲资产有限公司顾问和多伦多上市公司Thermal

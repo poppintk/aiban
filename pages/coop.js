@@ -3,18 +3,16 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container" style={{paddingTop:'10px'}}>
+      <div className="container" style={{ paddingTop: '10px' }}>
         <h5
           style={{
             textAlign: 'center',
-            width: '300px',
-            height: '30px',
             paddingTop: '2px',
             borderRadius: '25px',
             margin: '0 auto',
-            boxShadow: '1px 1px 1px #9aa1ad',
+            marginTop: '10px',
             fontWeight: 'bold',
-            textShadow: '1px 1px red'
+            textShadow: '2px 2px 8px #FF0000',
           }}
         >
           合作交流——精益求精
@@ -22,18 +20,17 @@ export default () => {
         <br />
 
         <div>
-
           <div className="row">
             <div className="card col-lg-4">
-                <img
-                  className="card-img-top"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%811.png"
-                  alt="Card image cap"
-                  style={{ height: 240 }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">总经理与客户技术交流</h5>
-                </div>
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%811.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">总经理与客户技术交流</h5>
+              </div>
             </div>
             <div className="card col-lg-4">
               <img

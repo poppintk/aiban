@@ -8,7 +8,7 @@ export default () => {
         style={{
           display: 'flex',
           flexDirection: 'row',
-          minHeight:'130vh'
+          minHeight: '130vh',
         }}
         className="container"
       >
@@ -20,15 +20,12 @@ export default () => {
           <h5
             style={{
               textAlign: 'center',
-              width: '300px',
-              height: '30px',
               paddingTop: '2px',
               borderRadius: '25px',
               margin: '0 auto',
               marginTop: '10px',
-              boxShadow: '1px 1px 1px #9aa1ad',
-              textShadow: '1px 1px red',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              textShadow: '2px 2px 8px #FF0000',
             }}
           >
             爱邦正明——联系方式
@@ -36,22 +33,24 @@ export default () => {
           <br />
           <div className="row">
             <div className="col-lg-6">
-              <p style={{fontSize:'16px',lineHeight:'300%'}}>
-                地址： 		长沙市芙蓉区八一路59号省科技信息大楼10楼
-                <br/>
+              <p style={{ fontSize: '16px', lineHeight: '300%' }}>
+                地址： 长沙市芙蓉区八一路59号省科技信息大楼10楼
+                <br />
                 业务咨询电话：0086-183-9098-0101
-                <br/>
-                业务咨询邮箱：1317426180@QQ.com 
-                <br/>
-                公司网站：		<a href="http://www.hnabzm.com">http://www.hnabzm.com</a>
-                <br/>
-                传真：			0086-0731-8970-8467
-                <br/>
-                邮编：			410001
+                <br />
+                业务咨询邮箱：1317426180@QQ.com
+                <br />
+                公司网站：{' '}
+                <a href="http://www.hnabzm.com">http://www.hnabzm.com</a>
+                <br />
+                传真： 0086-0731-8970-8467
+                <br />
+                邮编： 410001
               </p>
             </div>
             <div className="col-lg-6">
-              <GoogleMap/>
+              Google Map Service
+              <GoogleMap />
             </div>
           </div>
         </div>

@@ -3,23 +3,23 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div style={{ display: 'flex', flexDirection: 'row' }} className="container">
+      <div
+        style={{ display: 'flex', flexDirection: 'row' }}
+        className="container"
+      >
         <div
           style={{ display: 'flex', flexDirection: 'column', width: '100%' }}
         >
           <h5
             style={{
               textAlign: 'center',
-              width: '300px',
-              height: '30px',
-              paddingTop: '2px',
+              paddingTop: '20px',
+              paddingBottom: '20px',
               borderRadius: '25px',
               margin: '0 auto',
-              marginTop: '20px',
-              marginBottom: '10px',
-              boxShadow: '1px 1px 1px #9aa1ad',
+              marginTop: '10px',
               fontWeight: 'bold',
-              textShadow: '1px 1px red'
+              textShadow: '2px 2px 8px #FF0000',
             }}
           >
             爱邦正明——新闻动态
