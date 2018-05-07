@@ -27,7 +27,7 @@ export default class Hover extends React.Component{
                 }
             >
                 <Link prefetch href="/about">
-                    <div style={{textShadow: '2px 2px white',textAlign:'center'}}>
+                    <div style={{textAlign:'center'}}>
                         <div>
                             {this.props.chineseTitle}
                         </div>
@@ -50,7 +50,7 @@ export default class Hover extends React.Component{
                         >
                             {this.props.submenu.map((info,k)=>{
                                 return(
-                                    <Link prefetch href={info.url}>
+                                    <Link key={k} prefetch href={info.url}>
                                     <div
                                         className="option"
                                         style={{

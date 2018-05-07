@@ -31,7 +31,7 @@ export default (props)=>{
                             textShadow: '2px 2px white',
                             width:'100%'}}>
                         <Link prefetch href="/culture">
-                            <div style={{backgroundColor:'#e3f2fd'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
                                 企业文化 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}
@@ -42,7 +42,7 @@ export default (props)=>{
                             </div>
                         </Link>
                         <Link prefetch href="/about">
-                            <div style={{backgroundColor:'#e3f2fd'}}  onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}}  onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
                                 关于我们 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}
@@ -53,7 +53,7 @@ export default (props)=>{
                             </div>
                         </Link>
                         <Link prefetch href="/honor">
-                            <div style={{backgroundColor:'#e3f2fd'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
                                 企业荣耀 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}

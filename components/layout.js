@@ -65,28 +65,29 @@ export default class Layout extends React.Component{
         }
         a {
           line-height:100%;
-          font-weight:bold;
         }
         .navbar-toggler-icon {
           color: black;
         }
       `}</style>
-      <div className="form-inline" style={{backgroundColor:'#646464',color:'white',fontSize:'12px'}}>
-        <marquee style={{
-          width:'calc(100vw - 300px)',
-          padding:'10px',
-          textShadow: '0px 3px 0px #b2a98f,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1)'
-        }}>爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天</marquee>
-        <div style={{width:'260px'}}>
-          <a href="/contact" style={{color:'white',paddingLeft:'10px'}}>联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          业务咨询电话：0086-183-9098-0101
-        </div>        
-
+      <div className="container-fluid" style={{backgroundColor:'#646464',color:'white',fontSize:'12px',position:'fixed',zIndex:'999'}}>
+        <div className="form-inline">
+          <marquee style={{
+            width:'calc(100vw - 330px)',
+            padding:'10px',
+            textShadow: '0px 3px 0px #b2a98f,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1)'
+          }}>爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天</marquee>
+          <div style={{width:'280px'}}>
+            <a href="/contact" style={{color:'white',paddingLeft:'10px'}}>联系我们</a>&nbsp;&nbsp;
+            业务咨询电话：0086-183-9098-0101
+          </div>        
+        </div>
       </div>
       <nav
-        className="navbar navbar-expand-lg navbar-light fixed-top"
+        className="navbar navbar-expand-lg navbar-light"
         style={{
           position: 'relative',
+          top:'40px',
           backgroundColor: '#e3f2fd',
           boxShadow:'1px 1px 3px grey'
         }}
@@ -191,7 +192,7 @@ export default class Layout extends React.Component{
           </ul>
         </div>
       </nav>
-      <Motion defaultStyle={{offset : 600}} style={{offset: spring(0)}}>
+      <Motion defaultStyle={{offset : 600}} style={{offset: spring(40)}}>
         {
           (style)=>{
             return(

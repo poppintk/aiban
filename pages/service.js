@@ -22,51 +22,19 @@ export default () => {
           <br />
           <div>
             <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs1.jpg"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%871.png"
               style={{ display: 'block', margin: '0 auto' }}
             />
             <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs2.jpg"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%872.png"
               style={{ display: 'block', margin: '0 auto' }}
             />
             <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs3.jpg"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%873.png"
               style={{ display: 'block', margin: '0 auto' }}
             />
             <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs4.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs5.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs6.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs7.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs8.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs9.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs10.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs11.jpg"
-              style={{ display: 'block', margin: '0 auto' }}
-            />
-            <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/jobs12.jpg"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E7%89%874.png"
               style={{ display: 'block', margin: '0 auto' }}
             />
           </div>

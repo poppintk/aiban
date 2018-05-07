@@ -27,7 +27,7 @@ export default () => {
             <div className="card col-lg-4">
                 <img
                   className="card-img-top"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hz15.jpg"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%811.png"
                   alt="Card image cap"
                   style={{ height: 240 }}
                 />
@@ -38,42 +38,7 @@ export default () => {
             <div className="card col-lg-4">
               <img
                 className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz1.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-              </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz6.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz7.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-              </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz8.jpg"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%812.png"
                 alt="Card image cap"
                 style={{ height: 240 }}
               />
@@ -84,31 +49,7 @@ export default () => {
             <div className="card col-lg-4">
               <img
                 className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz9.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">总经理和当地政府签约</h5>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz10.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">国际研讨交流会</h5>
-              </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz11.jpg"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%813.png"
                 alt="Card image cap"
                 style={{ height: 240 }}
               />
@@ -116,10 +57,34 @@ export default () => {
                 <h5 className="card-title">总经理与Mc Master 副校长交流</h5>
               </div>
             </div>
+          </div>
+          <div className="row">
             <div className="card col-lg-4">
               <img
                 className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz12.jpg"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%814.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">总经理和专家与客户交流</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%815.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">总经理与供应商技术交流</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%816.png"
                 alt="Card image cap"
                 style={{ height: 240 }}
               />
@@ -132,34 +97,69 @@ export default () => {
             <div className="card col-lg-4">
               <img
                 className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz13.jpg"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%817.png"
                 alt="Card image cap"
                 style={{ height: 240 }}
               />
               <div className="card-body">
-                <h5 className="card-title">总经理和专家与客户交流</h5>
+                <h5 className="card-title">公司专家在现场</h5>
               </div>
             </div>
             <div className="card col-lg-4">
               <img
                 className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz14.jpg"
-                alt="Card image cap"
-                style={{ height: 240 }}
-              />
-              <div className="card-body">
-                <h5 className="card-title">总经理和专家与客户交流</h5>
-              </div>
-            </div>
-            <div className="card col-lg-4">
-              <img
-                className="card-img-top"
-                src="https://aiban.oss-cn-beijing.aliyuncs.com/hz5.jpg"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%818.png"
                 alt="Card image cap"
                 style={{ height: 240 }}
               />
               <div className="card-body">
                 <h5 className="card-title">公司专家随加拿大总理访华</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%819.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">公司专家随加拿大总理访华</h5>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8110.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">公司专家</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8111.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">环保部门交流</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8112.png"
+                alt="Card image cap"
+                style={{ height: 240 }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">公司专家与环保部门交流</h5>
               </div>
             </div>
           </div>

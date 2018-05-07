@@ -25,10 +25,51 @@ export default () => {
           <br />
           ( 技术骨干介绍 )
         </h5>
+        <div className="row">
+            <div className="card col-lg-4">
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/team1.png"
+                  alt="Card image cap"
+                  style={{ height: 240,borderRadius:'25px' }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">公司技术骨干交流</h5>
+                </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/team2.png"
+                alt="Card image cap"
+                style={{ height: 240,borderRadius:'25px' }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">公司技术骨干交流</h5>
+              </div>
+            </div>
+            <div className="card col-lg-4">
+              <img
+                className="card-img-top"
+                src="https://aiban.oss-cn-beijing.aliyuncs.com/team3.png"
+                alt="Card image cap"
+                style={{ height: 240,borderRadius:'25px' }}
+              />
+              <div className="card-body">
+                <h5 className="card-title">公司技术骨干交流</h5>
+              </div>
+            </div>
+          </div>
         <p style={{ lineHeight: '200%', color: 'black', fontSize: '18px' }}>
           <strong style={{ color: 'red', fontSize: '25px' }}>1</strong>{' '}
           <strong>技术委员会主任：公司总经理――黎勃博士、教授</strong>
           <br />
+          <img
+            className="card-img-top"
+            src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%816.png"
+            alt="Card image cap"
+            style={{ height: 240,width:240,float:'right',borderRadius:'150px' }}
+          />
           2003年获美国耶鲁大学环境工程博士学位,现任湖南爱邦正明环保有限公司总经理。
           <br />
           2014年任湖南正明环境工程有限公司总经理
@@ -69,6 +110,12 @@ export default () => {
           <strong style={{ color: 'red', fontSize: '25px' }}>3</strong>{' '}
           <strong>技术委员会委员：公司技术部总裁----汤友志博士简介</strong>
           <br />
+          <img
+            className="card-img-top"
+            src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8112.png"
+            alt="Card image cap"
+            style={{ height: 240,width:240,float:'right',borderRadius:'150px' }}
+          />
           1987年毕业于加拿大 DALHOUSIE 大学，获化学博士学位(Ph.D. in Chemistry)
           <br />
           1987年至1989年任职加拿大环境部博士后访问科学家(Visiting Scientist)
