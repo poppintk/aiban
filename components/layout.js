@@ -243,7 +243,7 @@ export default class Layout extends React.Component {
             </ul>
           </div>
         </nav>
-        <Motion defaultStyle={{ offset: 600 }} style={{ offset: spring(40) }}>
+        <Motion defaultStyle={{ offset: 40 }} style={{ offset: spring(40) }}>
           {(style) => {
             return (
               <div
