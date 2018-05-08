@@ -30,7 +30,6 @@ export default class Hover extends React.Component{
                 <style>
                     {`          
                         .hvr-float-shadow {
-                            display: inline-block;
                             vertical-align: middle;
                             -webkit-transform: perspective(1px) translateZ(0);
                             transform: perspective(1px) translateZ(0);
@@ -72,7 +71,6 @@ export default class Hover extends React.Component{
                           }
                           /** bounce to right */
                           .hvr-bounce-to-right {
-                            display: inline-block;
                             vertical-align: middle;
                             -webkit-transform: perspective(1px) translateZ(0);
                             transform: perspective(1px) translateZ(0);
