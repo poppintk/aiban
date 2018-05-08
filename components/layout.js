@@ -107,9 +107,9 @@ export default class Layout extends React.Component {
           className="navbar navbar-expand-lg navbar-light"
           style={{
             position: 'relative',
-            top: '40px',
+            top: '38px',
             backgroundColor: '#e3f2fd',
-            boxShadow: '1px 1px 3px grey',
+            boxShadow: '1px 1px 3px grey'
           }}
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
