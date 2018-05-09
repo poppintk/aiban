@@ -132,7 +132,7 @@ export default () => {
               backgroundPosition: 'center center',
               boxShadow:'2px 2px 30px #c0cee5'
               }}>
-            <div className="card-header" style={{ borderBottom: 'none',fontWeight:'bold' }}>
+            <div className="card-header" style={{ borderBottom: 'none',fontWeight:'boldç' }}>
               公司簡介
             </div>
             <div className="card-body">
