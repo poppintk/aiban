@@ -19,7 +19,7 @@ export default class Layout extends React.Component {
   render() {
     const english_text = { fontSize: '9px' };
     return (
-      <div>
+      <div style={{ overflowX: 'hidden' }}>
         <Head>
           <title>湖南爱邦正明环保工程公司</title>
           <meta
