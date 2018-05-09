@@ -88,18 +88,17 @@ export default class Layout extends React.Component {
           <div className="form-inline">
             <marquee
               style={{
-                width: 'calc(100vw - 290px)',
+                width: 'calc(100vw - 260px)',
                 padding: '10px',
+                fontSize: '14px',
                 textShadow:
                   '0px 3px 0px #b2a98f,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1)',
               }}
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
-            <div style={{ width: '260px' }}>
-              <Link prefetch href="/contact">
-                <a style={{ color: 'white', paddingLeft: '10px' }}>联系我们</a>
-              </Link>&nbsp;&nbsp; 业务咨询电话：0086-183-9098-0101
+            <div style={{ width: '210px' }}>
+              业务咨询电话：0086-183-9098-0101
             </div>
           </div>
         </div>
