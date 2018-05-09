@@ -109,7 +109,7 @@ export default class Layout extends React.Component {
             position: 'relative',
             top: '38px',
             backgroundColor: '#e3f2fd',
-            boxShadow: '1px 1px 3px grey'
+            boxShadow: '-1px -1px 10px #c0cee5',
           }}
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
@@ -261,7 +261,7 @@ export default class Layout extends React.Component {
           style={{
             backgroundColor: '#e3f2fd',
             float: 'bottom',
-            boxShadow: '-1px -1px 3px grey',
+            boxShadow: '-1px -1px 10px #c0cee5',
           }}
         >
           <p className="float-right">

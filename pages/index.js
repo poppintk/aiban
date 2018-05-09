@@ -123,10 +123,6 @@ export default () => {
             </a>
           </div>
           {/* carouselE end ---  */}
-
-          <div>
-            <div />
-          </div>
           <div className="card mb-2" 
             style={{
                 backgroundImage:
@@ -134,8 +130,9 @@ export default () => {
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center center',
+              boxShadow:'2px 2px 30px #c0cee5'
               }}>
-            <div className="card-header" style={{ borderBottom: 'none' }}>
+            <div className="card-header" style={{ borderBottom: 'none',fontWeight:'bold' }}>
               公司簡介
             </div>
             <div className="card-body">
@@ -146,8 +143,8 @@ export default () => {
             </div>
           </div>
 
-          <div className="row mb-2" style={{ textAlign: 'center' }}>
-            <div className="card col-lg-2 offset-lg-1">
+          <div className="row" style={{ textAlign: 'center' }}>
+            <div className="card col-lg-2 offset-lg-1 mb-2" style={{border:'none'}}>
               <div className="card-body" 
                 style={{
                   backgroundImage:
@@ -155,13 +152,14 @@ export default () => {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center center',
+                  boxShadow:'2px 2px 20px #c0cee5'
                 }}
                 >
                 <h5 className="card-title">企业宗旨</h5>
                 <p className="card-text">让整个地球共享一片蓝天</p>
               </div>
             </div>
-            <div className="card col-lg-2">
+            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
               <div className="card-body"
                 style={{
                   backgroundImage:
@@ -169,12 +167,13 @@ export default () => {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center center',
+                  boxShadow:'2px 2px 20px #c0cee5'
                 }}>
                 <h5 className="card-title">经营理念</h5>
                 <p className="card-text">爱邦兴国 博爱明慧 爱邦正明 环保先锋</p>
               </div>
             </div>
-            <div className="card col-lg-2">
+            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
               <div className="card-body"
                 style={{
                   backgroundImage:
@@ -182,6 +181,7 @@ export default () => {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center center',
+                  boxShadow:'2px 2px 20px #c0cee5'
                 }}>
                 <h5 className="card-title">企业精神</h5>
                 <p className="card-text">
@@ -190,7 +190,7 @@ export default () => {
                 </p>
               </div>
             </div>
-            <div className="card col-lg-2">
+            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
               <div className="card-body"
                 style={{
                   backgroundImage:
@@ -198,12 +198,13 @@ export default () => {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center center',
+                  boxShadow:'2px 2px 20px #c0cee5'
                 }}>
                 <h5 className="card-title">服务理念</h5>
                 <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
               </div>
             </div>
-            <div className="card col-lg-2">
+            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
               <div className="card-body"
                 style={{
                   backgroundImage:
@@ -211,6 +212,7 @@ export default () => {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center center',
+                  boxShadow:'2px 2px 20px #c0cee5'
                 }}>
                 <h5 className="card-title">长期目标</h5>
                 <p className="card-text">科技先锋，行业典范</p>
