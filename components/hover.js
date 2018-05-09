@@ -1,34 +1,29 @@
-import {Motion, spring} from 'react-motion';
+import { Motion, spring } from 'react-motion';
 import React from 'react';
 import Link from 'next/link';
 
-export default class Hover extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            mouseIn: false
-        };
-    }
-    render(){
-        const english_text = {fontSize:'9px',textAlign:'center'};
-        return (
-            <div 
-                onMouseEnter={
-                    (e)=>{
-                        this.setState({mouseIn:true});
-                        // e.currentTarget.style.backgroundColor="gold";
-                    }
-                }
-                onMouseLeave={
-                    (e)=>{
-                        this.setState({mouseIn:false});
-                        // e.currentTarget.style.backgroundColor="red";
-                    }
-                }
-            >
-
-                <style>
-                    {`          
+export default class Hover extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      mouseIn: false,
+    };
+  }
+  render() {
+    const english_text = { fontSize: '9px', textAlign: 'center' };
+    return (
+      <div
+        onMouseEnter={(e) => {
+          this.setState({ mouseIn: true });
+          // e.currentTarget.style.backgroundColor="gold";
+        }}
+        onMouseLeave={(e) => {
+          this.setState({ mouseIn: false });
+          // e.currentTarget.style.backgroundColor="red";
+        }}
+      >
+        <style>
+          {`          
                         .hvr-float-shadow {
                             vertical-align: middle;
                             -webkit-transform: perspective(1px) translateZ(0);
@@ -52,7 +47,6 @@ export default class Hover extends React.Component{
                             opacity: 0;
                             background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
                             background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-                            /* W3C */
                             -webkit-transition-duration: 0.3s;
                             transition-duration: 0.3s;
                             -webkit-transition-property: transform, opacity;
@@ -67,8 +61,7 @@ export default class Hover extends React.Component{
                             opacity: 1;
                             -webkit-transform: translateY(5px);
                             transform: translateY(5px);
-                            /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-                          }
+                        
                           /** bounce to right */
                           .hvr-bounce-to-right {
                             vertical-align: middle;
@@ -112,58 +105,65 @@ export default class Hover extends React.Component{
                           }
                           
                     `}
-                </style>
-                <Link prefetch href="/about">
-                    <div style={{
-                            textAlign:'center',
-                            fontWeight:'bold',
-                            borderRadius:'5px',
-                            height:'40px'}} 
-                        className="hvr-float-shadow ">
-                        <div style={{paddingTop:'5px'}}>
-                            {this.props.chineseTitle}
-                        </div>
-                        <div style={english_text}>{this.props.englishTitle}</div>
+        </style>
+        <Link prefetch href="/about">
+          <div
+            style={{
+              textAlign: 'center',
+              fontWeight: 'bold',
+              borderRadius: '5px',
+              height: '40px',
+            }}
+            className="hvr-float-shadow "
+          >
+            <div style={{ paddingTop: '5px' }}>{this.props.chineseTitle}</div>
+            <div style={english_text}>{this.props.englishTitle}</div>
+          </div>
+        </Link>
+        <Motion
+          defaultStyle={{ height: 0 }}
+          style={{
+            height: spring(
+              this.state.mouseIn ? this.props.submenu.length * 38 : 0
+            ),
+          }}
+        >
+          {(style) => (
+            <div
+              style={{
+                position: 'absolute',
+                backgroundColor: 'rgb(188, 229, 255)',
+                minWidth: '90px',
+                marginTop: '10px',
+                boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
+                zIndex: 1,
+                opacity: '0.8',
+                height: style.height,
+              }}
+              className="d-none d-lg-block"
+            >
+              {this.props.submenu.map((info, k) => {
+                return (
+                  <Link key={k} prefetch href={info.url}>
+                    <div
+                      className="hvr-bounce-to-right"
+                      style={{
+                        color: 'black',
+                        fontWeight: 'bold',
+                        padding: '12px 16px',
+                        display: style.height > 100 ? 'block' : 'none',
+                      }}
+                      key={k}
+                    >
+                      {info.name}
                     </div>
-                </Link>
-                <Motion defaultStyle={{height : 0}} style={{height: spring(this.state.mouseIn? this.props.submenu.length * 38 : 0)}}>
-                    {style => (
-                        <div 
-                            style={{
-                                position: 'absolute',
-                                backgroundColor: 'rgb(188, 229, 255)',
-                                minWidth: '90px',
-                                marginTop:'10px',
-                                boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
-                                zIndex: 1,
-                                opacity:'0.8',
-                                height:style.height
-                            }}
-                            className="d-none d-lg-block"
-                        >
-                            {this.props.submenu.map((info,k)=>{
-                                return(
-                                    <Link key={k} prefetch href={info.url}>
-                                    <div
-                                        className="hvr-bounce-to-right"
-                                        style={{
-                                            color: 'black',
-                                            fontWeight:'bold',
-                                            padding: '12px 16px',
-                                            display: style.height > 100 ? 'block':'none'
-                                        }}
-                                        key={k}
-                                    >
-                                        {info.name}
-                                    </div>
-                                    </Link>
-                                );
-                            })}
-                        </div>
-                    )}
-                </Motion>
+                  </Link>
+                );
+              })}
             </div>
-            
-        );
-    }
+          )}
+        </Motion>
+      </div>
+    );
+  }
 }

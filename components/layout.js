@@ -97,9 +97,11 @@ export default class Layout extends React.Component {
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
-            <div style={{ width: '210px', color: 'white' }}>
-              业务咨询电话：0086-183-9098-0101
-            </div>
+            <span className="glyphicon glyphicon-phone-alt" aria-hidden="true">
+              <a style={{ color: 'white' }} href="tel:0086-183-9098-0101">
+                0086-183-9098-0101
+              </a>
+            </span>
           </div>
         </div>
         <nav
