@@ -67,7 +67,6 @@ export default class Layout extends React.Component {
         <style jsx>{`
           * {
             font-family: 'STFangsong';
-            font-size:14px;
           }
           a {
             line-height: 100%;
