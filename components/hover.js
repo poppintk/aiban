@@ -15,11 +15,9 @@ export default class Hover extends React.Component {
       <div
         onMouseEnter={(e) => {
           this.setState({ mouseIn: true });
-          // e.currentTarget.style.backgroundColor="gold";
         }}
         onMouseLeave={(e) => {
           this.setState({ mouseIn: false });
-          // e.currentTarget.style.backgroundColor="red";
         }}
       >
         <style>
@@ -61,7 +59,7 @@ export default class Hover extends React.Component {
                             opacity: 1;
                             -webkit-transform: translateY(5px);
                             transform: translateY(5px);
-                        
+                          }
                           /** bounce to right */
                           .hvr-bounce-to-right {
                             vertical-align: middle;
@@ -82,7 +80,7 @@ export default class Hover extends React.Component {
                             left: 0;
                             right: 0;
                             bottom: 0;
-                            background: #2098D1;
+                            background: #a0ffb8;
                             -webkit-transform: scaleX(0);
                             transform: scaleX(0);
                             -webkit-transform-origin: 0 50%;

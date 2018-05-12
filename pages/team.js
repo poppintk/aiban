@@ -4,6 +4,13 @@ export default () => {
   return (
     <Layout>
       <div className="container" style={{ paddingTop: '10px' }}>
+        <style jsx>
+        {`
+          .card-title{
+            font-size:14px;
+          }
+        `}
+        </style>
         <h5
           style={{
             textAlign: 'center',
@@ -18,7 +25,7 @@ export default () => {
           爱邦正明——领军人才
         </h5>
         <br />
-        <h5 style={{ textAlign: 'center' }}>
+        <h5 style={{ textAlign: 'center',fontSize:'14px'}}>
           湖南爱邦正明环保有限公司
           <br />
           ( 技术骨干介绍 )

@@ -123,14 +123,14 @@ export default () => {
             </a>
           </div>
           {/* carouselE end ---  */}
-          <div className="card mb-2" 
+          <div className="card" 
             style={{
                 backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky_banner.jpg)',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center center',
-              boxShadow:'2px 2px 30px #c0cee5'
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company.jpeg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'2px 2px 30px #c0cee5'
               }}>
             <div className="card-header" style={{ borderBottom: 'none',fontWeight:'boldç' }}>
               公司簡介
@@ -142,47 +142,41 @@ export default () => {
               </p>
             </div>
           </div>
-
-          <div className="row" style={{ textAlign: 'center' }}>
-            <div className="card col-lg-2 offset-lg-1 mb-2" style={{border:'none'}}>
-              <div className="card-body" 
-                style={{
-                  backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center center',
-                  boxShadow:'2px 2px 20px #c0cee5'
-                }}
-                >
+          <div style={{
+            backgroundImage:
+            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company6.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 20px #c0cee5'
+          }}>
+          <div className="row" style={{ textAlign: 'center',paddingTop:'5px' }}>
+            <div className="card col-lg-2 offset-lg-1 mb-2"
+              style={{
+                border:'none',
+                backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'0px 0px 50px white'
+              }}>
+              <div className="card-body">
                 <h5 className="card-title">企业宗旨</h5>
                 <p className="card-text">让整个地球共享一片蓝天</p>
               </div>
             </div>
-            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
-              <div className="card-body"
-                style={{
-                  backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center center',
-                  boxShadow:'2px 2px 20px #c0cee5'
-                }}>
-                <h5 className="card-title">经营理念</h5>
-                <p className="card-text">爱邦兴国 博爱明慧 爱邦正明 环保先锋</p>
-              </div>
-            </div>
-            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
-              <div className="card-body"
-                style={{
-                  backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center center',
-                  boxShadow:'2px 2px 20px #c0cee5'
-                }}>
+            <div className="card col-lg-2 mb-2 offset-lg-2"
+              style={{
+                border:'none',
+                backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'0px 0px 50px white'
+              }}>
+              <div className="card-body">
                 <h5 className="card-title">企业精神</h5>
                 <p className="card-text">
                   {' '}
@@ -190,34 +184,54 @@ export default () => {
                 </p>
               </div>
             </div>
-            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
-              <div className="card-body"
-                style={{
-                  backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value4.jpg)',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center center',
-                  boxShadow:'2px 2px 20px #c0cee5'
-                }}>
-                <h5 className="card-title">服务理念</h5>
-                <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
-              </div>
-            </div>
-            <div className="card col-lg-2 mb-2" style={{border:'none'}}>
-              <div className="card-body"
-                style={{
-                  backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value5.jpg)',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center center',
-                  boxShadow:'2px 2px 20px #c0cee5'
-                }}>
+            <div className="card col-lg-2 mb-2 offset-lg-2"
+              style={{
+                border:'none',
+                backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value5.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'0px 0px 50px white'
+              }}>
+              <div className="card-body">
                 <h5 className="card-title">长期目标</h5>
                 <p className="card-text">科技先锋，行业典范</p>
               </div>
             </div>
+          </div>
+          <div className="row" style={{ textAlign: 'center' }}>
+            <div className="card col-lg-2 mb-2 offset-lg-3"
+              style={{
+                border:'none',
+                backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'0px 0px 50px white'
+              }}>
+              <div className="card-body">
+                <h5 className="card-title">经营理念</h5>
+                <p className="card-text">爱邦兴国 博爱明慧 爱邦正明 环保先锋</p>
+              </div>
+            </div>
+            <div className="card col-lg-2 mb-2 offset-lg-2"
+              style={{
+                border:'none',
+                backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value4.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow:'0px 0px 50px white'
+              }}>
+              <div className="card-body">
+                <h5 className="card-title">服务理念</h5>
+                <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
+              </div>
+            </div>
+          </div>
           </div>
         </main>
       </Layout>

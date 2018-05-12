@@ -33,7 +33,7 @@ export default () => {
           <br />
           <div className="row">
             <div className="col-lg-6">
-              <p style={{ fontSize: '16px', lineHeight: '300%' }}>
+              <p style={{ fontSize: '14px', lineHeight: '300%' }}>
                 地址： 长沙市芙蓉区八一路59号省科技信息大楼10楼
                 <br />
                 业务咨询电话：0086-183-9098-0101

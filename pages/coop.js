@@ -4,6 +4,13 @@ export default () => {
   return (
     <Layout>
       <div className="container" style={{ paddingTop: '10px' }}>
+        <style jsx>
+        {`
+          .card-title{
+            font-size: 14px;
+          }
+        `}
+        </style>
         <h5
           style={{
             textAlign: 'center',

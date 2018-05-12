@@ -112,7 +112,7 @@ export default class Layout extends React.Component {
           style={{
             position: 'relative',
             top: '38px',
-            backgroundColor: '#e3f2fd',
+            backgroundColor: '#edf3ff',
             boxShadow: '-1px -1px 10px #c0cee5',
           }}
         >
@@ -263,7 +263,7 @@ export default class Layout extends React.Component {
         <footer
           className="container-fluid"
           style={{
-            backgroundColor: '#e3f2fd',
+            backgroundColor: '#edf3ff',
             float: 'bottom',
             boxShadow: '-1px -1px 10px #c0cee5',
           }}

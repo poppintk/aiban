@@ -9,17 +9,68 @@ export default (props)=>{
                 return(
                     <div 
                         style={{
-                            boxShadow:'1px 1px 4px grey',
-                            backgroundColor:'#e3f2fd',
+                            backgroundColor:'#edf3ff',
                             marginTop:"20px",
                             paddingBottom:'40px',
-                            borderRadius:'10px'
+                            borderRadius:'10px',
+                            backgroundImage:
+                            'url(https://aiban.oss-cn-beijing.aliyuncs.com/submenu.jpg)',
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center center',
+                            boxShadow:'0px 0px 50px white'
+
                         }}>
+                        <style jsx>
+                            {`
+                                /** bounce to right */
+                                .hvr-bounce-to-right {
+                                  vertical-align: middle;
+                                  -webkit-transform: perspective(1px) translateZ(0);
+                                  transform: perspective(1px) translateZ(0);
+                                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                                  position: relative;
+                                  -webkit-transition-property: color;
+                                  transition-property: color;
+                                  -webkit-transition-duration: 0.5s;
+                                  transition-duration: 0.5s;
+                                }
+                                .hvr-bounce-to-right:before {
+                                  content: "";
+                                  position: absolute;
+                                  z-index: -1;
+                                  top: 0;
+                                  left: 0;
+                                  right: 0;
+                                  bottom: 0;
+                                  background: #a0ffb8;
+                                  -webkit-transform: scaleX(0);
+                                  transform: scaleX(0);
+                                  -webkit-transform-origin: 0 50%;
+                                  transform-origin: 0 50%;
+                                  -webkit-transition-property: transform;
+                                  transition-property: transform;
+                                  -webkit-transition-duration: 0.5s;
+                                  transition-duration: 0.5s;
+                                  -webkit-transition-timing-function: ease-out;
+                                  transition-timing-function: ease-out;
+                                }
+                                .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+                                  color: black;
+                                }
+                                .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+                                  -webkit-transform: scaleX(1);
+                                  transform: scaleX(1);
+                                  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                                  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                                }
+                            `}
+                        </style>
                         <div 
                             style={{
                                 textAlign:'center',
                                 fontWeight:'bold',
-                                textShadow: '2px 2px white',
+
                                 lineHeight:'150%',
                                 paddingTop:'10px'}}>
                             {props.title}
@@ -28,43 +79,38 @@ export default (props)=>{
                         <hr/>
                         <div style={{
                             textAlign:'center',
-                            textShadow: '2px 2px white',
                             width:'100%'}}>
                         <Link prefetch href="/culture">
-                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{cursor:'pointer'}} className="hvr-bounce-to-right">
                                 企业文化 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}
-                                    onMouseEnter={(e)=>{onMouseIn2(e)}} onMouseOut={(e)=>onMouseOut2(e)}
                                 >
                                     CULTURE
                                 </span>
                             </div>
                         </Link>
                         <Link prefetch href="/about">
-                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}}  onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{cursor:'pointer'}} className="hvr-bounce-to-right">
                                 关于我们 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}
-                                    onMouseEnter={(e)=>{onMouseIn2(e)}} onMouseOut={(e)=>onMouseOut2(e)}
                                 >
                                     ABOUT US
                                 </span>
                             </div>
                         </Link>
                         <Link prefetch href="/honor">
-                            <div style={{backgroundColor:'#e3f2fd',cursor:'pointer'}} onMouseEnter={(e)=>{onMouseIn(e)}} onMouseOut={(e)=>onMouseOut(e)}>
+                            <div style={{cursor:'pointer'}} className="hvr-bounce-to-right">
                                 企业荣耀 &nbsp;
                                 <span 
                                     style={{fontSize:'10px'}}
-                                    onMouseEnter={(e)=>{onMouseIn2(e)}} onMouseOut={(e)=>onMouseOut2(e)}
                                 >
                                     HONOR
                                 </span>
                             </div>
                         </Link>
                         </div>
-                        
                     </div>
                 );
             }
@@ -73,21 +119,4 @@ export default (props)=>{
         </Motion>
         
     );
-}
-
-const onMouseIn2 = (e)=>{
-
-    e.currentTarget.parentNode.style.backgroundColor="gold";
-}
-const onMouseOut2 = (e)=>{
-    e.currentTarget.parentNode.style.backgroundColor = "#e3f2fd";
-}
-
-
-const onMouseIn = (e)=>{
-    e.currentTarget.style.backgroundColor="gold";
-}
-
-const onMouseOut = (e)=>{
-    e.currentTarget.style.backgroundColor = "#e3f2fd";
 }
