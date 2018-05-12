@@ -78,11 +78,17 @@ export default class Layout extends React.Component {
         <div
           className="container-fluid"
           style={{
-            backgroundColor: 'rgb(247, 250, 255,0.9)',
+            backgroundColor: 'rgb(247, 250, 255)',
             color: 'black',
             fontSize: '12px',
             position: 'fixed',
             zIndex: '999',
+            backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company.jpeg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 30px #c0cee5'
   
           }}
         >
