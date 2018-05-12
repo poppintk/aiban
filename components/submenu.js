@@ -70,8 +70,9 @@ export default (props)=>{
                             style={{
                                 textAlign:'center',
                                 fontWeight:'bold',
-
                                 lineHeight:'150%',
+                                color:'green',
+                                textShadow: '2px 2px 8px green',
                                 paddingTop:'10px'}}>
                             {props.title}
                             <div style={{fontSize:'11px'}}>{props.englishTitle}</div>

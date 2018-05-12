@@ -3,37 +3,47 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container">
-        <h5
-          style={{
-            textAlign: 'center',
-            paddingTop: '20px',
-            paddingBottom: '20px',
-            borderRadius: '25px',
-            margin: '0 auto',
-            marginTop: '10px',
-            fontWeight: 'bold',
-            textShadow: '2px 2px 8px #FF0000',
-          }}
-        >
-          爱邦正明——技术研发
-        </h5>
-        <div className="list-group">
-          {data.map((d, k) => {
-            return (
-              <a
-                className="list-group-item list-group-item-action flex-column align-items-start"
-                key={k}
-              >
-                <div className="d-flex w-100 justify-content-between">
-                  <h5 style={{ fontSize: '14px', fontWeight: 'bold' }}>
-                    {d.title}
-                  </h5>
-                </div>
-                <p style={{ fontSize: '14px' }}>{d.description}</p>
-              </a>
-            );
-          })}
+      <div className="container-fluid"
+        style={{
+          backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 30px #c0cee5'
+        }}>
+        <div className="container" >
+          <h5
+            style={{
+              textAlign: 'center',
+              paddingTop: '20px',
+              paddingBottom: '20px',
+              margin: '0 auto',
+              marginTop: '10px',
+              fontWeight: 'bold',
+              color:'green',
+              textShadow: '2px 2px 8px green',
+            }}
+          >
+            爱邦正明——技术研发
+          </h5>
+          <div className="list-group">
+            {data.map((d, k) => {
+              return (
+                <a
+                  className="list-group-item list-group-item-action flex-column align-items-start"
+                  key={k}
+                >
+                  <div className="d-flex w-100 justify-content-between">
+                    <h5 style={{ fontSize: '14px', fontWeight: 'bold' }}>
+                      {d.title}
+                    </h5>
+                  </div>
+                  <p style={{ fontSize: '14px' }}>{d.description}</p>
+                </a>
+              );
+            })}
+          </div>
         </div>
       </div>
     </Layout>

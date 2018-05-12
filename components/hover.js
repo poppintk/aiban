@@ -80,7 +80,7 @@ export default class Hover extends React.Component {
                             left: 0;
                             right: 0;
                             bottom: 0;
-                            background: #a0ffb8;
+                            background: #bfefd5;
                             -webkit-transform: scaleX(0);
                             transform: scaleX(0);
                             -webkit-transform-origin: 0 50%;

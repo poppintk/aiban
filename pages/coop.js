@@ -3,6 +3,16 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
+      <div 
+        className="container-fluid"
+        style={{
+          backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 30px #c0cee5'
+        }}>
       <div className="container" style={{ paddingTop: '10px' }}>
         <style jsx>
         {`
@@ -19,7 +29,8 @@ export default () => {
             margin: '0 auto',
             marginTop: '10px',
             fontWeight: 'bold',
-            textShadow: '2px 2px 8px #FF0000',
+            color:'green',
+            textShadow: '2px 2px 8px green',
           }}
         >
           合作交流——精益求精
@@ -168,6 +179,7 @@ export default () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </Layout>
   );
