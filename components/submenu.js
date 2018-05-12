@@ -43,7 +43,7 @@ export default (props)=>{
                                   left: 0;
                                   right: 0;
                                   bottom: 0;
-                                  background: #a0ffb8;
+                                  background: purple;
                                   -webkit-transform: scaleX(0);
                                   transform: scaleX(0);
                                   -webkit-transform-origin: 0 50%;
@@ -56,7 +56,7 @@ export default (props)=>{
                                   transition-timing-function: ease-out;
                                 }
                                 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-                                  color: black;
+                                  color: white;
                                 }
                                 .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
                                   -webkit-transform: scaleX(1);

@@ -78,17 +78,12 @@ export default class Layout extends React.Component {
         <div
           className="container-fluid"
           style={{
-            backgroundColor: '#c1c5cc',
+            backgroundColor: 'rgb(247, 250, 255,0.9)',
             color: 'black',
             fontSize: '12px',
             position: 'fixed',
             zIndex: '999',
-            backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
-            boxShadow:'5px 5px 30px white'
+  
           }}
         >
           <div className="form-inline">
@@ -102,9 +97,9 @@ export default class Layout extends React.Component {
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
-            <div style={{ width: '210px',color: 'yellow' }}>
+            <div style={{ width: '210px',color: 'black' }}>
               业务咨询电话：<a
-                style={{ color: 'yellow',textShadow:'0px 0px 10px white' }}
+                style={{ color: 'black',textShadow:'0px 0px 10px white' }}
                 href="tel:0086-183-9098-0101"
               >
                 0086-183-9098-0101
@@ -118,7 +113,12 @@ export default class Layout extends React.Component {
             position: 'relative',
             top: '38px',
             backgroundColor: '#edf3ff',
-            boxShadow: '-1px -1px 10px #c0cee5',
+            backgroundImage:
+            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 20px #c0cee5'
           }}
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
@@ -267,9 +267,15 @@ export default class Layout extends React.Component {
         <footer
           className="container-fluid"
           style={{
-            backgroundColor: '#edf3ff',
+            backgroundColor: 'rgb(247, 250, 255,0.9)',
             float: 'bottom',
             boxShadow: '-1px -1px 10px #c0cee5',
+            backgroundImage:
+            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'2px 2px 20px #c0cee5'
           }}
         >
           <p className="float-right">
