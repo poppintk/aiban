@@ -83,6 +83,12 @@ export default class Layout extends React.Component {
             fontSize: '12px',
             position: 'fixed',
             zIndex: '999',
+            backgroundImage:
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow:'5px 5px 30px white'
           }}
         >
           <div className="form-inline">
@@ -96,9 +102,9 @@ export default class Layout extends React.Component {
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
-            <div style={{ width: '210px' }}>
+            <div style={{ width: '210px',color: 'yellow' }}>
               业务咨询电话：<a
-                style={{ color: 'black' }}
+                style={{ color: 'yellow',textShadow:'0px 0px 10px white' }}
                 href="tel:0086-183-9098-0101"
               >
                 0086-183-9098-0101
