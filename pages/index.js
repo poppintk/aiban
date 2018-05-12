@@ -154,7 +154,7 @@ export default () => {
               style={{
                 border:'none',
                 backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
@@ -187,7 +187,7 @@ export default () => {
               style={{
                 border:'none',
                 backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value5.jpg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
@@ -204,7 +204,7 @@ export default () => {
               style={{
                 border:'none',
                 backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
@@ -219,7 +219,7 @@ export default () => {
               style={{
                 border:'none',
                 backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value4.jpg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
