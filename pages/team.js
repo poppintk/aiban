@@ -74,8 +74,8 @@ export default () => {
             src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%816.png"
             alt="Card image cap"
             style={{
-              height: 240,
-              width: 240,
+              height: 150,
+              width: 150,
               float: 'right',
               borderRadius: '150px',
             }}
@@ -124,8 +124,8 @@ export default () => {
             src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8112.png"
             alt="Card image cap"
             style={{
-              height: 240,
-              width: 240,
+              height: 150,
+              width: 150,
               float: 'right',
               borderRadius: '150px',
             }}

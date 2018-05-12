@@ -66,7 +66,8 @@ export default class Layout extends React.Component {
         </Head>
         <style jsx>{`
           * {
-            font-family: 'Microsoft Yahei';
+            font-family: 'STFangsong';
+            font-size:14px;
           }
           a {
             line-height: 100%;
@@ -78,8 +79,8 @@ export default class Layout extends React.Component {
         <div
           className="container-fluid"
           style={{
-            backgroundColor: '#646464',
-            color: 'white',
+            backgroundColor: '#c1c5cc',
+            color: 'black',
             fontSize: '12px',
             position: 'fixed',
             zIndex: '999',
@@ -91,15 +92,14 @@ export default class Layout extends React.Component {
                 width: 'calc(100vw - 260px)',
                 padding: '10px',
                 fontSize: '14px',
-                textShadow:
-                  '0px 3px 0px #b2a98f,0px 14px 10px rgba(0,0,0,0.15),0px 24px 2px rgba(0,0,0,0.1),0px 34px 30px rgba(0,0,0,0.1)',
+                color:'black'
               }}
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
             <div style={{ width: '210px' }}>
               业务咨询电话：<a
-                style={{ color: 'white' }}
+                style={{ color: 'black' }}
                 href="tel:0086-183-9098-0101"
               >
                 0086-183-9098-0101
@@ -132,8 +132,7 @@ export default class Layout extends React.Component {
                 marginLeft: '10px',
                 lineHeight: '100%',
                 marginTop: '5px',
-                color: 'black',
-                textShadow: '2px 2px white',
+                color: 'black'
               }}
             >
               爱邦正明环保
