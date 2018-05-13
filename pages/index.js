@@ -6,7 +6,7 @@ const data = [
     desc: '',
   },
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home2.jpg',
+    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg',
     desc: '',
   },
   {
@@ -94,7 +94,7 @@ export default () => {
         `}
       </style>
       <Layout>
-        <main role="main">
+        <main role="main" style={{margin:'-2px'}}>
           {/* carousel start  */}
           <div
             id="carouselExampleCaptions"
@@ -123,114 +123,106 @@ export default () => {
             </a>
           </div>
           {/* carouselE end ---  */}
-          <div className="card" 
+          <div
             style={{
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company.jpeg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'2px 2px 30px #c0cee5'
-              }}>
-            <marquee>
-            <div className="card-body">
-              <p className="card-text">
-                湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
-                公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
-              </p>
-            </div>
-            </marquee>
-          </div>
-          <div style={{
-            backgroundImage:
-            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company6.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
-            boxShadow:'2px 2px 20px #c0cee5'
-          }}>
-          <div className="row" style={{ textAlign: 'center',paddingTop:'5px' }}>
-            <div className="card col-lg-2 offset-lg-1 mb-2"
-              style={{
-                border:'none',
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'0px 0px 50px white'
-              }}>
+              backgroundImage:
+              'url(https://aiban.oss-cn-beijing.aliyuncs.com/company.jpeg)',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center center'
+            }}>
+            <div>
               <div className="card-body">
-                <h5 className="card-title">企业宗旨</h5>
-                <p className="card-text">让整个地球共享一片蓝天</p>
-              </div>
-            </div>
-            <div className="card col-lg-2 mb-2 offset-lg-2"
-              style={{
-                border:'none',
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'0px 0px 50px white'
-              }}>
-              <div className="card-body">
-                <h5 className="card-title">企业精神</h5>
                 <p className="card-text">
-                  {' '}
-                  以人为本，激扬进取，自强不息，同甘共苦
+                  湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
+                  公司拥有数十项核心技术和多项专利，其专利技术应用在遍及17省市用户的脱硫，脱销和除尘工程中，工程合格率达100%，达标排放率100%。
                 </p>
               </div>
             </div>
-            <div className="card col-lg-2 mb-2 offset-lg-2"
-              style={{
-                border:'none',
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'0px 0px 50px white'
-              }}>
-              <div className="card-body">
-                <h5 className="card-title">长期目标</h5>
-                <p className="card-text">科技先锋，行业典范</p>
+            <div>
+            <div className="row" style={{ textAlign: 'center',paddingTop:'5px' }}>
+              <div className="card col-lg-2 offset-lg-1 mb-2"
+                style={{
+                  border:'none',
+                  backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  boxShadow:'0px 0px 50px white'
+                }}>
+                <div className="card-body">
+                  <h5 className="card-title">企业宗旨</h5>
+                  <p className="card-text">让整个地球共享一片蓝天</p>
+                </div>
+              </div>
+              <div className="card col-lg-2 mb-2 offset-lg-2"
+                style={{
+                  border:'none',
+                  backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  boxShadow:'0px 0px 50px white'
+                }}>
+                <div className="card-body">
+                  <h5 className="card-title">企业精神</h5>
+                  <p className="card-text">
+                    {' '}
+                    以人为本，激扬进取，自强不息，同甘共苦
+                  </p>
+                </div>
+              </div>
+              <div className="card col-lg-2 mb-2 offset-lg-2"
+                style={{
+                  border:'none',
+                  backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  boxShadow:'0px 0px 50px white'
+                }}>
+                <div className="card-body">
+                  <h5 className="card-title">长期目标</h5>
+                  <p className="card-text">科技先锋，行业典范</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="row" style={{ textAlign: 'center' }}>
-            <div className="card col-lg-2 mb-2 offset-lg-3"
-              style={{
-                border:'none',
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'0px 0px 50px white'
-              }}>
-              <div className="card-body">
-                <h5 className="card-title">经营理念</h5>
-                <p className="card-text">爱邦兴国 博爱明慧 爱邦正明 环保先锋</p>
+            <div className="row" style={{ textAlign: 'center',paddingBottom:'10px' }}>
+              <div className="card col-lg-2 mb-2 offset-lg-3"
+                style={{
+                  border:'none',
+                  backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value4.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  boxShadow:'0px 0px 50px white'
+                }}>
+                <div className="card-body">
+                  <h5 className="card-title">经营理念</h5>
+                  <p className="card-text">爱邦兴国 博爱明慧 爱邦正明 环保先锋</p>
+                </div>
+              </div>
+              <div className="card col-lg-2 mb-2 offset-lg-2"
+                style={{
+                  border:'none',
+                  backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value5.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  boxShadow:'0px 0px 50px white'
+                }}>
+                <div className="card-body">
+                  <h5 className="card-title">服务理念</h5>
+                  <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
+                </div>
               </div>
             </div>
-            <div className="card col-lg-2 mb-2 offset-lg-2"
-              style={{
-                border:'none',
-                backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
-                boxShadow:'0px 0px 50px white'
-              }}>
-              <div className="card-body">
-                <h5 className="card-title">服务理念</h5>
-                <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
-              </div>
             </div>
-          </div>
           </div>
         </main>
       </Layout>

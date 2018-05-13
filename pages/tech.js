@@ -5,12 +5,13 @@ export default () => {
     <Layout>
       <div className="container-fluid"
         style={{
-          backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
-            boxShadow:'2px 2px 30px #c0cee5'
+          // backgroundImage:
+          //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          //   backgroundPosition: 'center center',
+          //   boxShadow:'2px 2px 30px #c0cee5',
+            marginTop:'-4px'
         }}>
         <div className="container" >
           <h5
@@ -19,7 +20,6 @@ export default () => {
               paddingTop: '20px',
               paddingBottom: '20px',
               margin: '0 auto',
-              marginTop: '10px',
               fontWeight: 'bold',
               color:'green',
               textShadow: '2px 2px 8px green',

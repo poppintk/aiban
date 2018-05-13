@@ -6,14 +6,15 @@ export default () => {
       <div 
         className="container-fluid"
         style={{
-          backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
-            boxShadow:'2px 2px 30px #c0cee5'
+          // backgroundImage:
+          //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          //   backgroundPosition: 'center center',
+          //   boxShadow:'2px 2px 30px #c0cee5',
+            marginTop:'-4px'
         }}>
-        <div className="container" style={{ paddingTop: '10px' }}>
+        <div className="container" style={{ paddingTop: '10px',paddingBottom:'20px' }}>
           <style jsx>
           {`
             .card-title{
@@ -42,7 +43,7 @@ export default () => {
             ( 技术骨干介绍 )
           </h5>
           <div className="row">
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team1.png"
@@ -53,7 +54,7 @@ export default () => {
                 <h5 className="card-title">公司技术骨干交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team2.png"
@@ -64,7 +65,7 @@ export default () => {
                 <h5 className="card-title">公司技术骨干交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team3.png"

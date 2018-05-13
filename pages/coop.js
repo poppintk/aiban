@@ -6,12 +6,13 @@ export default () => {
       <div 
         className="container-fluid"
         style={{
-          backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
-            boxShadow:'2px 2px 30px #c0cee5'
+          // backgroundImage:
+          //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
+          //   backgroundSize: 'cover',
+          //   backgroundRepeat: 'no-repeat',
+          //   backgroundPosition: 'center center',
+          //   boxShadow:'2px 2px 30px #c0cee5',
+            marginTop:'-4px'
         }}>
       <div className="container" style={{ paddingTop: '10px' }}>
         <style jsx>
@@ -39,7 +40,7 @@ export default () => {
 
         <div>
           <div className="row">
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%811.png"
@@ -50,7 +51,7 @@ export default () => {
                 <h5 className="card-title">总经理与客户技术交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%812.png"
@@ -61,7 +62,7 @@ export default () => {
                 <h5 className="card-title">总经理和当地政府签约</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%813.png"
@@ -74,7 +75,7 @@ export default () => {
             </div>
           </div>
           <div className="row">
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%814.png"
@@ -85,7 +86,7 @@ export default () => {
                 <h5 className="card-title">总经理和专家与客户交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%815.png"
@@ -96,7 +97,7 @@ export default () => {
                 <h5 className="card-title">总经理与供应商技术交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%816.png"
@@ -109,7 +110,7 @@ export default () => {
             </div>
           </div>
           <div className="row">
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%817.png"
@@ -120,7 +121,7 @@ export default () => {
                 <h5 className="card-title">公司专家在现场</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%818.png"
@@ -131,7 +132,7 @@ export default () => {
                 <h5 className="card-title">公司专家随加拿大总理访华</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%819.png"
@@ -144,7 +145,7 @@ export default () => {
             </div>
           </div>
           <div className="row">
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8110.png"
@@ -155,7 +156,7 @@ export default () => {
                 <h5 className="card-title">公司专家</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8111.png"
@@ -166,7 +167,7 @@ export default () => {
                 <h5 className="card-title">环保部门交流</h5>
               </div>
             </div>
-            <div className="card col-lg-4">
+            <div className="col-lg-4">
               <img
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%8112.png"

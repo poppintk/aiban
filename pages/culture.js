@@ -10,6 +10,7 @@ export default () => {
           textAlign: 'left',
           lineHeight: '35px',
           minHeight:'100vh',
+          marginTop:'-3px',
           backgroundImage:'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

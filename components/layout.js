@@ -66,7 +66,7 @@ export default class Layout extends React.Component {
         </Head>
         <style jsx>{`
           * {
-            font-family: 'STFangsong';
+            font-family: '宋体;
           }
           a {
             line-height: 100%;
@@ -82,13 +82,13 @@ export default class Layout extends React.Component {
             color: 'black',
             fontSize: '12px',
             position: 'fixed',
-            zIndex: '999',
+            zIndex: '90',
             backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/company.jpeg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner2.jpg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow:'2px 2px 30px #c0cee5'
+            boxShadow:'2px 2px 30px white'
   
           }}
         >
@@ -97,7 +97,7 @@ export default class Layout extends React.Component {
               style={{
                 width: 'calc(100vw - 260px)',
                 padding: '10px',
-                fontSize: '14px',
+                fontSize: '12px',
                 color:'black'
               }}
             >
@@ -117,14 +117,15 @@ export default class Layout extends React.Component {
           className="navbar navbar-expand-lg navbar-light"
           style={{
             position: 'relative',
-            top: '38px',
+            top: '0px',
             backgroundColor: '#edf3ff',
             backgroundImage:
-            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
+            'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner.jpeg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow:'2px 2px 20px #c0cee5'
+            boxShadow:'2px 2px 20px white',
+            zIndex: '99'
           }}
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
@@ -257,12 +258,12 @@ export default class Layout extends React.Component {
             </ul>
           </div>
         </nav>
-        <Motion defaultStyle={{ offset: 40 }} style={{ offset: spring(40) }}>
+        <Motion defaultStyle={{ offset: 2 }} style={{ offset: spring(2) }}>
           {(style) => {
             return (
               <div
                 style={{
-                  marginTop: style.offset,
+                  marginTop: style.offset
                 }}
               >
                 {this.props.children}
