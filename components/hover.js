@@ -122,7 +122,7 @@ export default class Hover extends React.Component {
           defaultStyle={{ height: 0 }}
           style={{
             height: spring(
-              this.state.mouseIn ? this.props.submenu.length * 38 : 0
+              this.state.mouseIn ? this.props.submenu.length * 45 : 0
             ),
           }}
         >
