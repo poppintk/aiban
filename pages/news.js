@@ -3,18 +3,21 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div 
+      <div
         className="container-fluid"
-        style={{
-          // backgroundImage:
-          //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
-          //   backgroundSize: 'cover',
-          //   backgroundRepeat: 'no-repeat',
-          //   backgroundPosition: 'center center',
-          //   boxShadow:'2px 2px 30px #c0cee5'
-        }}>
+        style={
+          {
+            // backgroundImage:
+            //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
+            //   backgroundSize: 'cover',
+            //   backgroundRepeat: 'no-repeat',
+            //   backgroundPosition: 'center center',
+            //   boxShadow:'2px 2px 30px #c0cee5'
+          }
+        }
+      >
         <div
-          style={{ display: 'flex', flexDirection: 'row',marginTop:'-4px' }}
+          style={{ display: 'flex', flexDirection: 'row', marginTop: '-4px' }}
           className="container"
         >
           <div
@@ -29,8 +32,8 @@ export default () => {
                 margin: '0 auto',
                 marginTop: '10px',
                 fontWeight: 'bold',
-                color:'green',
-                textShadow: '2px 2px 8px green',
+                color: 'green',
+                textShadow: '4px 4px 15px #c0f9b8',
               }}
             >
               爱邦正明——新闻动态

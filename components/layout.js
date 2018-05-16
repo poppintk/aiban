@@ -19,7 +19,7 @@ export default class Layout extends React.Component {
   render() {
     const english_text = { fontSize: '9px' };
     return (
-      <div style={{ overflowX: 'hidden' }}>
+      <div style={{ overflow: 'hidden' }}>
         <Head>
           <title>湖南爱邦正明环保工程公司</title>
           <meta
@@ -66,7 +66,8 @@ export default class Layout extends React.Component {
         </Head>
         <style jsx>{`
           * {
-            font-family: '宋体;
+            font-family: 'SF Pro Display', Roboto, Noto, Arial, 'PingFang SC',
+              'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
           }
           a {
             line-height: 100%;
@@ -84,12 +85,11 @@ export default class Layout extends React.Component {
             position: 'fixed',
             zIndex: '90',
             backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner2.jpg)',
+              'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner2.jpg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow:'2px 2px 30px white'
-  
+            boxShadow: '2px 2px 30px white',
           }}
         >
           <div className="form-inline">
@@ -98,14 +98,19 @@ export default class Layout extends React.Component {
                 width: 'calc(100vw - 260px)',
                 padding: '10px',
                 fontSize: '12px',
-                color:'black'
+                color: 'black',
               }}
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
             </marquee>
-            <div style={{ width: '210px',color: 'black' }}>
+            <div
+              style={{
+                width: '210px',
+                color: 'black',
+              }}
+            >
               业务咨询电话：<a
-                style={{ color: 'black',textShadow:'0px 0px 10px white' }}
+                style={{ color: 'black' }}
                 href="tel:0086-183-9098-0101"
               >
                 0086-183-9098-0101
@@ -120,12 +125,11 @@ export default class Layout extends React.Component {
             top: '0px',
             backgroundColor: '#edf3ff',
             backgroundImage:
-            'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner.jpeg)',
+              'url(https://aiban.oss-cn-beijing.aliyuncs.com/banner.jpeg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow:'2px 2px 20px white',
-            zIndex: '99'
+            zIndex: '99',
           }}
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
@@ -144,7 +148,7 @@ export default class Layout extends React.Component {
                 marginLeft: '10px',
                 lineHeight: '100%',
                 marginTop: '5px',
-                color: 'black'
+                color: 'black',
               }}
             >
               爱邦正明环保
@@ -263,7 +267,7 @@ export default class Layout extends React.Component {
             return (
               <div
                 style={{
-                  marginTop: style.offset
+                  marginTop: style.offset,
                 }}
               >
                 {this.props.children}
@@ -276,13 +280,13 @@ export default class Layout extends React.Component {
           style={{
             backgroundColor: 'rgb(247, 250, 255,0.9)',
             float: 'bottom',
-            boxShadow: '-1px -1px 10px #c0cee5',
             backgroundImage:
-            'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
+              'url(https://aiban.oss-cn-beijing.aliyuncs.com/company_banner.jpg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow:'2px 2px 20px #c0cee5'
+            boxShadow: '2px 2px 20px #c0cee5',
+            fontWeight: 'bold',
           }}
         >
           <p className="float-right">
@@ -300,6 +304,7 @@ export default class Layout extends React.Component {
                 justifyContent: 'center',
                 marginTop: '-12px',
                 height: '40px',
+                paddingBottom: '15px',
               }}
             >
               <div style={{ marginLeft: '10px' }}>

@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div 
+      <div
         className="container-fluid"
         style={{
           // backgroundImage:
@@ -12,15 +12,19 @@ export default () => {
           //   backgroundRepeat: 'no-repeat',
           //   backgroundPosition: 'center center',
           //   boxShadow:'2px 2px 30px #c0cee5',
-            marginTop:'-4px'
-        }}>
-        <div className="container" style={{ paddingTop: '10px',paddingBottom:'20px' }}>
+          marginTop: '-4px',
+        }}
+      >
+        <div
+          className="container"
+          style={{ paddingTop: '10px', paddingBottom: '20px' }}
+        >
           <style jsx>
-          {`
-            .card-title{
-              font-size:14px;
-            }
-          `}
+            {`
+              .card-title {
+                font-size: 14px;
+              }
+            `}
           </style>
           <h5
             style={{
@@ -30,14 +34,14 @@ export default () => {
               margin: '0 auto',
               marginTop: '10px',
               fontWeight: 'bold',
-              color:'green',
-              textShadow: '2px 2px 8px green',
+              color: 'green',
+              textShadow: '4px 4px 15px #c0f9b8',
             }}
           >
             爱邦正明——领军人才
           </h5>
           <br />
-          <h5 style={{ textAlign: 'center',fontSize:'14px'}}>
+          <h5 style={{ textAlign: 'center', fontSize: '14px' }}>
             湖南爱邦正明环保有限公司
             <br />
             ( 技术骨干介绍 )
@@ -142,7 +146,8 @@ export default () => {
                 borderRadius: '150px',
               }}
             />
-            1987年毕业于加拿大 DALHOUSIE 大学，获化学博士学位(Ph.D. in Chemistry)
+            1987年毕业于加拿大 DALHOUSIE 大学，获化学博士学位(Ph.D. in
+            Chemistry)
             <br />
             1987年至1989年任职加拿大环境部博士后访问科学家(Visiting Scientist)
             <br />

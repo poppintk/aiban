@@ -4,7 +4,7 @@ import GoogleMap from '../components/googleMap';
 export default () => {
   return (
     <Layout>
-      <div 
+      <div
         className="container-fluid"
         style={{
           // backgroundImage:
@@ -13,8 +13,9 @@ export default () => {
           //   backgroundRepeat: 'no-repeat',
           //   backgroundPosition: 'center center',
           //   boxShadow:'2px 2px 30px #c0cee5',
-            marginTop:'-4px'
-        }}>
+          marginTop: '-4px',
+        }}
+      >
         <div
           style={{
             display: 'flex',
@@ -36,8 +37,8 @@ export default () => {
                 margin: '0 auto',
                 marginTop: '10px',
                 fontWeight: 'bold',
-                color:'green',
-                textShadow: '2px 2px 8px green',
+                color: 'green',
+                textShadow: '4px 4px 15px #c0f9b8',
               }}
             >
               爱邦正明——联系方式
