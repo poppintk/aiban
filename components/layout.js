@@ -89,7 +89,6 @@ export default class Layout extends React.Component {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow: '2px 2px 30px white',
           }}
         >
           <div className="form-inline">
