@@ -13,11 +13,10 @@ export default (props) => {
               paddingBottom: '40px',
               borderRadius: '10px',
               backgroundImage:
-                'url(https://aiban.oss-cn-beijing.aliyuncs.com/submenu.jpg)',
+                'url(https://aiban.oss-cn-beijing.aliyuncs.com/aboutus2.jpg)',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center center',
-              boxShadow: '0px 0px 50px white',
               fontWeight: 'bold',
             }}
           >
