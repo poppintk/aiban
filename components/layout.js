@@ -284,59 +284,61 @@ export default class Layout extends React.Component {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow: '2px 2px 20px #c0cee5',
             fontWeight: 'bold',
+            transform: 'scaleY(-1)',
           }}
         >
-          <p className="float-right">
-            <a href="#">返回顶部</a>
-          </p>
-          <div style={{ clear: 'both' }}>
-            <div style={{ textAlign: 'center', height: '35px' }}>
-              版权所有：湖南爱邦正明环保工程公司
-            </div>
-            <div
-              style={{
-                color: 'black',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginTop: '-12px',
-                height: '40px',
-                paddingBottom: '15px',
-              }}
-            >
-              <div style={{ marginLeft: '10px' }}>
-                <a
-                  href="mailto:1317426180@qq.com"
-                  style={{ color: 'black', textDecoration: 'none' }}
-                >
-                  企业邮箱
-                </a>
+          <div style={{ transform: 'scaleY(-1)' }}>
+            <p className="float-right">
+              <a href="#">返回顶部</a>
+            </p>
+            <div style={{ clear: 'both' }}>
+              <div style={{ textAlign: 'center', height: '35px' }}>
+                版权所有：湖南爱邦正明环保工程公司
               </div>
-              <div style={{ marginLeft: '10px' }}>网站地图 </div>
-              <div style={{ marginLeft: '10px' }}>友情链接：</div>
-              <select
-                defaultValue="国际环保城"
-                style={{ width: 120 }}
-                onChange={(e) => onChangeHandler(e)}
-                size={'small'}
+              <div
+                style={{
+                  color: 'black',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginTop: '-12px',
+                  height: '40px',
+                  paddingBottom: '15px',
+                }}
               >
-                <option value="http://www.iepz.cc/">国际环保城</option>
-                <option value="http://green.sina.com.cn/">新浪环保</option>
-                <option value="http://www.dowater.com/">
-                  中国污水处理工程网
-                </option>
-                <option value="http://www.cenews.com.cn/">中国环境网</option>
-                <option value="http://www.chinaenvironment.com/">
-                  中国环保网
-                </option>
-                <option value="http://www.zhb.gov.cn/">中国环保部</option>
-                <option value="http://www.epday.com/">中国环境保护网</option>
-                <option value="http://www.caepi.org.cn/">
-                  中国环保保护产业协会
-                </option>
-              </select>
+                <div style={{ marginLeft: '10px' }}>
+                  <a
+                    href="mailto:1317426180@qq.com"
+                    style={{ color: 'black', textDecoration: 'none' }}
+                  >
+                    企业邮箱
+                  </a>
+                </div>
+                <div style={{ marginLeft: '10px' }}>网站地图 </div>
+                <div style={{ marginLeft: '10px' }}>友情链接：</div>
+                <select
+                  defaultValue="国际环保城"
+                  style={{ width: 120 }}
+                  onChange={(e) => onChangeHandler(e)}
+                  size={'small'}
+                >
+                  <option value="http://www.iepz.cc/">国际环保城</option>
+                  <option value="http://green.sina.com.cn/">新浪环保</option>
+                  <option value="http://www.dowater.com/">
+                    中国污水处理工程网
+                  </option>
+                  <option value="http://www.cenews.com.cn/">中国环境网</option>
+                  <option value="http://www.chinaenvironment.com/">
+                    中国环保网
+                  </option>
+                  <option value="http://www.zhb.gov.cn/">中国环保部</option>
+                  <option value="http://www.epday.com/">中国环境保护网</option>
+                  <option value="http://www.caepi.org.cn/">
+                    中国环保保护产业协会
+                  </option>
+                </select>
+              </div>
             </div>
           </div>
         </footer>
