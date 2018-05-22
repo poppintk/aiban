@@ -214,7 +214,7 @@ export default class Layout extends React.Component {
                     englishTitle={'PROJECTS'}
                     submenu={[
                       { name: '业绩展示', url: '/service' },
-                      { name: '工程實例', url: '/case' },
+                      { name: '工程实例', url: '/case' },
                     ]}
                   />
                 </a>

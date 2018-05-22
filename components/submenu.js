@@ -99,22 +99,23 @@ export default (props) => {
                 width: '100%',
               }}
             >
-              {
-                props.submenu? props.submenu.map((info, k)=>{
-                  return(
-                    <Link prefetch href={info.url} key={k}>
-                      <div
-                        style={{ cursor: 'pointer' }}
-                        className="hvr-bounce-to-right"
-                      >
-                        {info.chinese} &nbsp;
-                        <span style={{ fontSize: '10px' }}>{info.english}</span>
-                      </div>
-                    </Link>
-                  );
-                })
-                :null
-              }
+              {props.submenu
+                ? props.submenu.map((info, k) => {
+                    return (
+                      <Link prefetch href={info.url} key={k}>
+                        <div
+                          style={{ cursor: 'pointer', lineHeight: '250%' }}
+                          className="hvr-bounce-to-right"
+                        >
+                          {info.chinese} &nbsp;
+                          <span style={{ fontSize: '10px' }}>
+                            {info.english}
+                          </span>
+                        </div>
+                      </Link>
+                    );
+                  })
+                : null}
             </div>
           </div>
         );

@@ -22,22 +22,17 @@ export default () => {
         <br />
         <div className="row">
           <div className="col-lg-3">
-            <SubMenu title="工程實例" englishTitle="CASES" 
+            <SubMenu
+              title="工程实例"
+              englishTitle="CASES"
               submenu={[
-                {chinese:'业绩展示',english:'PROJECT',url:'/service'},
-                {chinese:'工程實例',english:'CASE',url:'/case'}
-              ]}/>
+                { chinese: '业绩展示', english: 'PROJECT', url: '/service' },
+                { chinese: '工程实例', english: 'CASE', url: '/case' },
+              ]}
+            />
           </div>
           <div className="col-lg-9">
-          <div>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                marginTop:'30px'
-              }}
-            >
+            <div className="row">
               <div className="card" style={{ width: '18rem' }}>
                 <img
                   className="card-img-top"
@@ -75,13 +70,7 @@ export default () => {
                 </div>
               </div>
             </div>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center'
-              }}
-            >
+            <div className="row">
               <div className="card" style={{ width: '18rem' }}>
                 <img
                   className="card-img-top"
@@ -119,13 +108,7 @@ export default () => {
                 </div>
               </div>
             </div>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center'
-              }}
-            >
+            <div className="row">
               <div className="card" style={{ width: '18rem' }}>
                 <img
                   className="card-img-top"
@@ -163,13 +146,7 @@ export default () => {
                 </div>
               </div>
             </div>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center'
-              }}
-            >
+            <div className="row">
               <div className="card" style={{ width: '18rem' }}>
                 <img
                   className="card-img-top"
@@ -208,7 +185,6 @@ export default () => {
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </Layout>
