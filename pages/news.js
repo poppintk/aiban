@@ -1,4 +1,5 @@
 import Layout from '../components/layout';
+import Link from 'next/link';
 
 export default () => {
   return (
@@ -49,7 +50,7 @@ export default () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      News 1
+                      No.1
                     </button>
                   </h5>
                 </div>
@@ -63,19 +64,13 @@ export default () => {
                   <div className="card-body">
                     <div>
                       <div style={{ display: 'flex' }}>
-                        <button
-                          className="float-left mx-1"
-                          style={{ width: '100px', height: '100px' }}
-                        >
-                          No.1
-                        </button>
                         <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
-                          <div>[行业资讯]</div>
-                          <div>全国环保系统环评机构限期彻底脱钩</div>
+                          <div>以“科技”护卫蓝天 大气污染防治挺进新时代</div>
                           <div>
-                            本报记者王昆婷3月25日北京报道
-                            环境保护部今日公布《全国环保系统环评机构脱钩工作方案》
-                            [查看详情>>]
+                            5月9日凌晨，我国高分五号卫星成功发射，成为世界首颗实现对大气和陆地综合观测的全谱段高光谱卫星，不仅可动态反映我国大气污染状况......<br />
+                            <Link prefetch href="/news1">
+                              [查看详情>>]
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -93,7 +88,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      News 2
+                      No.2
                     </button>
                   </h5>
                 </div>
@@ -106,19 +101,14 @@ export default () => {
                   <div className="card-body">
                     <div>
                       <div style={{ display: 'flex' }}>
-                        <button
-                          className="float-left mx-1"
-                          style={{ width: '100px', height: '100px' }}
-                        >
-                          No.2
-                        </button>
                         <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
-                          <div>[行业资讯]</div>
-                          <div>二零一五环保产业之十大关注</div>
+                          <div>北京启动“大气污染执法年”行动 打击环境违法</div>
                           <div>
-                            傅涛
-                            第三方治理和政企合作等模式将划清地方政府与污染企业、环保企业之间的界线
-                            ...... [查看详情>>]
+                            为持续推进空气质量改善，北京将启动“大气污染执法年”行动，针对散煤、高排放机动车、城乡结合部等重点防治领域和区域，“三管齐下”打击多类环境违法行为，加大环境监管执法力度。
+                            ......<br />{' '}
+                            <Link prefetch href="/news2">
+                              [查看详情>>]
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -136,7 +126,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      News 3
+                      No.3
                     </button>
                   </h5>
                 </div>
@@ -149,18 +139,19 @@ export default () => {
                   <div className="card-body">
                     <div>
                       <div style={{ display: 'flex' }}>
-                        <button
-                          className="float-left mx-1"
-                          style={{ width: '100px', height: '100px' }}
-                        >
-                          No.3
-                        </button>
                         <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
-                          <div>[行业资讯]</div>
-                          <div>环保部曝光42项违规问题 中铝分公司多次遭罚</div>
                           <div>
-                            3月19日，环保部通报了2015年2月份大气污染防治督查情况，通过对14个市(县、区)进行大气污染......
-                            [查看详情>>]
+                            河北省发布5项大气污染排放标准点评:超低排放成大势所趋
+                            非电提标市场待开放
+                          </div>
+                          <div>
+                            2018 年4 月25
+                            日,河北省发布了钢铁、焦化、水泥、平板玻璃、锅炉等5
+                            个非电行业的大气污染排放标准的征求意见稿。其中,钢铁工业大气标准为“超低排放”
+                            标准。 ......<br />{' '}
+                            <Link prefetch href="/news3">
+                              [查看详情>>]
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -168,7 +159,7 @@ export default () => {
                   </div>
                 </div>
               </div>
-              <div className="card">
+              <div className="card" style={{ marginBottom: '100px' }}>
                 <div className="card-header" id="headingTwo">
                   <h5 className="mb-0">
                     <button
@@ -178,7 +169,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      News 4
+                      No.4
                     </button>
                   </h5>
                 </div>
@@ -191,60 +182,14 @@ export default () => {
                   <div className="card-body">
                     <div>
                       <div style={{ display: 'flex' }}>
-                        <button
-                          className="float-left mx-1"
-                          style={{ width: '100px', height: '100px' }}
-                        >
-                          No.4
-                        </button>
                         <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
-                          <div>[行业资讯]</div>
-                          <div>下一波千亿级富豪将诞生于环保产业？</div>
+                          <div>山东7个通道城市大气质量全面改善</div>
                           <div>
-                            投资，就是要做一头站在风口上的猪。创业，就是要找对风口，风口找对了，猪都会飞起来。
-                            目前，全球约6...... [查看详情>>]
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card">
-                <div className="card-header" id="headingFive">
-                  <h5 className="mb-0">
-                    <button
-                      className="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      News 5
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseFive"
-                  className="collapse show"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordion"
-                >
-                  <div className="card-body">
-                    <div>
-                      <div style={{ display: 'flex' }}>
-                        <button
-                          className="float-left mx-1"
-                          style={{ width: '100px', height: '100px' }}
-                        >
-                          No.5
-                        </button>
-                        <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
-                          <div>[行业资讯]</div>
-                          <div>福建漳州PX工厂爆炸 6人受伤</div>
-                          <div>
-                            昨日22时20分许，据事故处置领导小组通报，经初步了解，33号腾龙芳烃装置和周边的常压渣油储罐......
-                            [查看详情>>]
+                            “2017年10月至2018年3月，全省7个传输通道城市空气质量总体情况同比全面改善，均完成了生态环境部下达的PM2.5浓度和重污染天数的改善目标。”山东省环保厅日前向社会公布2017~2018年秋冬季大气污染综合治理攻坚任务完成情况。
+                            ......<br />{' '}
+                            <Link prefetch href="/news4">
+                              [查看详情>>]
+                            </Link>
                           </div>
                         </div>
                       </div>

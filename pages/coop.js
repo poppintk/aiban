@@ -165,7 +165,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">环保部门交流</h5>
+                  <h5 className="card-title">公司专家与加拿大总理</h5>
                 </div>
               </div>
               <div className="col-lg-4">
