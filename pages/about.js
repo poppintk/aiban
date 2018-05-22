@@ -61,7 +61,12 @@ export default () => {
       >
         <div className="row">
           <div className="col-lg-3">
-            <SubMenu title="关于我们" englishTitle="ABOUT US" />
+            <SubMenu title="关于我们" englishTitle="ABOUT US" 
+              submenu={[
+                {chinese:'企业文化',english:'CULTURE',url:'/culture'},
+                {chinese:'关于我们',english:'ABOUT US',url:'/about'},
+                {chinese:'企业荣耀',english:'HONOR',url:'/honor'}
+              ]}/>
           </div>
           <div className="col-lg-9">
             <div className="container" style={{ marginTop: '20px' }}>

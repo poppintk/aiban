@@ -104,7 +104,7 @@ export default class Hover extends React.Component {
                           
                     `}
         </style>
-        <Link prefetch href="/about">
+        <Link prefetch href={this.props.submenu[0]?this.props.submenu[0].url:''}>
           <div
             style={{
               textAlign: 'center',
@@ -149,7 +149,7 @@ export default class Hover extends React.Component {
                         color: 'black',
                         fontWeight: 'bold',
                         padding: '12px 16px',
-                        display: style.height > 100 ? 'block' : 'none',
+                        display: style.height > 60 ? 'block' : 'none',
                       }}
                       key={k}
                     >

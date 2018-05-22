@@ -1,4 +1,5 @@
 import Layout from '../components/layout';
+import SubMenu from '../components/submenu';
 
 export default () => {
   return (
@@ -12,16 +13,8 @@ export default () => {
           //   backgroundRepeat: 'no-repeat',
           //   backgroundPosition: 'center center',
           //   boxShadow:'2px 2px 30px #c0cee5',
-          marginTop: '-8px',
         }}
       >
-        <div
-          className="container"
-          style={{
-            paddingTop: '10px',
-            paddingBottom: '20px',
-          }}
-        >
           <h5
             style={{
               textAlign: 'center',
@@ -36,9 +29,20 @@ export default () => {
           >
             爱邦正明环保——我们用心做事！
           </h5>
-          <br />
+        <div className="row">
+          <div className="col-lg-3">
+            <SubMenu title="业绩展示" englishTitle="PROJECT" 
+              submenu={[
+                {chinese:'业绩展示',english:'PROJECT',url:'/service'},
+                {chinese:'工程實例',english:'CASE',url:'/case'}
+              ]}/>
+          </div>
+          <div className="col-lg-9">
           <div>
-            <table className="table table-hover">
+            <table className="table table-hover" 
+              style={{
+                marginTop: '20px'
+              }}>
               <thead>
                 <tr>
                   <th scope="col">序号</th>
@@ -496,6 +500,7 @@ export default () => {
                 </tr>
               </tbody>
             </table>
+          </div>
           </div>
         </div>
       </div>

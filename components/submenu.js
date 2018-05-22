@@ -99,33 +99,22 @@ export default (props) => {
                 width: '100%',
               }}
             >
-              <Link prefetch href="/culture">
-                <div
-                  style={{ cursor: 'pointer' }}
-                  className="hvr-bounce-to-right"
-                >
-                  企业文化 &nbsp;
-                  <span style={{ fontSize: '10px' }}>CULTURE</span>
-                </div>
-              </Link>
-              <Link prefetch href="/about">
-                <div
-                  style={{ cursor: 'pointer' }}
-                  className="hvr-bounce-to-right"
-                >
-                  关于我们 &nbsp;
-                  <span style={{ fontSize: '10px' }}>ABOUT US</span>
-                </div>
-              </Link>
-              <Link prefetch href="/honor">
-                <div
-                  style={{ cursor: 'pointer' }}
-                  className="hvr-bounce-to-right"
-                >
-                  企业荣耀 &nbsp;
-                  <span style={{ fontSize: '10px' }}>HONOR</span>
-                </div>
-              </Link>
+              {
+                props.submenu? props.submenu.map((info, k)=>{
+                  return(
+                    <Link prefetch href={info.url} key={k}>
+                      <div
+                        style={{ cursor: 'pointer' }}
+                        className="hvr-bounce-to-right"
+                      >
+                        {info.chinese} &nbsp;
+                        <span style={{ fontSize: '10px' }}>{info.english}</span>
+                      </div>
+                    </Link>
+                  );
+                })
+                :null
+              }
             </div>
           </div>
         );

@@ -204,15 +204,16 @@ export default class Layout extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link prefetch href="/service">
                   <a className="nav-link" style={{ color: 'black' }}>
                     <Hover
                       chineseTitle={'业绩展示'}
                       englishTitle={'PROJECTS'}
-                      submenu={[]}
+                      submenu={[
+                        { name: '业绩展示', url: '/service' },
+                        { name: '工程實例', url: '/case' }
+                      ]}
                     />
                   </a>
-                </Link>
               </li>
               <li className="nav-item">
                 <Link prefetch href="/tech">
