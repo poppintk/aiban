@@ -48,6 +48,10 @@ export default class Layout extends React.Component {
             rel="stylesheet"
             href="//cdnjs.cloudflare.com/ajax/libs/antd/3.2.0/antd.min.css"
           />
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/react-tabs@2/style/react-tabs.css"
+          />
           <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -204,16 +208,16 @@ export default class Layout extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" style={{ color: 'black' }}>
-                    <Hover
-                      chineseTitle={'业绩展示'}
-                      englishTitle={'PROJECTS'}
-                      submenu={[
-                        { name: '业绩展示', url: '/service' },
-                        { name: '工程實例', url: '/case' }
-                      ]}
-                    />
-                  </a>
+                <a className="nav-link" style={{ color: 'black' }}>
+                  <Hover
+                    chineseTitle={'业绩展示'}
+                    englishTitle={'PROJECTS'}
+                    submenu={[
+                      { name: '业绩展示', url: '/service' },
+                      { name: '工程實例', url: '/case' },
+                    ]}
+                  />
+                </a>
               </li>
               <li className="nav-item">
                 <Link prefetch href="/tech">
