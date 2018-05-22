@@ -62,8 +62,8 @@ export default () => {
                 </p>
               </div>
               <div className="col-lg-6">
-                Google Map Service
-                <GoogleMap />
+                <img src="https://aiban.oss-cn-beijing.aliyuncs.com/google_map.PNG" alt="google map"/>
+                
               </div>
             </div>
           </div>
