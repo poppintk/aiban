@@ -90,10 +90,10 @@ export default () => {
                   lineHeight: '200%',
                   color: 'black',
                   fontSize: '14px',
-                  minHeight: '100vh',
+                  minHeight: '50vh',
                 }}
               >
-                <strong style={{ color: 'red', fontSize: '25px' }}>1</strong>{' '}
+                {/* <strong style={{ color: 'red', fontSize: '25px' }}>1</strong>{' '} */}
                 <strong>技术委员会主任：公司总经理――黎勃博士、教授</strong>
                 <br />
                 <img
@@ -139,10 +139,10 @@ export default () => {
                   lineHeight: '200%',
                   color: 'black',
                   fontSize: '14px',
-                  minHeight: '100vh',
+                  minHeight: '50vh',
                 }}
               >
-                <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>{' '}
+                {/* <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>{' '} */}
                 <strong>技术委员会委员：公司研究院院长---李旭辉博导简介</strong>
                 <br />
                 李旭辉 耶鲁大学终身教授，环境学院院长。美国森林环境学会会长。
@@ -158,10 +158,10 @@ export default () => {
                   lineHeight: '200%',
                   color: 'black',
                   fontSize: '14px',
-                  minHeight: '100vh',
+                  minHeight: '50vh',
                 }}
               >
-                <strong style={{ color: 'red', fontSize: '25px' }}>3</strong>{' '}
+                {/* <strong style={{ color: 'red', fontSize: '25px' }}>3</strong>{' '} */}
                 <strong>
                   技术委员会委员：公司技术部总裁----汤友志博士简介
                 </strong>
@@ -210,10 +210,10 @@ export default () => {
                   lineHeight: '200%',
                   color: 'black',
                   fontSize: '14px',
-                  minHeight: '100vh',
+                  minHeight: '50vh',
                 }}
               >
-                <strong style={{ color: 'red', fontSize: '25px' }}>4</strong>{' '}
+                {/* <strong style={{ color: 'red', fontSize: '25px' }}>4</strong>{' '} */}
                 <strong>技术委员会委员：陈镜明教授简历</strong>
                 <br />
                 陈镜明：

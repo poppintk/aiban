@@ -137,7 +137,7 @@ export default class Layout extends React.Component {
         >
           <a className="navbar-brand" href="/" style={{ display: 'flex' }}>
             <img
-              src="https://aiban.oss-cn-beijing.aliyuncs.com/logo.png"
+              src="https://aiban.oss-cn-beijing.aliyuncs.com/logo2.png"
               style={{
                 width: '60px',
                 height: '50px',

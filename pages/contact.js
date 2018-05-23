@@ -20,7 +20,7 @@ export default () => {
           style={{
             display: 'flex',
             flexDirection: 'row',
-            minHeight: '130vh',
+            minHeight: '90vh',
           }}
           className="container"
         >
@@ -62,8 +62,10 @@ export default () => {
                 </p>
               </div>
               <div className="col-lg-6">
-                <img src="https://aiban.oss-cn-beijing.aliyuncs.com/google_map.PNG" alt="google map"/>
-                
+                <img
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/google_map.PNG"
+                  alt="google map"
+                />
               </div>
             </div>
           </div>
