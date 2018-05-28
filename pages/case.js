@@ -254,6 +254,52 @@ export default () => {
                   {/* <p className="card-text">2016.04.04</p> */}
                 </div>
               </div>
+              <div className="card" style={{ width: '18rem' }}>
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/case-1.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  {/* <p className="card-text">2016.04.04</p> */}
+                </div>
+              </div>
+              <div className="card" style={{ width: '18rem' }}>
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/case-2.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  {/* <p className="card-text">2016.04.04</p> */}
+                </div>
+              </div>
+            </div>
+            <div className="row" style={{ margin: '0 auto' }}>
+              <div className="card" style={{ width: '18rem' }}>
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/case-3.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  {/* <p className="card-text">2016.04.04</p> */}
+                </div>
+              </div>
+              <div className="card" style={{ width: '18rem' }}>
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/case-4.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  {/* <p className="card-text">2016.04.04</p> */}
+                </div>
+              </div>
             </div>
           </div>
         </div>
