@@ -14,6 +14,7 @@ export default () => {
             //   backgroundRepeat: 'no-repeat',
             //   backgroundPosition: 'center center',
             //   boxShadow:'2px 2px 30px #c0cee5'
+            minHeight:'85vh'
           }
         }
       >

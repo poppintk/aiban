@@ -320,7 +320,7 @@ export default class Layout extends React.Component {
                     企业邮箱
                   </a>
                 </div>
-                <div style={{ marginLeft: '10px' }}>网站地图 </div>
+                {/* <div style={{ marginLeft: '10px' }}>网站地图 </div> */}
                 <div style={{ marginLeft: '10px' }}>友情链接：</div>
                 <select
                   defaultValue="国际环保城"
