@@ -242,7 +242,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/value4.jpg)',
+                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',

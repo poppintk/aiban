@@ -20,7 +20,7 @@ export default () => {
           style={{
             display: 'flex',
             flexDirection: 'row',
-            minHeight: '90vh',
+            minHeight: '85vh',
           }}
           className="container"
         >
