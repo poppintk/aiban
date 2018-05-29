@@ -135,12 +135,29 @@ export default () => {
         `}
       </style>
       <Layout>
-        <main role="main" style={{ margin: '-2px' }}>
+        <main
+          role="main"
+          style={{
+            margin: '-2px',
+            border: 'none',
+            backgroundImage:
+              'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky3.jpg)',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center center',
+            boxShadow: '0px 0px 50px white',
+          }}
+        >
           {/* carousel start  */}
           <div
             id="carouselExampleCaptions"
             className="carousel slide d-none d-lg-block"
             data-ride="carousel"
+            style={{
+              maxWidth: '1300px',
+              margin: '0 auto',
+              boxShadow: '0px 0px 50px white',
+            }}
           >
             <ol className="carousel-indicators">{getIndex()}</ol>
             <div className="carousel-inner">{generateCarousel()}</div>
@@ -164,8 +181,18 @@ export default () => {
             </a>
           </div>
           {/* carouselE end ---  */}
-          <div className="background">
-            <div>
+          <div style={{ maxWidth: '1300px', margin: '0 auto' }}>
+            <div
+              style={{
+                border: 'none',
+                backgroundImage:
+                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                boxShadow: '0px 0px 50px white',
+              }}
+            >
               <div className="card-body">
                 <p className="card-text">
                   湖南爱邦正明环保工程有限公司是一家国际大气污染防治先进技术中外合作典范，是一家专业从事环保技术装备研制、工程设计、环保服务、项目总承包业务的国际重点高新技术企业。
@@ -183,7 +210,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
+                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',

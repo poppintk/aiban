@@ -6,21 +6,20 @@ export default () => {
     <Layout>
       <div
         className="container-fluid"
-        style={
-          {
-            // backgroundImage:
-            //       'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky2.jpg)',
-            //   backgroundSize: 'cover',
-            //   backgroundRepeat: 'no-repeat',
-            //   backgroundPosition: 'center center',
-            //   boxShadow:'2px 2px 30px #c0cee5',
-          }
-        }
+        style={{
+          marginTop: '-10px',
+          // backgroundImage:
+          //   'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+          // backgroundSize: 'cover',
+          // backgroundRepeat: 'no-repeat',
+          // backgroundPosition: 'center center',
+          // boxShadow: '2px 2px 30px #c0cee5',
+        }}
       >
         <h5
           style={{
             textAlign: 'center',
-            paddingTop: '2px',
+            paddingTop: '12px',
             borderRadius: '25px',
             margin: '0 auto',
             marginTop: '10px',

@@ -3,7 +3,18 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <div className="container-fluid" style={{ minHeight: '120vh' }}>
+      <div
+        className="container-fluid"
+        style={{
+          backgroundImage:
+            'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          boxShadow: '2px 2px 30px #c0cee5',
+          minHeight: '85vh',
+        }}
+      >
         <div
           style={{ display: 'flex', flexDirection: 'row', marginTop: '-4px' }}
           className="container"
