@@ -3,6 +3,13 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
+      <style jsx>
+      {`
+        p {
+          font-weight:bold;
+        }
+      `}
+      </style>
       <div
         className="container-fluid"
         style={{

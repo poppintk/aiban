@@ -145,7 +145,6 @@ export default () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            boxShadow: '0px 0px 50px white',
           }}
         >
           {/* carousel start  */}
@@ -156,7 +155,6 @@ export default () => {
             style={{
               maxWidth: '1300px',
               margin: '0 auto',
-              boxShadow: '0px 0px 50px white',
             }}
           >
             <ol className="carousel-indicators">{getIndex()}</ol>
@@ -190,7 +188,6 @@ export default () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
-                boxShadow: '0px 0px 50px white',
               }}
             >
               <div className="card-body">
@@ -214,7 +211,6 @@ export default () => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    boxShadow: '0px 0px 50px white',
                   }}
                 >
                   <div className="card-body">
@@ -231,7 +227,6 @@ export default () => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    boxShadow: '0px 0px 50px white',
                   }}
                 >
                   <div className="card-body">
@@ -251,7 +246,6 @@ export default () => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    boxShadow: '0px 0px 50px white',
                   }}
                 >
                   <div className="card-body">
@@ -273,7 +267,6 @@ export default () => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    boxShadow: '0px 0px 50px white',
                   }}
                 >
                   <div className="card-body">
@@ -292,7 +285,6 @@ export default () => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
-                    boxShadow: '0px 0px 50px white',
                   }}
                 >
                   <div className="card-body">
