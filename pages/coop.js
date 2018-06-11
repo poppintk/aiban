@@ -44,6 +44,47 @@ export default () => {
               <div className="col-lg-4">
                 <img
                   className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/pic1.jpg?x-oss-process=style/aiban"
+                  alt="Card image cap"
+                  style={{
+                    height: 240,
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    总经理和中国环境科学院 院长夏青
+                  </h5>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/pic2.jpg?x-oss-process=style/aiban"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">经理参加2018年中国绿色发展论坛</h5>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <img
+                  className="card-img-top"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/pec3.jpg"
+                  alt="Card image cap"
+                  style={{ height: 240 }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    总经理在2018年中国绿色发展论坛上介绍公司技术
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4">
+                <img
+                  className="card-img-top"
                   src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BA%A4%E6%B5%811.png"
                   alt="Card image cap"
                   style={{ height: 240 }}

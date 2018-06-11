@@ -9,6 +9,10 @@ export default () => {
           ul {
             font-weight: bold;
           }
+          p,
+          ol {
+            font-weight: bold;
+          }
         `}
       </style>
       <div className="container-fluid" style={{ minHeight: '85vh' }}>

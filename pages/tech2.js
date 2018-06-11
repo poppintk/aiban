@@ -5,7 +5,12 @@ export default () => {
     <Layout>
       <style jsx>
         {`
-          p {
+          p,
+          ul {
+            font-weight: bold;
+          }
+          p,
+          ol {
             font-weight: bold;
           }
         `}
