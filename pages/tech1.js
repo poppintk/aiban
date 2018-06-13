@@ -8,10 +8,12 @@ export default () => {
           p,
           ul {
             font-weight: bold;
+            line-height: 200%;
           }
           p,
           ol {
             font-weight: bold;
+            line-height: 200%;
           }
         `}
       </style>
