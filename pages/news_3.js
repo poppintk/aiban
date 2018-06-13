@@ -7,6 +7,7 @@ export default () => {
         {`
           p {
             font-weight: bold;
+            line-height: 200%;
           }
         `}
       </style>

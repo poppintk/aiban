@@ -9,6 +9,14 @@ export default class Hover extends React.Component {
       mouseIn: false,
     };
   }
+
+  delayShowText() {
+    if (this.timer) {
+      clearTimeout(this.timer);
+    }
+    this.timer = setTimeout(function() {}, 3000);
+  }
+
   render() {
     const english_text = { fontSize: '9px', textAlign: 'center' };
     return (
@@ -104,7 +112,10 @@ export default class Hover extends React.Component {
                           
                     `}
         </style>
-        <Link prefetch href={this.props.submenu[0]?this.props.submenu[0].url:''}>
+        <Link
+          prefetch
+          href={this.props.submenu[0] ? this.props.submenu[0].url : ''}
+        >
           <div
             style={{
               textAlign: 'center',
@@ -149,11 +160,14 @@ export default class Hover extends React.Component {
                         color: 'black',
                         fontWeight: 'bold',
                         padding: '12px 16px',
-                        display: style.height > 60 ? 'block' : 'none',
+                        display: style.height > 38 ? 'block' : 'none',
+                        transition: 'all 2s linear',
                       }}
                       key={k}
                     >
-                      {info.name}
+                      {style.height >= this.props.submenu.length * 38 - 10
+                        ? info.name
+                        : null}
                     </div>
                   </Link>
                 );

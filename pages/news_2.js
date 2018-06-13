@@ -4,11 +4,12 @@ export default () => {
   return (
     <Layout>
       <style jsx>
-      {`
-        p {
-          font-weight:bold;
-        }
-      `}
+        {`
+          p {
+            font-weight: bold;
+            line-height: 200%;
+          }
+        `}
       </style>
       <div
         className="container-fluid"
