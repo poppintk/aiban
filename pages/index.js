@@ -233,7 +233,7 @@ export default () => {
                     <h5 className="card-title">企业精神</h5>
                     <p className="card-text">
                       {' '}
-                      以人为本，激扬进取，自强不息，同甘共苦
+                      以人为本，团结进取，诚信立足，创新致远
                     </p>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default () => {
                   <div className="card-body">
                     <h5 className="card-title">经营理念</h5>
                     <p className="card-text">
-                      爱邦兴国 博爱明慧 爱邦正明 环保先锋
+                    爱邦兴国	博爱明慧	爱邦正明	环保节能
                     </p>
                   </div>
                 </div>
@@ -289,7 +289,7 @@ export default () => {
                 >
                   <div className="card-body">
                     <h5 className="card-title">服务理念</h5>
-                    <p className="card-text"> 顶尖技术服务于用户，创精品工程</p>
+                    <p className="card-text"> 用顶尖技术，创精品工程</p>
                   </div>
                 </div>
               </div>

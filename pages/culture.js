@@ -64,7 +64,7 @@ export default () => {
             <SubMenu title="企业文化" englishTitle="CULTURE" 
               submenu={[
                 {chinese:'企业文化',english:'CULTURE',url:'/culture'},
-                {chinese:'关于我们',english:'ABOUT US',url:'/about'},
+                {chinese:'企業簡介',english:'ABOUT US',url:'/about'},
                 {chinese:'企业荣耀',english:'HONOR',url:'/honor'}
               ]}/>
           </div>
@@ -98,11 +98,11 @@ export default () => {
                   <div>企业宗旨</div>
                   <div>让整个地球共享一片蓝天</div>
                   <div>经营理念</div>
-                  <div>爱邦兴国 博爱明慧 爱邦正明 环保先锋</div>
+                  <div>爱邦兴国	博爱明慧	爱邦正明	环保节能</div>
                   <div>企业精神</div>
-                  <div>以人为本，激扬进取，自强不息，同甘共苦</div>
+                  <div>以人为本，团结进取，诚信立足，创新致远 </div>
                   <div>服务理念</div>
-                  <div>顶尖技术服务于用户，创精品工程</div>
+                  <div>用顶尖技术，创精品工程</div>
                   <div>长期目标</div>
                   <div>科技先锋，行业典范</div>
                 </div>

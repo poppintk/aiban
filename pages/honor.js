@@ -64,7 +64,7 @@ export default () => {
             <SubMenu title="企业荣耀" englishTitle="HONOR" 
               submenu={[
                 {chinese:'企业文化',english:'CULTURE',url:'/culture'},
-                {chinese:'关于我们',english:'ABOUT US',url:'/about'},
+                {chinese:'企業簡介',english:'ABOUT US',url:'/about'},
                 {chinese:'企业荣耀',english:'HONOR',url:'/honor'}
               ]}/>
           </div>
