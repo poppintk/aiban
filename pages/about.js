@@ -29,7 +29,7 @@ export default () => {
           </div>
           <div className="col-lg-9">
             <div className="container" style={{ marginTop: '20px' }}>
-              <img style={{width:'100%'}} src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BC%81%E4%B8%9A%E7%AE%80%E4%BB%8B.png"/>
+              <img style={{width:'100%',maxWidth:600,display:'block',margin:'0 auto'}} src="https://aiban.oss-cn-beijing.aliyuncs.com/%E4%BC%81%E4%B8%9A%E7%AE%80%E4%BB%8B.png"/>
               <hr />
               <br />
               <p style={{ color: 'black', fontWeight: 'bold' }}>

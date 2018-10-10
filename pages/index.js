@@ -88,6 +88,26 @@ export default () => {
     <div>
       <style>
         {`
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey; 
+            border-radius: 10px;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #b2cfff; 
+            border-radius: 10px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b2cfff; 
+        }
         .card-text{
           font-weight:bold;
         }
@@ -207,7 +227,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/company4.jpg)',
+                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
@@ -223,7 +243,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
+                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
@@ -242,7 +262,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/value3.jpg)',
+                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
@@ -263,7 +283,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
@@ -281,7 +301,7 @@ export default () => {
                   style={{
                     border: 'none',
                     backgroundImage:
-                      'url(https://aiban.oss-cn-beijing.aliyuncs.com/value5.jpg)',
+                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',

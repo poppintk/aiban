@@ -48,6 +48,9 @@ export default () => {
                   alt="Card image cap"
                   style={{
                     height: 240,
+                    width:200,
+                    display:'block',
+                    margin:'0 auto'
                   }}
                 />
                 <div className="card-body">
@@ -61,7 +64,9 @@ export default () => {
                   className="card-img-top"
                   src="https://aiban.oss-cn-beijing.aliyuncs.com/pic2.jpg?x-oss-process=style/aiban"
                   alt="Card image cap"
-                  style={{ height: 240 }}
+                  style={{ height: 240,width:200,
+                    display:'block',
+                    margin:'0 auto' }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">经理参加2018年中国绿色发展论坛</h5>
@@ -72,7 +77,7 @@ export default () => {
                   className="card-img-top"
                   src="https://aiban.oss-cn-beijing.aliyuncs.com/pec3.jpg"
                   alt="Card image cap"
-                  style={{ height: 240 }}
+                  style={{ height: 240, }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">
