@@ -49,9 +49,11 @@ export default () => {
                 <p style={{ fontSize: '14px', lineHeight: '300%' }}>
                   地址： 长沙市芙蓉区八一路59号省科技信息大楼10楼
                   <br />
-                  业务咨询电话：0086-183-9098-0101
+                  业务咨询电话：
+                  <a href="tel:0086-183-9098-0101">0086-183-9098-0101</a>
                   <br />
-                  业务咨询邮箱：1317426180@QQ.com
+                  业务咨询邮箱：
+                  <a href="mailto:1317426180@QQ.com">1317426180@QQ.com</a>
                   <br />
                   公司网站：{' '}
                   <a href="http://www.hnabzm.com">http://www.hnabzm.com</a>
