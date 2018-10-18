@@ -17,7 +17,7 @@ export default () => {
             textShadow: '4px 4px 15px #c0f9b8',
           }}
         >
-          工程實例——精益求精
+          工程实例——精益求精
         </h5>
         <br />
         <div className="row">
@@ -76,7 +76,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">4X 90MW锅炉 FS脱硫+集束除尘一体化和布袋除尘系统</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -111,7 +111,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">130吨锅炉+湿式电除尘(增）</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -133,7 +133,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">2X 480吨布袋除尘器</p>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">智能脱硫喷淋层</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -168,7 +168,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">系统控制室</p>
                 </div>
               </div>
             </div>
@@ -181,7 +181,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">脱水机</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -192,7 +192,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">210吨锅炉FS脱硫+集束除尘一体化超低排放工程</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -216,7 +216,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">集束管</p>
                 </div>
               </div>
               <div className="card" style={{ width: '18rem' }}>
@@ -238,7 +238,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">集束管底板</p>
                 </div>
               </div>
             </div>
@@ -273,7 +273,7 @@ export default () => {
                   style={{ height: 240 }}
                 />
                 <div className="card-body">
-                  {/* <p className="card-text">2016.04.04</p> */}
+                  <p className="card-text">75吨锅炉FS脱硫+集束除尘一体化超低排放烟塔合一工程（增）</p>
                 </div>
               </div>
             </div>
