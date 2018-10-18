@@ -160,11 +160,12 @@ export default () => {
           style={{
             margin: '-2px',
             border: 'none',
-            backgroundImage:
-              'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky3.jpg)',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
+            // backgroundImage:
+            //   'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky3.jpg)',
+            // backgroundSize: 'cover',
+            // backgroundRepeat: 'no-repeat',
+            // backgroundPosition: 'center center',
+            backgroundColor:'#ccffff'
           }}
         >
           {/* carousel start  */}
@@ -226,11 +227,12 @@ export default () => {
                   className="card col-lg-2 offset-lg-1 mb-2"
                   style={{
                     border: 'none',
-                    backgroundImage:
-                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center',
+                    // backgroundImage:
+                    // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    // backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundPosition: 'center center',
+                    backgroundColor:'rgb(91, 211, 203,0.8)'
                   }}
                 >
                   <div className="card-body">
@@ -242,11 +244,12 @@ export default () => {
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
                     border: 'none',
-                    backgroundImage:
-                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center',
+                    // backgroundImage:
+                    // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    // backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundPosition: 'center center',
+                    backgroundColor:'rgb(91, 211, 203,0.8)'
                   }}
                 >
                   <div className="card-body">
@@ -261,11 +264,12 @@ export default () => {
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
                     border: 'none',
-                    backgroundImage:
-                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center',
+                    // backgroundImage:
+                    // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    // backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundPosition: 'center center',
+                    backgroundColor:'rgb(91, 211, 203,0.8)'
                   }}
                 >
                   <div className="card-body">
@@ -282,11 +286,12 @@ export default () => {
                   className="card col-lg-2 mb-2 offset-lg-3"
                   style={{
                     border: 'none',
-                    backgroundImage:
-                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center',
+                    // backgroundImage:
+                    // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    // backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundPosition: 'center center',
+                    backgroundColor:'rgb(91, 211, 203,0.8)'
                   }}
                 >
                   <div className="card-body">
@@ -300,11 +305,12 @@ export default () => {
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
                     border: 'none',
-                    backgroundImage:
-                    'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center',
+                    // backgroundImage:
+                    // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
+                    // backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    // backgroundPosition: 'center center',
+                    backgroundColor:'rgb(91, 211, 203,0.8)'
                   }}
                 >
                   <div className="card-body">

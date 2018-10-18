@@ -1,6 +1,6 @@
 import Layout from '../components/layout';
 import { Form, Input, Button, Radio } from 'antd';
-
+const { TextArea } = Input;
 const FormItem = Form.Item;
 
 export default () => {
@@ -43,35 +43,29 @@ export default () => {
                 textShadow: '4px 4px 15px #c0f9b8',
               }}
             >
-              爱邦正明——联系方式
+              联系我们
             </h5>
             <br />
-            <div className="row">
-              <div className="col-lg-6">
-                <p style={{ fontSize: '14px', lineHeight: '300%' }}>
-                  地址： 长沙市芙蓉区八一路59号省科技信息大楼10楼
-                  <br />
-                  业务咨询电话：
-                  <a href="tel:0086-183-9098-0101">0086-183-9098-0101</a>
-                  <br />
-                  业务咨询邮箱：
-                  <a href="mailto:1317426180@QQ.com">1317426180@QQ.com</a>
-                  <br />
-                  公司网站：{' '}
-                  <a href="http://www.hnabzm.com">http://www.hnabzm.com</a>
-                  <br />
-                  传真： 0086-0731-8970-8467
-                  <br />
-                  邮编： 410001
-                </p>
-              </div>
-              <div className="col-lg-6">
-                <img
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/google_map.PNG"
-                  alt="google map"
-                />
-              </div>
-            </div>
+              <Form layout='horizontal'>
+                <FormItem
+                  label="邮件"
+                >
+                  <Input placeholder="不能为空" />
+                </FormItem>
+                <FormItem
+                  label="主题"
+                >
+                  <Input placeholder="不能为空" />
+                </FormItem>
+                <FormItem
+                  label="内容"
+                >
+                  <TextArea placeholder="不能为空" />
+                </FormItem>
+                <FormItem >
+                  <Button type="primary">发送</Button>
+                </FormItem>
+              </Form>
           </div>
         </div>
       </div>

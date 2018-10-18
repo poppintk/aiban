@@ -67,6 +67,9 @@ export default class Layout extends React.Component {
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossOrigin="anonymous"
           />
+
+          <link rel='stylesheet' href='http://cdn.bootcss.com/antd/2.9.3/antd.css' />
+
         </Head>
         <style jsx>{`
           * {
@@ -102,6 +105,7 @@ export default class Layout extends React.Component {
                 padding: '10px',
                 fontSize: '12px',
                 color: 'black',
+                fontWeight:'bold' 
               }}
             >
               爱邦兴国 博爱明慧 爱邦正明 环保先锋 让整个地球共享一片蓝天
@@ -110,10 +114,11 @@ export default class Layout extends React.Component {
               style={{
                 width: '210px',
                 color: 'black',
+                fontWeight:'bold' 
               }}
             >
               业务咨询电话：<a
-                style={{ color: 'black' }}
+                style={{ color: 'black'}}
                 href="tel:0086-183-9098-0101"
               >
                 0086-183-9098-0101
@@ -265,15 +270,16 @@ export default class Layout extends React.Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link prefetch href="/contact">
                   <a className="nav-link" style={{ color: 'black' }}>
                     <Hover
-                      chineseTitle={'联系我們'}
-                      englishTitle={'CONTACT US'}
-                      submenu={[]}
-                    />
+                    chineseTitle={'联系我們'}
+                    englishTitle={'CONTACT US'}
+                    submenu={[
+                      { name: '联系方式', url: '/contact' },
+                      { name: '发送邮件', url: '/qa' }
+                    ]}
+                  />
                   </a>
-                </Link>
               </li>
             </ul>
           </div>
