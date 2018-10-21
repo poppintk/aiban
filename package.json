@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "client:build": "next build",
+    "client:start":"next start -p 80",
     "pro:client":"run-s  client:*",
     "pro:server":"node index",
     "all":"run-p pro:*"
