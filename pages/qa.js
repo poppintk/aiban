@@ -74,6 +74,7 @@ class RegistrationForm extends React.Component {
         let data = JSON.stringify(values)
         fetch(window.location.origin+':3000/api/contact', {
           method: 'post',
+          timeout:20000,
           headers: {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json'
