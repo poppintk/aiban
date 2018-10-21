@@ -78,7 +78,6 @@ class RegistrationForm extends React.Component {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json'
           },
-          mode: 'cors',
           body: data
         }).then((res) => {
           res.status === 200 ? this.setState({ submitted: true }) : ''
