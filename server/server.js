@@ -23,7 +23,7 @@ app.prepare().then(() => {
 
   server.post('/api/contact', (req, res) => {
     let values = req.body;
-    //process.stdout.write(values + '\n');
+    process.stdout.write(values + '\n');
     const { email = '', body = '', phone='',subject='' } = values;
 
 
