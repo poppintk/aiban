@@ -71,7 +71,8 @@ class RegistrationForm extends React.Component {
     this.props.form.validateFieldsAndScroll((err, values) => {
       console.log(window.location)
       if (!err) {
-        let data = JSON.stringify(values)
+        // test
+        let data = JSON.stringify(values);
         fetch('/api/contact', {
           method: 'post',
           headers: {
