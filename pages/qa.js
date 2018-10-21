@@ -69,14 +69,16 @@ class RegistrationForm extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
     this.props.form.validateFieldsAndScroll((err, values) => {
+      console.log(window.location)
       if (!err) {
         let data = JSON.stringify(values)
-        fetch('/api/contact', {
+        fetch(window.location.origin+':3000/api/contact', {
           method: 'post',
           headers: {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json'
           },
+          mode: 'cors',
           body: data
         }).then((res) => {
           res.status === 200 ? this.setState({ submitted: true }) : ''
