@@ -7,7 +7,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "node": "node server.js"
   },
   "author": "Ryan y",
   "license": "MIT",
