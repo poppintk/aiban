@@ -3,6 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import Hover from './hover';
 import { Motion, spring } from 'react-motion';
+import { Menu, Icon, Button } from "antd";
+const SubMenu = Menu.SubMenu;
 
 export default class Layout extends React.Component {
   componentDidMount() {
@@ -83,6 +85,7 @@ export default class Layout extends React.Component {
             color: black;
           }
         `}</style>
+
         <div
           className="container-fluid"
           style={{
@@ -297,6 +300,38 @@ export default class Layout extends React.Component {
             );
           }}
         </Motion>
+        <div style={{position:'fixed',bottom:"81px"}}>
+          <Menu
+            defaultSelectedKeys={['1']}
+            defaultOpenKeys={['sub1']}
+            mode="inline"
+            theme="white"
+            inlineCollapsed={true}
+            onClick={(submenu)=>{
+              if(submenu.key == 1){
+                window.location.href = '/contact';
+              }else if(submenu.key == 2){
+                window.location.href = '/qa';
+              }
+
+            }}
+            style={{zIndex:999}}
+          >
+            <Menu.Item key="1">
+              <Icon type="message" theme="outlined" />
+              <span>联系我们</span>
+            </Menu.Item>
+            {/* <Menu.Item key="2">
+              <Icon type="aliwangwang" theme="outlined" />
+              <span>微信联系</span>
+            </Menu.Item> */}
+            <Menu.Item key="2">
+              <Icon type="mail" theme="outlined" />
+              <span>发送邮件</span>
+            </Menu.Item>
+
+          </Menu>
+        </div>
         <footer
           className="container-fluid"
           style={{

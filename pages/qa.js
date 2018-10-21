@@ -1,7 +1,10 @@
 import Layout from '../components/layout';
-import { Form, Input, Button, Radio } from 'antd';
-const { TextArea } = Input;
+import { Form, Input, Select, Button, AutoComplete } from 'antd';
+
 const FormItem = Form.Item;
+const Option = Select.Option;
+
+const { TextArea } = Input;
 
 export default () => {
   return (
@@ -46,29 +49,114 @@ export default () => {
               联系我们
             </h5>
             <br />
-              <Form layout='horizontal'>
-                <FormItem
-                  label="邮件"
-                >
-                  <Input placeholder="不能为空" />
-                </FormItem>
-                <FormItem
-                  label="主题"
-                >
-                  <Input placeholder="不能为空" />
-                </FormItem>
-                <FormItem
-                  label="内容"
-                >
-                  <TextArea placeholder="不能为空" />
-                </FormItem>
-                <FormItem >
-                  <Button type="primary">发送</Button>
-                </FormItem>
-              </Form>
+              <WrappedRegistrationForm />
           </div>
         </div>
       </div>
     </Layout>
   );
 };
+
+
+
+
+class RegistrationForm extends React.Component {
+  state = {
+    confirmDirty: false,
+    autoCompleteResult: [],
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    this.props.form.validateFieldsAndScroll((err, values) => {
+      if (!err) {
+        let data = JSON.stringify(values)
+        fetch('/api/contact', {
+          method: 'post',
+          headers: {
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'application/json'
+          },
+          body: data
+        }).then((res) => {
+          res.status === 200 ? this.setState({ submitted: true }) : ''
+        })
+      }
+    });
+  }
+
+  render() {
+    const { getFieldDecorator } = this.props.form;
+
+    const formItemLayout = {
+      labelCol: {
+        xs: { span: 24 },
+        sm: { span: 8 },
+      },
+      wrapperCol: {
+        xs: { span: 24 },
+        sm: { span: 16 },
+      },
+    };
+    const tailFormItemLayout = {
+      wrapperCol: {
+        xs: {
+          span: 24,
+          offset: 0,
+        },
+        sm: {
+          span: 16,
+          offset: 8,
+        },
+      },
+    };
+
+    return (
+      <Form onSubmit={this.handleSubmit}>
+        <FormItem
+          {...formItemLayout}
+          label="邮箱地址"
+        >
+          {getFieldDecorator('email', {
+            rules: [{
+              type: 'email', message: '您输入的不是个有效的邮箱地址',
+            }, {
+              required: true, message: '请输入您的邮箱地址!',
+            }],
+          })(
+            <Input placeholder="不能为空" />
+          )}
+        </FormItem>
+        <FormItem
+          {...formItemLayout}
+          label="电话号码"
+        >
+          {getFieldDecorator('phone', {
+            rules: [{ required: true, message: '请输入您的电话号码!' }],
+          })(
+            <Input placeholder="不能为空"/>
+          )}
+        </FormItem>
+        <FormItem {...formItemLayout} label="主题">
+          {getFieldDecorator('subject', {
+              rules: [{ required: true, message: '请输入主题' }],
+            })(
+              <Input placeholder="不能为空" />
+            )}
+        </FormItem>
+        <FormItem {...formItemLayout} label="内容">
+          {getFieldDecorator('body', {
+              rules: [{ required: true, message: '内容不能为空' }],
+            })(
+              <TextArea placeholder="不能为空" autosize={{minRows:5}}/>
+            )}
+        </FormItem>
+        <FormItem {...tailFormItemLayout}>
+          <Button type="primary" htmlType="submit">发送</Button>
+        </FormItem>
+      </Form>
+    );
+  }
+}
+
+const WrappedRegistrationForm = Form.create()(RegistrationForm);
