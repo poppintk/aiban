@@ -16,7 +16,7 @@ const send = ({ email, phone, text,subject }) => {
   const from = phone && email ? `${phone} <${email}>` : `${phone || email}`
   const message = {
     from,
-    to: '1317426180@qq.com',
+    to: 'youdonghoho@hotmail.com',
     subject: `邮件来自 ${from}  主题： ${subject}`,
     text,
     replyTo: from
