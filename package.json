@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "next",
     "client:build": "next build",
-    "client:start": "next start -p 80",
-    "pro:server": "node ./server/server",
     "pro:client":"run-s  client:*",
-    "all":"run-p  pro:*"
+    "pro:server":"node index",
+    "all":"run-p pro:*"
+
   },
   "author": "Ryan y",
   "license": "MIT",
