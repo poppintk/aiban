@@ -127,7 +127,7 @@ class RegistrationForm extends React.Component {
               required: true, message: '请输入您的邮箱地址!',
             }],
           })(
-            <Input placeholder="不能为空" />
+            <Input placeholder="请输入您的邮箱地址" />
           )}
         </FormItem>
         <FormItem
@@ -137,21 +137,21 @@ class RegistrationForm extends React.Component {
           {getFieldDecorator('phone', {
             rules: [{ required: true, message: '请输入您的电话号码!' }],
           })(
-            <Input placeholder="不能为空"/>
+            <Input placeholder="请输入您的电话号码"/>
           )}
         </FormItem>
         <FormItem {...formItemLayout} label="主题">
           {getFieldDecorator('subject', {
               rules: [{ required: true, message: '请输入主题' }],
             })(
-              <Input placeholder="不能为空" />
+              <Input placeholder="请输入主题" />
             )}
         </FormItem>
         <FormItem {...formItemLayout} label="内容">
           {getFieldDecorator('body', {
               rules: [{ required: true, message: '内容不能为空' }],
             })(
-              <TextArea placeholder="不能为空" autosize={{minRows:5}}/>
+              <TextArea placeholder="内容不能为空" autosize={{minRows:5}}/>
             )}
         </FormItem>
         <FormItem {...tailFormItemLayout}>
