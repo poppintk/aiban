@@ -73,7 +73,7 @@ class RegistrationForm extends React.Component {
       if (!err) {
         // test
         let data = JSON.stringify(values);
-        fetch('/api/contact', {
+        fetch('http://47.100.213.130/api/contact', {
           method: 'post',
           headers: {
             'Accept': 'application/json, text/plain, */*',
