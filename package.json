@@ -4,8 +4,7 @@
   "description": "server side rendering",
   "main": "index.js",
   "scripts": {
-    "all": "index",
-
+    "all": "node index"
   },
   "author": "Ryan y",
   "license": "MIT",
