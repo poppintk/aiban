@@ -91,34 +91,10 @@ export default () => {
               <div className="row">
                 <img
                   className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor1.png"
+                  src="https://aiban.oss-cn-beijing.aliyuncs.com/zhengshu.jpg"
                   alt="公司荣耀"
                 />
-                <img
-                  className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor2.png"
-                  alt="公司荣耀"
-                />
-                <img
-                  className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor3.png"
-                  alt="公司荣耀"
-                />
-                <img
-                  className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor4.png"
-                  alt="公司荣耀"
-                />
-                <img
-                  className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor5.png"
-                  alt="公司荣耀"
-                />
-                <img
-                  className="col-lg-12"
-                  src="https://aiban.oss-cn-beijing.aliyuncs.com/hornor6.png"
-                  alt="公司荣耀"
-                />
+              
               </div>
             </div>
           </div>
