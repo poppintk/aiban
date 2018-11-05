@@ -64,6 +64,45 @@ export default () => {
                     <div>
                       <div style={{ display: 'flex' }}>
                         <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
+                          <div>2018第十一届全国工业行业“烟气脱白、脱硫、脱硝技术交流研讨会”武汉隆重召开</div>
+                          <div>
+                          2018年10月27-28日，由中华环保联合会能源环境专业委员会举办和武汉锅炉集团、湖南爱邦正明环保有限公司协办的第十一届全国工业行业“烟气脱白、脱硫、脱硝技术交流研讨会
+                            ......<br />
+                            <Link prefetch href="/news_6">
+                              [查看详情>>]
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingOne">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      No.2
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  className="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                    <div>
+                      <div style={{ display: 'flex' }}>
+                        <div style={{ marginLeft: '20px', fontWeight: 'bold' }}>
                           <div>2018中国绿色发展论坛在京召开</div>
                           <div>
                             2018年6月3日，中国绿色发展论坛在中华人民共和国生态环境部举办。中国环境报社副社长陈廷榔，中国绿发会顾问、中国绿色发展联盟顾问委员会主任委员吕克勤，中国环境科学研究院原副院长、总工程师、中国绿色发展联盟专家委员会主任委员夏青，中国绿色发展联盟秘书长、中国环境报理事会执行秘书长郭府青等领导出席。论坛由中国环境报理事会秘书长屠锐主持。
@@ -88,7 +127,7 @@ export default () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      No.2
+                      No.3
                     </button>
                   </h5>
                 </div>
@@ -126,7 +165,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      No.3
+                      No.4
                     </button>
                   </h5>
                 </div>
@@ -164,7 +203,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      No.4
+                      No.5
                     </button>
                   </h5>
                 </div>
@@ -207,7 +246,7 @@ export default () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      No.5
+                      No.6
                     </button>
                   </h5>
                 </div>
