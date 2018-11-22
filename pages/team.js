@@ -1,5 +1,5 @@
-import Layout from '../components/layout';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Layout from "../components/layout";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 export default () => {
   return (
@@ -7,12 +7,12 @@ export default () => {
       <div
         className="container-fluid"
         style={{
-          marginTop: '-4px',
+          marginTop: "-4px",
         }}
       >
         <div
           className="container"
-          style={{ paddingTop: '10px', paddingBottom: '20px' }}
+          style={{ paddingTop: "10px", paddingBottom: "20px" }}
         >
           <style jsx>
             {`
@@ -23,23 +23,22 @@ export default () => {
           </style>
           <h5
             style={{
-              textAlign: 'center',
-              paddingTop: '2px',
-              borderRadius: '25px',
-              margin: '0 auto',
-              marginTop: '10px',
-              fontWeight: 'bold',
-              color: 'green',
-              textShadow: '4px 4px 15px #c0f9b8',
+              textAlign: "center",
+              paddingTop: "2px",
+              borderRadius: "25px",
+              margin: "0 auto",
+              marginTop: "10px",
+              fontWeight: "bold",
+              color: "green",
+              textShadow: "4px 4px 15px #c0f9b8",
             }}
           >
             爱邦正明——领军人才
           </h5>
           <br />
-          <h5 style={{ textAlign: 'center', fontSize: '14px' }}>
+          <h5 style={{ textAlign: "center", fontSize: "14px" }}>
             湖南爱邦正明环保有限公司
-            <br />
-            ( 技术骨干介绍 )
+            <br />( 技术骨干介绍 )
           </h5>
           <div className="row">
             <div className="col-lg-4">
@@ -47,7 +46,7 @@ export default () => {
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team1.png"
                 alt="Card image cap"
-                style={{ height: 240, borderRadius: '25px' }}
+                style={{ height: 240, borderRadius: "25px" }}
               />
               <div className="card-body">
                 <h5 className="card-title">公司技术团队</h5>
@@ -58,7 +57,7 @@ export default () => {
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team2.png"
                 alt="Card image cap"
-                style={{ height: 240, borderRadius: '25px' }}
+                style={{ height: 240, borderRadius: "25px" }}
               />
               <div className="card-body">
                 <h5 className="card-title">公司技术团队</h5>
@@ -69,7 +68,7 @@ export default () => {
                 className="card-img-top"
                 src="https://aiban.oss-cn-beijing.aliyuncs.com/team3.png"
                 alt="Card image cap"
-                style={{ height: 240, borderRadius: '25px' }}
+                style={{ height: 240, borderRadius: "25px" }}
               />
               <div className="card-body">
                 <h5 className="card-title">公司技术团队</h5>
@@ -87,10 +86,10 @@ export default () => {
             <TabPanel>
               <p
                 style={{
-                  lineHeight: '200%',
-                  color: 'black',
-                  fontSize: '14px',
-                  minHeight: '50vh',
+                  lineHeight: "200%",
+                  color: "black",
+                  fontSize: "14px",
+                  minHeight: "50vh",
                 }}
               >
                 {/* <strong style={{ color: 'red', fontSize: '25px' }}>1</strong>{' '} */}
@@ -103,8 +102,8 @@ export default () => {
                   style={{
                     height: 150,
                     width: 150,
-                    float: 'right',
-                    borderRadius: '150px',
+                    float: "right",
+                    borderRadius: "150px",
                   }}
                 />
                 2003年获美国耶鲁大学环境工程博士学位,现任湖南爱邦正明环保有限公司总经理。
@@ -136,10 +135,10 @@ export default () => {
             <TabPanel>
               <p
                 style={{
-                  lineHeight: '200%',
-                  color: 'black',
-                  fontSize: '14px',
-                  minHeight: '50vh',
+                  lineHeight: "200%",
+                  color: "black",
+                  fontSize: "14px",
+                  minHeight: "50vh",
                 }}
               >
                 {/* <strong style={{ color: 'red', fontSize: '25px' }}>2</strong>{' '} */}
@@ -155,10 +154,10 @@ export default () => {
             <TabPanel>
               <p
                 style={{
-                  lineHeight: '200%',
-                  color: 'black',
-                  fontSize: '14px',
-                  minHeight: '50vh',
+                  lineHeight: "200%",
+                  color: "black",
+                  fontSize: "14px",
+                  minHeight: "50vh",
                 }}
               >
                 {/* <strong style={{ color: 'red', fontSize: '25px' }}>3</strong>{' '} */}
@@ -173,8 +172,8 @@ export default () => {
                   style={{
                     height: 150,
                     width: 150,
-                    float: 'right',
-                    borderRadius: '150px',
+                    float: "right",
+                    borderRadius: "150px",
                   }}
                 />
                 1987年毕业于加拿大 DALHOUSIE 大学，获化学博士学位(Ph.D. in
@@ -184,7 +183,7 @@ export default () => {
                 Scientist)
                 <br />
                 1989年7月起先后在加拿大多家环境咨询公司任职，历任项目科学家，高级科学家兼研究组负责人，部门主管等。1999
-                年至2001年任加拿大最大工程公司 SNC-Lavalin
+                年至2001年任加拿大工程公司 SNC-Lavalin
                 在多伦多的空气质量部门经理兼首席科学家。2001
                 年至2005年历任加拿大 Jacques Whitford
                 环境公司空气质量安大略省营运总监兼环境科学部经理，空气质量和环境工程部经理，公司首席科学家/股东。
@@ -200,17 +199,17 @@ export default () => {
                 Energy International
                 Inc.技术委员会成员，以及其它8家环保和可再生能源公司的董事或顾问委员会成员。
                 <br />
-                汤友志博士也是四所大学客座教授或客座研究员，国际空气与废弃物管理协会安大略省分会主席（也是该组织首位华人主席），广东省海外交流协会海外理事，广东省江门市海外交流协会常务理事，加中环境合作理事会创会主席，原安省最大的华人社区服务机构多伦多华人咨询和社区服务处副主席、代主席。他是2007多伦多市环境优异奖的唯一华裔获奖者，2007年加拿大首届华裔专业人士成就奖得主，事迹编入描写加拿大华裔杰出中青年的《枫华正茂》一书，是加拿大CTTV
+                汤友志博士也是四所大学客座教授或客座研究员，国际空气与废弃物管理协会安大略省分会主席（也是该组织首位华人主席），广东省海外交流协会海外理事，广东省江门市海外交流协会常务理事，加中环境合作理事会创会主席，原安省华人社区服务机构多伦多华人咨询和社区服务处副主席、代主席。他是2007多伦多市环境优异奖的唯一华裔获奖者，2007年加拿大首届华裔专业人士成就奖得主，事迹编入描写加拿大华裔杰出中青年的《枫华正茂》一书，是加拿大CTTV
                 华人电视台2008年财智人物。
               </p>
             </TabPanel>
             <TabPanel>
               <p
                 style={{
-                  lineHeight: '200%',
-                  color: 'black',
-                  fontSize: '14px',
-                  minHeight: '50vh',
+                  lineHeight: "200%",
+                  color: "black",
+                  fontSize: "14px",
+                  minHeight: "50vh",
                 }}
               >
                 {/* <strong style={{ color: 'red', fontSize: '25px' }}>4</strong>{' '} */}

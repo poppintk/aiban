@@ -1,4 +1,4 @@
-import Layout from '../components/layout';
+import Layout from "../components/layout";
 
 export default () => {
   return (
@@ -15,32 +15,32 @@ export default () => {
         className="container-fluid"
         style={{
           backgroundImage:
-            'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          boxShadow: '2px 2px 30px #c0cee5',
-          minHeight: '85vh',
+            "url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          boxShadow: "2px 2px 30px #c0cee5",
+          minHeight: "85vh",
         }}
       >
         <div
-          style={{ display: 'flex', flexDirection: 'row', marginTop: '-4px' }}
+          style={{ display: "flex", flexDirection: "row", marginTop: "-4px" }}
           className="container"
         >
           <div
-            style={{ display: 'flex', flexDirection: 'column', width: '100%' }}
+            style={{ display: "flex", flexDirection: "column", width: "100%" }}
           >
             <h5
               style={{
-                textAlign: 'center',
-                paddingTop: '20px',
-                paddingBottom: '20px',
-                borderRadius: '25px',
-                margin: '0 auto',
-                marginTop: '10px',
-                fontWeight: 'bold',
-                color: 'green',
-                textShadow: '4px 4px 15px #c0f9b8',
+                textAlign: "center",
+                paddingTop: "20px",
+                paddingBottom: "20px",
+                borderRadius: "25px",
+                margin: "0 auto",
+                marginTop: "10px",
+                fontWeight: "bold",
+                color: "green",
+                textShadow: "4px 4px 15px #c0f9b8",
               }}
             >
               北京启动“大气污染执法年”行动 打击环境违法
@@ -64,7 +64,7 @@ export default () => {
               为把环境监管属地职责落到实处，此次行动方案还提出，北京各区应依托现有网格化城市管理系统，优先在城乡结合部地区建立网格化环境监管体系，将环境监管职责逐一明确相关责任人，力争大部分环境问题第一时间在基层发现并解决。
             </p>
             <p>
-              在加强执法力度的同时，为鼓励民众积极参与环保监督管理，加强对环境违法行为的社会监督，北京市环保局此前曾发布举报新规。规定中提到，民众实名举报相关环境违法行为，经查实后最高可获奖励5万元人民币。
+              在加强执法力度的同时，为鼓励民众积极参与环保监督管理，加强对环境违法行为的社会监督，北京市环保局此前曾发布举报新规。规定中提到，民众实名举报相关环境违法行为，经查实后可获奖励高達5万元人民币。
             </p>
             <p>
               据环保部门发布的数据显示，针对北京的采暖季特点，环保部门于2015年11月1日启动了“大气执法季”行动，截至2016年3月22日，共检查各类企业15687家，处罚环境违法行为671起，处罚金额1601.42万元。
