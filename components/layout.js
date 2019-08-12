@@ -353,6 +353,7 @@ export default class Layout extends React.Component {
             <div style={{ clear: 'both' }}>
               <div style={{ textAlign: 'center', height: '35px' }}>
                 版权所有：湖南爱邦正明环保工程公司
+                备案号：湘备ICP1500
               </div>
               <div
                 style={{
