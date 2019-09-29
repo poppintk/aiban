@@ -4,7 +4,8 @@
   "description": "server side rendering",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "client:build": "next build",
     "client:start": "next start -p 80",
     "all": "run-s client:*"
