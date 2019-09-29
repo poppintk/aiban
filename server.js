@@ -6,9 +6,7 @@ const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
-const redirects = [
-  { from: "http://www.abhb.com.cn/*", to: "http://www.hnabzm.com" }
-];
+const redirects = [{ from: "www.abhb.com.cn/*", to: "http://www.hnabzm.com" }];
 
 app.prepare().then(() => {
   const server = express();
