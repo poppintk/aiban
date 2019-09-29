@@ -9,8 +9,6 @@ app.prepare().then(() => {
   const server = express();
 
   server.get("*", (req, res) => {
-    console.log(req.get("host"));
-    console.log(req.get("host") == "www.abhb.com.cn");
     if (req.get("host") == "www.abhb.com.cn") {
       res.status(301).redirect("http://www.hnabzm.com");
     }
