@@ -7,7 +7,7 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 const redirects = [
-  { from: "http://www.abhb.com.cn/", to: "http://www.hnabzm.com" }
+  { from: "http://www.abhb.com.cn/*", to: "http://www.hnabzm.com" }
 ];
 
 app.prepare().then(() => {
