@@ -1,30 +1,30 @@
-import Layout from '../components/layout';
+import Layout from "../components/layout";
 
 const data = [
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg',
-    desc: '',
+    url: "https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg",
+    desc: ""
   },
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg',
-    desc: '',
+    url: "https://aiban.oss-cn-beijing.aliyuncs.com/home1.jpg",
+    desc: ""
   },
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home3.jpg',
-    desc: '',
+    url: "https://aiban.oss-cn-beijing.aliyuncs.com/home3.jpg",
+    desc: ""
   },
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home4.jpg',
-    desc: '',
+    url: "https://aiban.oss-cn-beijing.aliyuncs.com/home4.jpg",
+    desc: ""
   },
   {
-    url: 'https://aiban.oss-cn-beijing.aliyuncs.com/home5.jpg',
-    desc: '',
-  },
+    url: "https://aiban.oss-cn-beijing.aliyuncs.com/home5.jpg",
+    desc: ""
+  }
 ];
 
 const generateCarousel = () => {
-  let style = { height: '60vh' };
+  let style = { height: "60vh" };
   return data.map((info, k) => {
     if (k === 0) {
       return (
@@ -158,14 +158,14 @@ export default () => {
         <main
           role="main"
           style={{
-            margin: '-2px',
-            border: 'none',
+            margin: "-2px",
+            border: "none",
             // backgroundImage:
             //   'url(https://aiban.oss-cn-beijing.aliyuncs.com/sky3.jpg)',
             // backgroundSize: 'cover',
             // backgroundRepeat: 'no-repeat',
             // backgroundPosition: 'center center',
-            backgroundColor:'#ccffff'
+            backgroundColor: "#ccffff"
           }}
         >
           {/* carousel start  */}
@@ -174,8 +174,8 @@ export default () => {
             className="carousel slide d-none d-lg-block"
             data-ride="carousel"
             style={{
-              maxWidth: '1300px',
-              margin: '0 auto',
+              maxWidth: "1300px",
+              margin: "0 auto"
             }}
           >
             <ol className="carousel-indicators">{getIndex()}</ol>
@@ -200,15 +200,15 @@ export default () => {
             </a>
           </div>
           {/* carouselE end ---  */}
-          <div style={{ maxWidth: '1300px', margin: '0 auto' }}>
+          <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
             <div
               style={{
-                border: 'none',
+                border: "none",
                 backgroundImage:
-                  'url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center center',
+                  "url(https://aiban.oss-cn-beijing.aliyuncs.com/value1.jpg)",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center center"
               }}
             >
               <div className="card-body">
@@ -221,101 +221,111 @@ export default () => {
             <div>
               <div
                 className="row"
-                style={{ textAlign: 'center', paddingTop: '5px' }}
+                style={{ textAlign: "center", paddingTop: "5px" }}
               >
                 <div
                   className="card col-lg-2 offset-lg-1 mb-2"
                   style={{
-                    border: 'none',
+                    border: "none",
                     // backgroundImage:
                     // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     // backgroundSize: 'cover',
                     // backgroundRepeat: 'no-repeat',
                     // backgroundPosition: 'center center',
-                    backgroundColor:'rgb(91, 211, 203,0.8)'
+                    backgroundColor: "rgb(91, 211, 203,0.8)"
                   }}
                 >
                   <div className="card-body">
                     <h5 className="card-title">企业宗旨</h5>
-                    <p className="card-text">让整个地球共享一片蓝天</p>
+                    <div className="card-text">
+                      让整个地球共享
+                      <br />
+                      一片蓝天
+                    </div>
                   </div>
                 </div>
                 <div
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
-                    border: 'none',
+                    border: "none",
                     // backgroundImage:
                     // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     // backgroundSize: 'cover',
                     // backgroundRepeat: 'no-repeat',
                     // backgroundPosition: 'center center',
-                    backgroundColor:'rgb(91, 211, 203,0.8)'
+                    backgroundColor: "rgb(91, 211, 203,0.8)"
                   }}
                 >
                   <div className="card-body">
                     <h5 className="card-title">企业精神</h5>
-                    <p className="card-text">
-                      {' '}
-                      以人为本，团结进取，诚信立足，创新致远
-                    </p>
+                    <div className="card-text">
+                      以人为本 团结进取
+                      <br />
+                      诚信立足 创新致远
+                    </div>
                   </div>
                 </div>
                 <div
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
-                    border: 'none',
+                    border: "none",
                     // backgroundImage:
                     // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     // backgroundSize: 'cover',
                     // backgroundRepeat: 'no-repeat',
                     // backgroundPosition: 'center center',
-                    backgroundColor:'rgb(91, 211, 203,0.8)'
+                    backgroundColor: "rgb(91, 211, 203,0.8)"
                   }}
                 >
                   <div className="card-body">
                     <h5 className="card-title">长期目标</h5>
-                    <p className="card-text">科技先锋，行业典范</p>
+                    <div className="card-text">科技先锋 行业典范</div>
                   </div>
                 </div>
               </div>
               <div
                 className="row"
-                style={{ textAlign: 'center', paddingBottom: '10px' }}
+                style={{ textAlign: "center", paddingBottom: "10px" }}
               >
                 <div
                   className="card col-lg-2 mb-2 offset-lg-3"
                   style={{
-                    border: 'none',
+                    border: "none",
                     // backgroundImage:
                     // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     // backgroundSize: 'cover',
                     // backgroundRepeat: 'no-repeat',
                     // backgroundPosition: 'center center',
-                    backgroundColor:'rgb(91, 211, 203,0.8)'
+                    backgroundColor: "rgb(91, 211, 203,0.8)"
                   }}
                 >
                   <div className="card-body">
                     <h5 className="card-title">经营理念</h5>
-                    <p className="card-text">
-                    爱邦兴国	博爱明慧	爱邦正明	环保节能
-                    </p>
+                    <div className="card-text">
+                      爱邦兴国 博爱明慧
+                      <br /> 爱邦正明 环保节能
+                    </div>
                   </div>
                 </div>
                 <div
                   className="card col-lg-2 mb-2 offset-lg-2"
                   style={{
-                    border: 'none',
+                    border: "none",
                     // backgroundImage:
                     // 'url(https://aiban.oss-cn-beijing.aliyuncs.com/index_background.jpg)',
                     // backgroundSize: 'cover',
                     // backgroundRepeat: 'no-repeat',
                     // backgroundPosition: 'center center',
-                    backgroundColor:'rgb(91, 211, 203,0.8)'
+                    backgroundColor: "rgb(91, 211, 203,0.8)"
                   }}
                 >
                   <div className="card-body">
                     <h5 className="card-title">服务理念</h5>
-                    <p className="card-text"> 用顶尖技术，创精品工程</p>
+                    <div className="card-text">
+                      用顶尖技术
+                      <br />
+                      创精品工程
+                    </div>
                   </div>
                 </div>
               </div>

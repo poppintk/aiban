@@ -1,5 +1,5 @@
-import Layout from '../components/layout';
-import SubMenu from '../components/submenu';
+import Layout from "../components/layout";
+import SubMenu from "../components/submenu";
 
 export default () => {
   return (
@@ -7,7 +7,7 @@ export default () => {
       <div
         className="container-fluid"
         style={{
-          marginTop: '-10px',
+          marginTop: "-10px"
           // backgroundImage:
           //   'url(https://aiban.oss-cn-beijing.aliyuncs.com/value2.jpg)',
           // backgroundSize: 'cover',
@@ -18,14 +18,14 @@ export default () => {
       >
         <h5
           style={{
-            textAlign: 'center',
-            paddingTop: '12px',
-            borderRadius: '25px',
-            margin: '0 auto',
-            marginTop: '10px',
-            fontWeight: 'bold',
-            color: 'green',
-            textShadow: '4px 4px 15px #c0f9b8',
+            textAlign: "center",
+            paddingTop: "12px",
+            borderRadius: "25px",
+            margin: "0 auto",
+            marginTop: "10px",
+            fontWeight: "bold",
+            color: "green",
+            textShadow: "4px 4px 15px #c0f9b8"
           }}
         >
           爱邦正明环保——我们用心做事！
@@ -36,8 +36,8 @@ export default () => {
               title="业绩展示"
               englishTitle="PROJECT"
               submenu={[
-                { chinese: '业绩展示', english: 'PROJECT', url: '/service' },
-                { chinese: '工程實例', english: 'CASE', url: '/case' },
+                { chinese: "业绩展示", english: "PROJECT", url: "/service" },
+                { chinese: "工程實例", english: "CASE", url: "/case" }
               ]}
             />
           </div>
@@ -46,7 +46,7 @@ export default () => {
               <table
                 className="table table-hover"
                 style={{
-                  marginTop: '20px',
+                  marginTop: "20px"
                 }}
               >
                 <thead>
@@ -172,7 +172,8 @@ export default () => {
                     <td>广东肇庆星湖生物化学制药厂</td>
                     <td>20t/h链条炉</td>
                     <td>
-                      SPS-20 型1台<br />
+                      SPS-20 型1台
+                      <br />
                       SPS-10 型1台
                     </td>
                     <td>达标</td>
@@ -223,11 +224,13 @@ export default () => {
                     <td>23</td>
                     <td>吉林华微电子股份有限公司</td>
                     <td>
-                      20t/h链条炉<br />
+                      20t/h链条炉
+                      <br />
                       10t/h链条炉
                     </td>
                     <td>
-                      SS-20型2台<br />
+                      SS-20型2台
+                      <br />
                       SS-10型2台
                     </td>
                     <td>达标</td>
@@ -250,11 +253,13 @@ export default () => {
                     <td>26</td>
                     <td>汾西新峪煤业有限责任公司</td>
                     <td>
-                      20t/h链条炉<br />
+                      20t/h链条炉
+                      <br />
                       35t/h流化床
                     </td>
                     <td>
-                      SS-20型2台<br />
+                      SS-20型2台
+                      <br />
                       SS-35型2台
                     </td>
                     <td>达标</td>
@@ -278,7 +283,8 @@ export default () => {
                     <td>广东海印永业（集团）股份有限公司</td>
                     <td>20t/h余热炉</td>
                     <td>
-                      SS-20型1台<br />
+                      SS-20型1台
+                      <br />
                       SS-30型1台
                     </td>
                     <td>达标</td>
@@ -407,7 +413,8 @@ export default () => {
                     <td>宁夏圣花米来生物工程有限公司</td>
                     <td>2#3#35t/h循环流化床炉</td>
                     <td>
-                      LQDM1828 型2台<br />
+                      LQDM1828 型2台
+                      <br />
                       SPS -75型1台
                     </td>
                     <td>达标</td>
@@ -438,8 +445,10 @@ export default () => {
                     <td>邢台春蕾集中供热公司</td>
                     <td>1X 45t/h 循环流化床</td>
                     <td>
-                      FS、JS - 45型1台<br />
-                      SNCR - 45型1台<br />
+                      FS、JS - 45型1台
+                      <br />
+                      SNCR - 45型1台
+                      <br />
                       LQDM1600型1台
                     </td>
                     <td>达标</td>
@@ -456,7 +465,8 @@ export default () => {
                     <td>河北亿丰热电有限公司</td>
                     <td>1X130t/h+2X75t/h循环流化床</td>
                     <td>
-                      FS/JS - 130型1台<br /> FS/JS - 75型2台
+                      FS/JS - 130型1台
+                      <br /> FS/JS - 75型2台
                     </td>
                     <td>达标， 超低排放</td>
                   </tr>
@@ -472,8 +482,11 @@ export default () => {
                     <td>内蒙古常盛制药有限公司</td>
                     <td>2X75t/h链条炉</td>
                     <td>
-                      FS - 75型2台<br /> FS/JS - 75型1台<br /> SNCR - 75型3台<br />低氮燃烧
-                      - 75型3台
+                      FS - 75型2台
+                      <br /> FS/JS - 75型1台
+                      <br /> SNCR - 75型3台
+                      <br />
+                      低氮燃烧 - 75型3台
                     </td>
                     <td>达标， 超低排放</td>
                   </tr>
@@ -482,7 +495,9 @@ export default () => {
                     <td>盾安节能系统有限公司原平分公司</td>
                     <td>4X90MW热水锅炉</td>
                     <td>
-                      FS/JS - 130型4台<br />LQDM 4000型1台
+                      FS/JS - 130型4台
+                      <br />
+                      LQDM 4000型1台
                     </td>
                     <td>达标， 超低排放</td>
                   </tr>
@@ -491,7 +506,9 @@ export default () => {
                     <td>江西永冠科技有限公司</td>
                     <td>1X75t/h循环流化床</td>
                     <td>
-                      FS/JS - 75型1台<br />LQDM 2500型1台
+                      FS/JS - 75型1台
+                      <br />
+                      LQDM 2500型1台
                     </td>
                     <td>达标， 超低排放</td>
                   </tr>
@@ -500,7 +517,42 @@ export default () => {
                     <td>中煤东顺清洁能源有限公司</td>
                     <td>2X75t/h煤粉炉</td>
                     <td>
-                      FS/SD - 75型2台<br /> SNCR+SCR-75型脱硝2台
+                      FS/SD - 75型2台
+                      <br /> SNCR+SCR-75型脱硝2台
+                    </td>
+                    <td>达标， 超低排放</td>
+                  </tr>
+                  <tr className="table-primary">
+                    <td>59</td>
+                    <td>中煤东顺清洁能源有限公司, 二期</td>
+                    <td>130t/h煤粉炉</td>
+                    <td>
+                      FS/JS - 130型1台
+                      <br /> SNCR+SCR-130型脱硝1台
+                    </td>
+                    <td>达标， 超低排放</td>
+                  </tr>
+                  <tr className="table-light">
+                    <td>60</td>
+                    <td>亿利节能科技（沂水）有限公司</td>
+                    <td>60t链条炉</td>
+                    <td>
+                      LQDM 2688型1台
+                      <br /> FS/JS - 60型1台
+                      <br />
+                      SNCR+SCR-60型脱硝1台
+                    </td>
+                    <td>达标， 超低排放</td>
+                  </tr>
+                  <tr className="table-primary">
+                    <td>61</td>
+                    <td>广东江门市新会信和染整有限公司</td>
+                    <td>1X90t/h循环流化床</td>
+                    <td>
+                      LQDM 4160型1台
+                      <br /> FS/JS/SD - 90型1台
+                      <br />
+                      SNCR+SCR-90型脱硝1台
                     </td>
                     <td>达标， 超低排放</td>
                   </tr>
