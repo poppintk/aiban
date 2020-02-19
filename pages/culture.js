@@ -96,11 +96,13 @@ export default () => {
               >
                 <div style={{ minHeight: '550px' }}>
                   <div>企业宗旨</div>
+                  <div>高效节能</div>
+                  <div>企业使命</div>
                   <div>让整个地球共享一片蓝天</div>
+                  <div>企业初心</div>
+                  <div>合作共赢</div>
                   <div>经营理念</div>
                   <div>爱邦兴国	博爱明慧	爱邦正明	环保节能</div>
-                  <div>企业精神</div>
-                  <div>以人为本，团结进取，诚信立足，创新致远 </div>
                   <div>服务理念</div>
                   <div>用顶尖技术，创精品工程</div>
                   <div>长期目标</div>

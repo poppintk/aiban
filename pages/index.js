@@ -238,9 +238,7 @@ export default () => {
                   <div className="card-body">
                     <h5 className="card-title">企业宗旨</h5>
                     <div className="card-text">
-                      让整个地球共享
-                      <br />
-                      一片蓝天
+                      高效节能
                     </div>
                   </div>
                 </div>
@@ -257,11 +255,9 @@ export default () => {
                   }}
                 >
                   <div className="card-body">
-                    <h5 className="card-title">企业精神</h5>
+                    <h5 className="card-title">企业使命</h5>
                     <div className="card-text">
-                      以人为本 团结进取
-                      <br />
-                      诚信立足 创新致远
+                      让整个地球共享一片蓝天
                     </div>
                   </div>
                 </div>
@@ -320,11 +316,9 @@ export default () => {
                   }}
                 >
                   <div className="card-body">
-                    <h5 className="card-title">服务理念</h5>
+                    <h5 className="card-title">企业初心</h5>
                     <div className="card-text">
-                      用顶尖技术
-                      <br />
-                      创精品工程
+                      合作共赢
                     </div>
                   </div>
                 </div>
